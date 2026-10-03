@@ -1,0 +1,176 @@
+# The rule registry. One entry per quality check.
+#
+#   severity: blocking | advisory | reminder
+#   expect:   zero_rows | at_least_one_row | grouped_report
+#   origin:   spec (the documented monthly process) | checklist (translated from a note)
+#
+# Promoting a rule from advisory to blocking is a one-word change plus a date in
+# promoted_on. The file's history is the record of when each rule started to bind.
+
+# ---- blocking zero-row gates from the documented process -----------------------
+
+- id: missing_service_geography
+  description: Service-directory rows with a blank county or borough
+  severity: blocking
+  expect: zero_rows
+  query: missing_service_geography
+
+- id: missing_provider_county
+  description: Professional-provider rows with a blank county
+  severity: blocking
+  expect: zero_rows
+  query: missing_provider_county
+
+- id: missing_provider_specialty
+  description: Professional-provider rows with a blank specialty
+  severity: blocking
+  expect: zero_rows
+  query: missing_provider_specialty
+
+- id: missing_provider_phone
+  description: Professional-provider rows with a blank phone
+  severity: blocking
+  expect: zero_rows
+  query: missing_provider_phone
+
+- id: invalid_specialty_county
+  description: Specialty / county pairs that cannot exist (placeholder rule - see ASSUMPTIONS.md)
+  severity: blocking
+  expect: zero_rows
+  query: invalid_specialty_county
+  origin: checklist
+  checklist_note: Care Management is not offered in Staten Island.
+  promoted_on: "2026-04-01"
+
+- id: missing_school_limitation
+  description: School-based rows without the enrolled-students limitation text
+  severity: blocking
+  expect: zero_rows
+  query: missing_school_limitation
+  origin: checklist
+  checklist_note: School-based providers must show the enrolled-students limitation text.
+  promoted_on: "2026-02-01"
+
+- id: malformed_languages
+  description: Pharmacy language lists with leading, trailing or empty comma segments
+  severity: blocking
+  expect: zero_rows
+  query: malformed_languages
+
+- id: retired_source_present
+  description: Rows from a retired source feed still in the service directory
+  severity: blocking
+  expect: zero_rows
+  query: retired_source_present
+  origin: checklist
+  checklist_note: LegacyVendorFeed was retired in July - nothing from it should be in the service directory.
+  promoted_on: "2026-08-01"
+
+# ---- checklist rules --------------------------------------------------------------
+
+- id: named_exclusion_present
+  description: A practitioner the directory owner said must not appear is present
+  severity: blocking
+  expect: zero_rows
+  query: named_exclusion_present
+  origin: checklist
+  checklist_note: Dr. Theodora Vance should no longer appear in the directory.
+  promoted_on: "2026-08-01"
+  note: Matched on name because that is the strongest identifier the note gave. Add NPI when known.
+
+- id: vision_island_presence
+  description: At least one vision listing exists in Staten Island
+  severity: blocking
+  expect: at_least_one_row
+  query: vision_island_presence
+  origin: checklist
+  checklist_note: Confirm vision services are included for Staten Island.
+  promoted_on: "2026-07-01"
+
+- id: vision_island_line_exception
+  description: Staten Island vision listings whose first coverage line is not set
+  severity: advisory
+  expect: zero_rows
+  query: vision_island_line_exception
+  origin: checklist
+  checklist_note: Confirm vision services are included for Staten Island.
+  note: The presence test and the exception test are two different checks.
+
+- id: vision_line_a_required
+  description: Vision listings anywhere whose first coverage line is not set to 1
+  severity: blocking
+  expect: zero_rows
+  query: vision_line_a_required
+  origin: checklist
+  checklist_note: Make sure every vision provider has LineA set to 1.
+  promoted_on: "2026-06-01"
+
+- id: named_org_nonzero_lines
+  description: Meadowbrook Transport Co rows carrying a line other than the first
+  severity: advisory
+  expect: zero_rows
+  query: named_org_nonzero_lines
+  origin: checklist
+  checklist_note: Meadowbrook Transport Co is LineA only - LineB, LineC and LineD must be 0.
+
+- id: vision_presentation_review
+  description: Vision listings with double spaces, stray commas or leading spaces (for a person to read)
+  severity: advisory
+  expect: zero_rows
+  query: vision_presentation_review
+  origin: checklist
+  checklist_note: Some vision listings have double spaces in the display name - check before print.
+  note: Presence does not mean failure; it means someone should look.
+
+- id: flu_clinic_listings_next_cycle
+  description: October - the flu-clinic listings go in next cycle, not this one
+  severity: reminder
+  origin: checklist
+  checklist_note: "October: the flu-clinic listings go in next cycle, not this one."
+
+# ---- advisory checks from the documented process --------------------------------
+
+- id: zip_borough_mismatch
+  description: Professional rows whose ZIP code belongs to a different borough
+  severity: advisory
+  expect: zero_rows
+  query: zip_borough_mismatch
+  note: Public geography check; advisory until the owner confirms it should block.
+
+- id: partial_flags
+  description: Rows with some but not all coverage-line flags set - no line code can be derived
+  severity: advisory
+  expect: zero_rows
+  query: partial_flags
+
+# ---- grouped reports --------------------------------------------------------------
+
+- id: hospital_network_line_counts
+  description: Hospital rows by network and line code
+  severity: advisory
+  expect: grouped_report
+  query: hospital_network_line_counts
+
+- id: behavioral_health_type_counts
+  description: Behavioral-health rows by specialty
+  severity: advisory
+  expect: grouped_report
+  query: behavioral_health_type_counts
+
+- id: core_service_line_combinations
+  description: CORE-service rows by line combination
+  severity: advisory
+  expect: grouped_report
+  query: core_service_line_combinations
+
+- id: vision_listings
+  description: Every vision listing, for the print review
+  severity: advisory
+  expect: grouped_report
+  query: vision_listings
+
+- id: vision_rows_by_borough
+  description: Vision listings per borough
+  severity: advisory
+  expect: grouped_report
+  query: vision_rows_by_borough

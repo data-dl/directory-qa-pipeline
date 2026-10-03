@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Generated databases, full CSV copies, backups and run output are rebuilt by
+# `python -m synth` — keep the repo small. Samples and the answer key are committed.
+demo/*.sqlite
+demo/sources/
+demo/archive/
+demo/csv/
+demo/backups/
+*.accdb
+*.laccdb
+runs/

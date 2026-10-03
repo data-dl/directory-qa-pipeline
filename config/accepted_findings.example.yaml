@@ -1,0 +1,9 @@
+# Findings the business owner has explicitly accepted for this cycle.
+# Copy to accepted_findings.yaml. Each entry names a rule id from rules.yaml;
+# a blocking failure on that rule then counts as accepted in the readiness
+# review and is written into the run manifest with the name, date and reason.
+#
+# - rule: vision_island_presence
+#   accepted_by: Directory owner
+#   accepted_on: "2026-09-15"
+#   reason: Vision vendor for the borough is between contracts; listing resumes in October.

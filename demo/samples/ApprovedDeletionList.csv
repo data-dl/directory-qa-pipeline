@@ -1,0 +1,13 @@
+DeletionID,ProviderNumber,DisplayName,Reason,ApprovedBy,ApprovedOn
+1,V916222,Stonebridge Eye Care II,Contract terminated,Directory owner,2026-08-27
+2,V765419,Meadowbrook Ambulette Service,Requested removal,Directory owner,2026-08-06
+3,V744100,Evergreen Rx,Closed location,Directory owner,2026-08-18
+4,V529975,Hillcrest Kidney Care,Contract terminated,Directory owner,2026-08-18
+5,V375711,Meadowbrook Home Care II,Contract terminated,Directory owner,2026-08-11
+6,V142240,Tidewater Kidney Care of Queens,Closed location,Directory owner,2026-08-27
+7,V407223,Seaside Behavioral Health of Queens,Duplicate vendor record,Directory owner,2026-08-05
+8,V347734,Beacon Clinic,Duplicate vendor record,Directory owner,2026-08-07
+9,V468374,Highbridge Family Health II,Duplicate vendor record,Directory owner,2026-08-20
+10,V245958,Unity Community Care,Closed location,Directory owner,2026-08-24
+11,V562187,Greenfield Kidney Care of Brooklyn,Duplicate vendor record,Directory owner,2026-08-27
+12,V349468,Clearview Medical Transportation of Brooklyn,Requested removal,Directory owner,2026-08-08

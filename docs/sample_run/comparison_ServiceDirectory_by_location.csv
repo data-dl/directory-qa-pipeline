@@ -1,0 +1,9 @@
+source,prior_rows,current_rows,prior_locations,current_locations,prior_rows_per_location,current_rows_per_location
+CommunityCareFeed,225,900,225,225,1.0,4.0
+EquipmentSupplierFeed,451,481,321,335,1.4,1.44
+FacilityContractFeed,1757,1828,1439,1452,1.22,1.26
+HomeCareFeed,654,702,469,497,1.39,1.41
+HospitalContractFeed,201,195,142,136,1.42,1.43
+PharmacyNetworkFeed,409,427,409,417,1.0,1.02
+TransportVendorFeed,389,387,276,271,1.41,1.43
+VisionVendorFeed,486,450,486,437,1.0,1.03

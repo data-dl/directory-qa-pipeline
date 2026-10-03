@@ -1,0 +1,41 @@
+FacilityID,FacilityName,FacilityType,NPI,ProviderNumber,Address1,Address2,City,State,ZIP,County,Borough,Phone,Network,ContractType,EffectiveStart
+1,Lighthouse Laboratories,Laboratory,2787729492,F671988,3515 St Nicholas Ave,,New York,NY,10038,New York,Manhattan,917-555-0802,Harbor Network,Fee Schedule,2019-05-23
+2,Eastbridge Community Care,Home Care Agency,1144950841,F517993,1315 Jamaica Ave,2nd Floor,Jamaica,NY,11415,Queens,Queens,929-555-5135,Harbor Network,Fee Schedule,2018-05-29
+3,Empire Dialysis Center,Dialysis Center,1230084208,F864224,549 Lexington Ave,,New York,NY,10038,New York,Manhattan,212-555-8762,Crossroads Network,Fee Schedule,2025-03-30
+4,Beacon Dialysis Center,Dialysis Center,1169919515,F427744,2494 Steinway St,Ground Floor,Jamaica,NY,11416,Queens,Queens,718-555-0855,Harbor Network,Full Risk,2019-06-13
+5,Brightwater Health Center,Clinic,2078858836,F316470,507 Church Ave,,Brooklyn,NY,11239,Kings,Brooklyn,718-555-3323,Summit Network,Fee Schedule,2024-04-20
+6,Ironwood Recovery Center,Behavioral Health Center,1746114200,F958281,3656 E Tremont Ave,Suite 100,Bronx,NY,10468,Bronx,Bronx,347-555-0665,Harbor Network,Full Risk,2023-03-22
+7,Sunrise Imaging,Imaging Center,2053978872,F207496,1417 Bell Blvd,Ground Floor,Jamaica,NY,11429,Queens,Queens,929-555-8636,Harbor Network,Full Risk,2018-12-11
+8,Riverside Diagnostics,Laboratory,1258607070,F830494,2733 Court St,3rd Floor,Brooklyn,NY,11230,Kings,Brooklyn,347-555-3704,Summit Network,Capitated,2018-09-25
+9,Seaside Kidney Care,Dialysis Center,1343632406,F353016,2134 Church Ave,Suite 100,Brooklyn,NY,11213,Kings,Brooklyn,347-555-8951,Summit Network,Capitated,2023-11-19
+10,Oakridge Community Care,Home Care Agency,1341592602,F232979,3774 Fulton St,,Brooklyn,NY,11239,Kings,Brooklyn,347-555-3176,Harbor Network,Full Risk,2023-08-24
+11,Atlas Radiology Associates,Imaging Center,2733469615,F980918,340 Nostrand Ave,3rd Floor,Brooklyn,NY,11233,Kings,Brooklyn,718-555-0580,Crossroads Network,Fee Schedule,2021-06-03
+12,Highbridge Vision Center,Vision Provider,1759686433,F608512,2003 Astoria Blvd,,Long Island City,NY,11102,Queens,Queens,929-555-5503,Summit Network,Full Risk,2019-06-02
+13,Clearview Eye Care,Vision Provider,2012509255,F379912,2141 St Nicholas Ave,3rd Floor,New York,NY,10009,New York,Manhattan,917-555-4212,Summit Network,Fee Schedule,2022-01-21
+14,Fairmont Community Care,Home Care Agency,2280819774,F223600,1660 E 149th St,,Bronx,NY,10457,Bronx,Bronx,347-555-9385,Summit Network,Full Risk,2023-04-11
+15,Oakridge Vision Center,Vision Provider,1223861653,F472839,1915 W 57th St,,New York,NY,10280,New York,Manhattan,212-555-3700,Summit Network,Fee Schedule,2022-07-06
+16,Hillcrest Surgical Supply,Equipment Supplier,1910943095,F807113,2169 Jamaica Ave,Suite 100,Jamaica,NY,11418,Queens,Queens,929-555-5389,Harbor Network,Full Risk,2021-02-05
+17,Cedar Hill Family Health,Clinic,1335278523,F491592,853 Myrtle Ave,,Bayside,NY,11369,Queens,Queens,929-555-0411,Harbor Network,Fee Schedule,2026-01-12
+18,Silver Lake Dialysis Center,Dialysis Center,2769597784,F375398,2618 E 86th St,,New York,NY,10024,New York,Manhattan,917-555-1091,Summit Network,Fee Schedule,2024-10-13
+19,Oakridge Eye Care,Vision Provider,2767815519,F534313,3374 Court St,Suite 100,Brooklyn,NY,11215,Kings,Brooklyn,718-555-8695,Harbor Network,Fee Schedule,2024-04-29
+20,Sunrise Vision Center,Vision Provider,1261422400,F864933,3333 Church Ave,,Brooklyn,NY,11238,Kings,Brooklyn,347-555-4631,Summit Network,Fee Schedule,2025-07-08
+21,Oakridge Home Health Services,Home Care Agency,1784765764,F568933,2983 E Fordham Rd,Suite 100,Bronx,NY,10452,Bronx,Bronx,929-555-5844,Summit Network,Capitated,2024-09-13
+22,Riverside Optical,Vision Provider,2999199633,F249446,356 Astoria Blvd,2nd Floor,Jamaica,NY,11427,Queens,Queens,929-555-0105,Summit Network,Full Risk,2020-02-03
+23,Fairmont Home Care,Home Care Agency,1257117410,F850011,3598 Grand Concourse,,Bronx,NY,10460,Bronx,Bronx,347-555-2545,Harbor Network,Full Risk,2021-07-07
+24,Summit Community Care,Home Care Agency,2083285728,F843358,3018 Morris Park Ave,3rd Floor,Bronx,NY,10452,Bronx,Bronx,718-555-3791,Crossroads Network,Capitated,2019-08-20
+25,Oakridge Home Health Services of Queens,Home Care Agency,1505366876,F691102,2338 Bell Blvd,3rd Floor,Bayside,NY,11366,Queens,Queens,929-555-4239,Crossroads Network,Capitated,2018-05-01
+26,Fairmont Home Health Services,Home Care Agency,2398949976,F577795,3397 Hillside Ave,,Flushing,NY,11357,Queens,Queens,929-555-8915,Harbor Network,Capitated,2026-06-03
+27,Liberty Home Care,Home Care Agency,2600913059,F200994,784 Bruckner Blvd,Ground Floor,Bronx,NY,10458,Bronx,Bronx,347-555-5844,Crossroads Network,Full Risk,2021-02-04
+28,Kingsway Health Center,Clinic,1291388761,F139962,610 1st Ave,3rd Floor,New York,NY,10014,New York,Manhattan,917-555-1397,Harbor Network,Full Risk,2023-11-04
+29,Stonebridge Optical,Vision Provider,2298075443,F571570,2391 Hylan Blvd,Suite 201,Staten Island,NY,10302,Richmond,Staten Island,347-555-7852,Crossroads Network,Fee Schedule,2024-05-04
+30,Tidewater Imaging,Imaging Center,1924922531,F875071,80 E 149th St,2nd Floor,Bronx,NY,10452,Bronx,Bronx,929-555-2970,Crossroads Network,Full Risk,2018-09-24
+31,Highbridge Home Health Services,Home Care Agency,2746810144,F374111,2934 Ocean Pkwy,,Brooklyn,NY,11214,Kings,Brooklyn,929-555-2696,Harbor Network,Capitated,2020-12-30
+32,Tidewater Community Care,Home Care Agency,2787606252,F120984,1056 Myrtle Ave,2nd Floor,Brooklyn,NY,11210,Kings,Brooklyn,347-555-3900,Crossroads Network,Fee Schedule,2025-09-25
+33,Harborview Clinic,Clinic,2377475001,F974891,1224 E Fordham Rd,,Bronx,NY,10462,Bronx,Bronx,347-555-4922,Summit Network,Fee Schedule,2018-03-30
+34,Beacon Transport Co,Transportation,1885645022,F226542,2777 Coney Island Ave,Suite 201,Brooklyn,NY,11233,Kings,Brooklyn,718-555-4296,Summit Network,Fee Schedule,2020-08-21
+35,Northgate Recovery Center,Behavioral Health Center,1015606837,F283164,79 Hillside Ave,Lower Level,Jackson Heights,NY,11377,Queens,Queens,718-555-9758,Harbor Network,Capitated,2020-11-13
+36,Redwood Home Care,Home Care Agency,2319258812,F496393,1209 Atlantic Ave,,Brooklyn,NY,11220,Kings,Brooklyn,929-555-3552,Harbor Network,Fee Schedule,2018-02-24
+37,Meadowbrook Health Center,Clinic,1230032280,F812923,2574 E 14th St,3rd Floor,New York,NY,10028,New York,Manhattan,212-555-3123,Harbor Network,Full Risk,2022-06-03
+38,Greenfield Behavioral Health,Behavioral Health Center,1954488254,F494117,997 Hillside Ave,Ground Floor,Bayside,NY,11365,Queens,Queens,929-555-7549,Crossroads Network,Full Risk,2018-01-28
+39,Silver Lake Imaging,Imaging Center,2542802170,F657490,2484 Utica Ave,Lower Level,Brooklyn,NY,11216,Kings,Brooklyn,718-555-2179,Summit Network,Fee Schedule,2024-06-28
+40,Oakridge Community Care of Staten Island,Home Care Agency,2746509936,F939496,2429 Forest Ave,3rd Floor,Staten Island,NY,10309,Richmond,Staten Island,347-555-4559,Summit Network,Fee Schedule,2026-06-18

@@ -1,0 +1,41 @@
+FacilityRefID,FacilityName,FacilityType,NPI,ProviderNumber,Address1,Address2,City,State,ZIP,County,Borough,Phone,Network
+1,Metro Eye Care,Vision Provider,2575299963,F972797,2431 Myrtle Ave,2nd Floor,Flushing,NY,11357,Queens,Queens,347-555-0600,Harbor Network
+2,Northgate Medical Center,Hospital,1983911128,F936806,1315 Southern Blvd,,Bronx,NY,10454,Bronx,Bronx,929-555-7758,Summit Network
+3,Horizon Medical Transportation,Transportation,2710029622,F684338,3557 Fulton St,Lower Level,Brooklyn,NY,11207,Kings,Brooklyn,718-555-2987,Crossroads Network
+4,Westfield Family Health,Clinic,1059960959,F153956,425 Union Tpke,,Jamaica,NY,11429,Queens,Queens,347-555-4538,Harbor Network
+5,Lighthouse Med Supply,Equipment Supplier,1408167413,F866067,1034 Beach 20th St,Suite 100,Flushing,NY,11354,Queens,Queens,347-555-7089,Harbor Network
+6,Willowbrook Surgical Supply,Equipment Supplier,1619172996,F916818,1273 Queens Blvd,,Jamaica,NY,11426,Queens,Queens,718-555-6895,Harbor Network
+7,Eastbridge Surgical Supply,Equipment Supplier,1368563841,F625999,1674 Nostrand Ave,,Brooklyn,NY,11201,Kings,Brooklyn,929-555-8808,Harbor Network
+8,Silver Lake Laboratories,Laboratory,1489151336,F626136,2564 3rd Ave,Lower Level,New York,NY,10025,New York,Manhattan,917-555-9374,Crossroads Network
+9,Highbridge Clinic,Clinic,1885891261,F512341,226 Myrtle Ave,,Bayside,NY,11364,Queens,Queens,718-555-7828,Crossroads Network
+10,Willowbrook Med Supply,Equipment Supplier,2184294694,F222355,579 Lexington Ave,3rd Floor,New York,NY,10034,New York,Manhattan,917-555-1856,Harbor Network
+11,Lighthouse Home Care,Home Care Agency,1198548152,F603825,3436 Broadway,,New York,NY,10065,New York,Manhattan,212-555-7893,Summit Network
+12,Harborview Family Health,Clinic,2240121105,F612893,1382 Jamaica Ave,Suite 100,Jamaica,NY,11412,Queens,Queens,929-555-6610,Summit Network
+13,Redwood Home Health Services,Home Care Agency,1280670914,F742477,1866 Court St,Lower Level,Brooklyn,NY,11228,Kings,Brooklyn,929-555-2738,Harbor Network
+14,Seaside Laboratories,Laboratory,1485547917,F318106,2941 Arthur Kill Rd,2nd Floor,Staten Island,NY,10307,Richmond,Staten Island,718-555-5288,Harbor Network
+15,Crossroads Vision Center,Vision Provider,1799720085,F188735,2621 Canal St,Lower Level,New York,NY,10031,New York,Manhattan,646-555-6297,Summit Network
+16,Fairmont Home Care,Home Care Agency,2299307654,F126154,505 Utica Ave,Suite 3B,Brooklyn,NY,11223,Kings,Brooklyn,718-555-6818,Crossroads Network
+17,Evergreen Vision Center,Vision Provider,2031599709,F942712,2971 Bell Blvd,,Jackson Heights,NY,11377,Queens,Queens,718-555-5496,Harbor Network
+18,Parkside Eye Care,Vision Provider,1094575911,F644922,251 Lexington Ave,Suite 201,New York,NY,10024,New York,Manhattan,917-555-5311,Summit Network
+19,Harborview Home Care,Home Care Agency,1808558211,F526540,824 Broadway,,New York,NY,10013,New York,Manhattan,917-555-1874,Crossroads Network
+20,Greenfield Surgical Supply,Equipment Supplier,1858110731,F667473,1843 Court St,Lower Level,Brooklyn,NY,11209,Kings,Brooklyn,718-555-6864,Harbor Network
+21,Parkside Health Center,Clinic,1555559180,F259717,241 Fulton St,,Brooklyn,NY,11231,Kings,Brooklyn,929-555-3736,Harbor Network
+22,Crossroads Home Health Services,Home Care Agency,1970091504,F987740,1954 Kissena Blvd,Suite 100,Bayside,NY,11365,Queens,Queens,347-555-7269,Crossroads Network
+23,Oakridge Community Care,Home Care Agency,2468239993,F208769,1063 Grand Concourse,Lower Level,Bronx,NY,10460,Bronx,Bronx,718-555-7321,Harbor Network
+24,Liberty Diagnostics,Laboratory,2536736418,F550170,2834 Main St,,Jamaica,NY,11415,Queens,Queens,347-555-8065,Summit Network
+25,Highbridge Dialysis Center,Dialysis Center,1212635480,F816314,3277 Bay Ridge Ave,Lower Level,Brooklyn,NY,11201,Kings,Brooklyn,718-555-9734,Harbor Network
+26,Unity Medical Transportation,Transportation,2012722775,F969473,838 Astoria Blvd,,Long Island City,NY,11103,Queens,Queens,718-555-1255,Harbor Network
+27,Maple Grove Diagnostics,Laboratory,1347441002,F821959,3965 Broadway,3rd Floor,New York,NY,10009,New York,Manhattan,212-555-9051,Harbor Network
+28,Kingsway Home Care,Home Care Agency,1997769504,F869502,385 Flatbush Ave,Ground Floor,Brooklyn,NY,11233,Kings,Brooklyn,347-555-5288,Crossroads Network
+29,Oakridge Health Center,Clinic,2892350218,F968463,3642 Southern Blvd,,Bronx,NY,10453,Bronx,Bronx,929-555-7204,Harbor Network
+30,Crossroads Health Center,Clinic,1552195830,F264024,570 Ocean Pkwy,,Brooklyn,NY,11210,Kings,Brooklyn,718-555-1892,Summit Network
+31,Horizon Med Supply,Equipment Supplier,2829770595,F597175,481 Fulton St,,Brooklyn,NY,11209,Kings,Brooklyn,929-555-0142,Harbor Network
+32,Clearview Ambulette Service,Transportation,2302676061,F541058,1640 Union Tpke,,Jamaica,NY,11416,Queens,Queens,718-555-4428,Harbor Network
+33,Unity Counseling Center,Behavioral Health Center,1239288537,F373451,3070 Kings Hwy,Suite 3B,Brooklyn,NY,11237,Kings,Brooklyn,718-555-3948,Summit Network
+34,Bayview Ambulette Service,Transportation,1191668841,F590672,2287 Broadway,,New York,NY,10010,New York,Manhattan,212-555-6183,Harbor Network
+35,Unity Health Center,Clinic,1139009504,F488762,3858 Liberty Ave,Suite 201,Bayside,NY,11367,Queens,Queens,929-555-2438,Crossroads Network
+36,Ironwood Health Center,Clinic,1389286471,F608718,2448 Roosevelt Ave,,Bayside,NY,11366,Queens,Queens,929-555-2847,Harbor Network
+37,Crossroads Laboratories,Laboratory,2661813123,F371552,3802 Beach 20th St,Ground Floor,Floral Park,NY,11004,Queens,Queens,718-555-3416,Summit Network
+39,Unity Home Care,Home Care Agency,1365929839,F525089,1674 Flatbush Ave,,Brooklyn,NY,11215,Kings,Brooklyn,929-555-4106,Crossroads Network
+40,Greenfield Home Care,Home Care Agency,2925671374,F278503,2709 Richmond Rd,,Staten Island,NY,10307,Richmond,Staten Island,347-555-6535,Summit Network
+41,Cedar Hill Home Care,Home Care Agency,2406914848,F191480,3791 Bruckner Blvd,,Bronx,NY,10454,Bronx,Bronx,347-555-8761,Harbor Network

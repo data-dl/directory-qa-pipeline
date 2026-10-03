@@ -1,0 +1,946 @@
+group_id,kind,reason,group_hash,rows,record_ids,stable_keys,keep,delete,decision,sample
+service_phone-00001,legitimate,distinct listings; differ in ServiceType,d9f375b5124f5369,3,1058 2026 3145,3272 3273 3274,,,,212-555-0003
+service_phone-00002,legitimate,distinct listings; differ in ServiceType,eca119fb44e86cb6,2,375 5601,358 359,,,,212-555-0230
+service_phone-00003,legitimate,distinct listings; differ in ServiceType,3d11f339b383d9a1,4,643 1177 1448 4204,3941 5284 5285 5286,,,,212-555-0519
+service_phone-00004,legitimate,distinct listings; differ in Network,3db15967905e9856,2,1300 3292,3295 5582,,,,212-555-0583
+service_phone-00005,legitimate,distinct listings; differ in ServiceType,63ea0a8b17b2c6e8,4,1311 2309 4956 5364,3054 5104 5105 5106,,,,212-555-0637
+service_phone-00006,legitimate,distinct listings; differ in ServiceType,8be7a0e2e769378f,4,1837 2367 3014 4425,2827 5038 5039 5040,,,,212-555-0993
+service_phone-00007,legitimate,distinct listings; differ in ServiceType,6a523f9713577cd2,3,1963 4790 5003,3487 3488 3489,,,,212-555-1073
+service_phone-00008,legitimate,distinct listings; differ in ServiceType,fe403685ad4f2d97,2,3163 5233,3011 3012,,,,212-555-1166
+service_phone-00009,legitimate,distinct listings; differ in ServiceType,d4a928296a6ac589,2,1750 4285,762 763,,,,212-555-1258
+service_phone-00010,legitimate,distinct listings; differ in ServiceType,be5a7587c8de1b5c,4,1095 1868 2267 2959,3356 5155 5156 5157,,,,212-555-1280
+service_phone-00011,legitimate,distinct listings; differ in ServiceType,8aaabe6c9f1f0cd0,2,173 2292,3268 3269,,,,212-555-1512
+service_phone-00012,legitimate,distinct listings; differ in ServiceType,bca949258825f443,2,1678 1743,3775 3776,,,,212-555-1718
+service_phone-00013,legitimate,distinct listings; differ in ServiceType,06f192f129fec336,3,776 3978 5396,943 944 945,,,,212-555-1747
+service_phone-00014,legitimate,distinct listings; differ in ServiceType,763a582d07d18870,4,379 625 4564 5418,4141 5332 5333 5334,,,,212-555-1780
+service_phone-00015,legitimate,distinct listings; differ in ServiceType,ec02573cc95fc11c,2,477 2657,1562 1563,,,,212-555-1805
+service_phone-00016,legitimate,distinct listings; differ in ServiceType,911da4ba5478d9b6,3,3851 3996 4315,3809 3810 3811,,,,212-555-1999
+service_phone-00017,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName; 1 other rows in this official group are distinct listings,3986f5a8cc4db916,2,4717 5147,4213 5604,,,,212-555-2000
+service_phone-00018,legitimate,distinct listings; differ in ServiceType,40b9270b433c896e,2,13 4770,527 528,,,,212-555-2024
+service_phone-00019,legitimate,distinct listings; differ in ServiceType,1813c2f57ba46bfe,2,511 1692,4040 4041,,,,212-555-2047
+service_phone-00020,legitimate,distinct listings; differ in ServiceType,bd57b41d374f42fa,4,29 1117 4838 5531,3053 5101 5102 5103,,,,212-555-2060
+service_phone-00021,legitimate,distinct listings; differ in ServiceType,bc8e5d2272b5c63d,3,89 316 4475,3388 3389 3390,,,,212-555-2115
+service_phone-00022,legitimate,distinct listings; differ in ServiceType,8e4cccecff86ef3a,3,108 864 2904,3905 3906 3907,,,,212-555-2119
+service_phone-00023,legitimate,distinct listings; differ in ServiceType,daa89860c679dff9,2,3157 4427,58 59,,,,212-555-2135
+service_phone-00024,legitimate,distinct listings; differ in ServiceType,d7e816d8ff37078d,2,1245 1630,4278 4279,,,,212-555-2184
+service_phone-00025,legitimate,distinct listings; differ in ServiceType,da892c346141e5f6,2,1304 2767,3009 3010,,,,212-555-2277
+service_phone-00026,legitimate,distinct listings; differ in ServiceType,1e75d87a9a8e5682,4,20 2987 4688 5488,3760 5242 5243 5244,,,,212-555-2311
+service_phone-00027,legitimate,distinct listings; differ in ServiceType,76bd9957568088da,2,215 1913,1197 1198,,,,212-555-2366
+service_phone-00028,legitimate,distinct listings; differ in ServiceType,2540f6ce14d30e81,2,985 3195,4691 4692,,,,212-555-2465
+service_phone-00029,review,"differs in EffectiveStart, ServiceLocationKey",eac4a6a75bd1fac1,2,1907 4115,688 5557,,,,212-555-2671
+service_phone-00030,legitimate,distinct listings; differ in ServiceType,29bc27de117dad94,2,3052 3155,4192 4193,,,,212-555-2708
+service_phone-00031,legitimate,distinct listings; differ in ServiceType,9edfba19d984c6ae,2,459 3355,824 825,,,,212-555-2815
+service_phone-00032,legitimate,distinct listings; differ in ServiceType,ca53f4e353072a5f,2,172 447,3505 3506,,,,212-555-2827
+service_phone-00033,legitimate,distinct listings; differ in ServiceType,a90eb584e2693005,2,237 1731,280 281,,,,212-555-2937
+service_phone-00034,legitimate,distinct listings; differ in Network,947d75758ceaa795,2,2204 2483,1893 5583,,,,212-555-3001
+service_phone-00035,legitimate,distinct listings; differ in ServiceType,745b5c0f7fcaccde,4,167 283 1179 3125,4155 5338 5339 5340,,,,212-555-3205
+service_phone-00036,legitimate,"distinct listings; differ in Network, ServiceType, AddressKey",3a7055fddc8d8ad8,4,591 1624 1817 4985,4071 4072 5573 5658,,,,212-555-3237
+service_phone-00037,legitimate,distinct listings; differ in ServiceType,60ba7503626d375a,4,31 240 464 2160,1783 4921 4922 4923,,,,212-555-3319
+service_phone-00038,legitimate,distinct listings; differ in ServiceType,5e2e59b93752e44c,2,2706 3346,1468 1469,,,,212-555-3551
+service_phone-00039,legitimate,distinct listings; differ in ServiceType,18edc3d247e0e8a0,4,1596 2036 2145 3074,3079 5110 5111 5112,,,,212-555-3725
+service_phone-00040,legitimate,distinct listings; differ in ServiceType,3a106629fb357a97,4,728 2719 4488 4515,501 4780 4781 4782,,,,212-555-3909
+service_phone-00041,legitimate,distinct listings; differ in ServiceType,9a60db5a954221e7,4,2010 2088 5001 5500,3245 5140 5141 5142,,,,212-555-4098
+service_phone-00042,legitimate,distinct listings; differ in ServiceType,73ac3db768f3a54c,4,374 1276 1579 4507,2830 5044 5045 5046,,,,212-555-4118
+service_phone-00043,legitimate,distinct listings; differ in ServiceType,c348e91374b4e072,4,828 1569 1856 2033,1287 4873 4874 4875,,,,212-555-4157
+service_phone-00044,legitimate,distinct listings; differ in ServiceType,9d1c132870406366,2,3949 4060,1854 1855,,,,212-555-4473
+service_phone-00045,legitimate,distinct listings; differ in ServiceType,b66321cd0acbcba3,3,978 1603 2320,2065 2066 2067,,,,212-555-4735
+service_phone-00046,legitimate,distinct listings; differ in ServiceType,91dc7a56865ce684,3,466 2847 4062,1592 1593 1594,,,,212-555-4759
+service_phone-00047,legitimate,distinct listings; differ in ServiceType,88b8307b7cee83ed,2,4840 5169,142 143,,,,212-555-4977
+service_phone-00048,legitimate,distinct listings; differ in ServiceType,141f056e8886d286,2,1386 2622,3754 3755,,,,212-555-5110
+service_phone-00049,legitimate,distinct listings; differ in ServiceType,16267ea7b1e39f68,4,2018 2434 3079 3117,4228 5347 5348 5349,,,,212-555-5197
+service_phone-00050,legitimate,distinct listings; differ in ServiceType,d465669bd2cc03a0,4,677 2506 2624 3705,2589 5017 5018 5019,,,,212-555-5198
+service_phone-00051,legitimate,distinct listings; differ in ServiceType,182abfdfd1fcdf42,2,212 4206,2463 2464,,,,212-555-5217
+service_phone-00052,legitimate,distinct listings; differ in ServiceType,a1ba97fd6eaac1ff,4,163 488 3332 5167,4178 5341 5342 5343,,,,212-555-5254
+service_phone-00053,legitimate,distinct listings; differ in ServiceType,6030f56d27fd185d,2,909 3613,681 682,,,,212-555-5414
+service_phone-00054,legitimate,distinct listings; differ in ServiceType,13d6068a35b90049,2,1608 5127,2754 2755,,,,212-555-5460
+service_phone-00055,legitimate,distinct listings; differ in ServiceType,733c776ab6b7a3d2,2,2075 4906,2118 2119,,,,212-555-5556
+service_phone-00056,legitimate,distinct listings; differ in ServiceType,12ad7eb14f18f878,4,270 1410 2931 4369,607 4789 4790 4791,,,,212-555-6226
+service_phone-00057,legitimate,distinct listings; differ in ServiceType,c2161641e4f5fded,2,32 2386,1382 1383,,,,212-555-6298
+service_phone-00058,legitimate,distinct listings; differ in ServiceType,80fd2f1b1b77e740,4,1836 2783 4687 4785,3080 5113 5114 5115,,,,212-555-6588
+service_phone-00059,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,f02616c16900ef7a,2,246 5471,2125 5645,,,,212-555-6629
+service_phone-00060,legitimate,distinct listings; differ in ServiceType,2034446ef2ab5222,3,540 907 3917,4042 4043 4044,,,,212-555-6718
+service_phone-00061,likely_redundant,"same VendorKey/AddressKey; only text differs: DisplayName, Address1",7a654b7f5f8612fc,2,386 4272,3008 5610,,,,212-555-6751
+service_phone-00062,legitimate,distinct listings; differ in Network,fc8b6c905abdaba0,2,607 4208,610 5590,,,,212-555-6878
+service_phone-00063,legitimate,distinct listings; differ in ServiceType,4d18336fe9815549,4,1566 1600 1911 5158,2602 5020 5021 5022,,,,212-555-6988
+service_phone-00064,legitimate,distinct listings; differ in ServiceType,b06ab5ff0430c76a,3,994 2986 3951,4096 4097 4098,,,,212-555-7001
+service_phone-00065,legitimate,distinct listings; differ in ServiceType,d43bb6ac2bdcf6a6,3,532 3071 4110,4013 4014 4015,,,,212-555-7242
+service_phone-00066,legitimate,distinct listings; differ in ServiceType,434a05fb6b745f8c,4,1652 4051 4108 4656,1474 4879 4880 4881,,,,212-555-7356
+service_phone-00067,legitimate,distinct listings; differ in ServiceType,ddbae6de037cee87,4,1467 1777 3480 3889,3527 5200 5201 5202,,,,212-555-7477
+service_phone-00068,legitimate,distinct listings; differ in ServiceType,fb5e961725ee87c1,2,1223 1771,631 632,,,,212-555-7570
+service_phone-00069,legitimate,distinct listings; differ in ServiceType,1d2709018453b05c,4,724 795 2364 2479,608 4792 4793 4794,,,,212-555-7694
+service_phone-00070,legitimate,distinct listings; differ in ServiceType,3be0a4842336bafd,2,4292 5269,3288 3289,,,,212-555-7726
+service_phone-00071,legitimate,distinct listings; differ in ServiceType,d087f86fa304040a,2,315 455,3157 3158,,,,212-555-7830
+service_phone-00072,legitimate,distinct listings; differ in ServiceType,009a12972c4ce09c,3,587 1007 4393,2620 2621 2622,,,,212-555-7861
+service_phone-00073,legitimate,distinct listings; differ in ServiceType,565002e4c3164c67,2,117 1444,4610 4611,,,,212-555-8270
+service_phone-00074,legitimate,distinct listings; differ in AddressKey,2f5111b71a2b10f0,2,742 5560,4159 5661,,,,212-555-8482
+service_phone-00075,legitimate,distinct listings; differ in ServiceType,8d6212c771ce8a44,3,553 3239 3400,4280 4281 4282,,,,212-555-8603
+service_phone-00076,legitimate,distinct listings; differ in ServiceType,97aa331617ea17f5,4,1635 4176 4728 4894,317 4756 4757 4758,,,,212-555-8644
+service_phone-00077,legitimate,distinct listings; differ in ServiceType,d6e3ad8a5aa34383,3,897 3314 5166,73 74 75,,,,212-555-8650
+service_phone-00078,legitimate,distinct listings; differ in ServiceType,455d764252ffd07c,2,997 1332,1746 1747,,,,212-555-8767
+service_phone-00079,legitimate,distinct listings; differ in ServiceType,0fd197d33cef964c,2,443 2047,2347 2348,,,,212-555-8788
+service_phone-00080,legitimate,distinct listings; differ in ServiceType,dd9ea195b51238ed,3,408 4573 4834,2963 2964 2965,,,,212-555-8808
+service_phone-00081,legitimate,distinct listings; differ in ServiceType,a21ec36d11fa686e,4,469 2614 4430 5276,417 4762 4763 4764,,,,212-555-8976
+service_phone-00082,legitimate,distinct listings; differ in ServiceType,a1a9b6853d6ceafb,2,286 2372,3510 3511,,,,212-555-8988
+service_phone-00083,legitimate,distinct listings; differ in ServiceType,871da60e37fa2d96,4,1796 2849 2868 5056,2935 5077 5078 5079,,,,212-555-9189
+service_phone-00084,legitimate,distinct listings; differ in ServiceType,429bedb29425a384,4,1167 2234 2695 2773,3948 5287 5288 5289,,,,212-555-9371
+service_phone-00085,legitimate,distinct listings; differ in ServiceType,5ba50619119edb37,4,132 1072 1943 4904,4673 5383 5384 5385,,,,212-555-9426
+service_phone-00086,likely_redundant,"same VendorKey/AddressKey; only text differs: DisplayName, Address1",1260e3367c857e5a,2,1215 4301,3885 5639,,,,212-555-9604
+service_phone-00087,legitimate,distinct listings; differ in ServiceType,ef877bf12abd6e55,2,3797 4027,588 589,,,,212-555-9676
+service_phone-00088,legitimate,distinct listings; differ in ServiceType,9d499f0de645b224,2,2353 5112,1963 1964,,,,347-555-0008
+service_phone-00089,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName; 1 other rows in this official group are distinct listings,67d5eb930510531a,2,592 3897,3278 5642,,,,347-555-0017
+service_phone-00090,legitimate,distinct listings; differ in ServiceType,1866d2695191d184,3,2698 3535 4718,3588 3589 3590,,,,347-555-0062
+service_phone-00091,legitimate,distinct listings; differ in ServiceType,ab924713111eadb9,2,514 563,1799 1800,,,,347-555-0063
+service_phone-00092,legitimate,distinct listings; differ in ServiceType,d5d8adfd15826bfe,4,1429 2040 2400 5590,1870 4933 4934 4935,,,,347-555-0092
+service_phone-00093,legitimate,distinct listings; differ in ServiceType,a57192b85bec44b6,2,1709 4191,1535 1536,,,,347-555-0161
+service_phone-00094,legitimate,distinct listings; differ in ServiceType,8ad9aa562338bcae,2,4466 5456,3048 3049,,,,347-555-0201
+service_phone-00095,legitimate,distinct listings; differ in ServiceType,35b934c1756d2a3c,4,202 666 2603 5125,3847 5257 5258 5259,,,,347-555-0217
+service_phone-00096,legitimate,distinct listings; differ in ServiceType,4f0cef7102e02fcd,2,4088 4198,653 654,,,,347-555-0294
+service_phone-00097,legitimate,distinct listings; differ in ServiceType,00f330c47a79a4f7,2,2194 4186,2438 2439,,,,347-555-0342
+service_phone-00098,legitimate,distinct listings; differ in ServiceType,f4ce3a3286f69a41,2,332 2511,1157 1158,,,,347-555-0347
+service_phone-00099,legitimate,distinct listings; differ in ServiceType,d647fe04c2d62826,2,731 1252,3508 3509,,,,347-555-0361
+service_phone-00100,legitimate,distinct listings; differ in ServiceType,18670e0517578fbf,2,1241 4732,2699 2700,,,,347-555-0370
+service_phone-00101,legitimate,distinct listings; differ in ServiceType,674e398f74e6c2a5,2,298 1428,2396 2397,,,,347-555-0395
+service_phone-00102,legitimate,distinct listings; differ in ServiceType,6c1febd436a795d1,2,752 4194,3250 3251,,,,347-555-0435
+service_phone-00103,legitimate,distinct listings; differ in ServiceType,8c9b2755fc3b3aaf,2,2326 5558,4073 4074,,,,347-555-0465
+service_phone-00104,legitimate,distinct listings; differ in ServiceType,05c3d7b1b4f2ac5b,2,153 2627,3661 3662,,,,347-555-0480
+service_phone-00105,legitimate,distinct listings; differ in ServiceType,2b8a4a3c46c9efd5,2,674 3186,4219 4220,,,,347-555-0513
+service_phone-00106,legitimate,distinct listings; differ in ServiceType,bea28860c461a125,3,145 3626 3870,547 548 549,,,,347-555-0630
+service_phone-00107,legitimate,distinct listings; differ in ServiceType,7a51bfbdde223140,2,1870 3197,3765 3766,,,,347-555-0660
+service_phone-00108,legitimate,distinct listings; differ in ServiceType,085a2073bdd402a6,4,2439 2975 3422 4420,3216 5137 5138 5139,,,,347-555-0694
+service_phone-00109,legitimate,distinct listings; differ in ServiceType,9bea320d26174c69,3,595 5047 5088,3998 3999 4000,,,,347-555-0711
+service_phone-00110,legitimate,distinct listings; differ in Network,dbbf1dc1eb03ea99,2,2913 4125,3908 5600,,,,347-555-0806
+service_phone-00111,legitimate,distinct listings; differ in ServiceType,8b0cb0ccf118529a,4,1043 1879 2510 4413,3538 5221 5222 5223,,,,347-555-0816
+service_phone-00112,legitimate,distinct listings; differ in ServiceType,f9b21c806ee943b4,4,77 454 638 1705,3684 5239 5240 5241,,,,347-555-0843
+service_phone-00113,legitimate,distinct listings; differ in ServiceType,a2de467abd62d353,3,1544 1654 2285,1765 1766 1767,,,,347-555-0876
+service_phone-00114,legitimate,distinct listings; differ in ServiceType,bb5aaef99372574d,2,3394 4964,2950 2951,,,,347-555-0940
+service_phone-00115,legitimate,"distinct listings; differ in ServiceType, AddressKey",fcffa0e09d5745cb,3,1431 3005 4197,4104 4105 5677,,,,347-555-0949
+service_phone-00116,legitimate,distinct listings; differ in ServiceType,d87cf255afebb0aa,3,158 947 1013,3104 3105 3106,,,,347-555-1149
+service_phone-00117,legitimate,distinct listings; differ in ServiceType,b52d6055fbfcb74b,2,87 1112,4634 4635,,,,347-555-1157
+service_phone-00118,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,5dc64487de697d99,2,658 4859,983 5626,,,,347-555-1170
+service_phone-00119,legitimate,distinct listings; differ in ServiceType,15166b18d33c0db3,3,1468 2562 5467,1613 1614 1615,,,,347-555-1223
+service_phone-00120,legitimate,distinct listings; differ in ServiceType,eec48091be24c4c9,4,2417 2733 3740 4185,3537 5218 5219 5220,,,,347-555-1260
+service_phone-00121,legitimate,distinct listings; differ in ServiceType,2bf6cc2f5437cd87,2,1297 3306,2372 2373,,,,347-555-1328
+service_phone-00122,legitimate,distinct listings; differ in ServiceType,cdae59a5ff9b2c3e,3,1471 1914 4932,3239 3240 3241,,,,347-555-1338
+service_phone-00123,legitimate,distinct listings; differ in ServiceType,f9483783b972195a,2,1325 5215,1704 1705,,,,347-555-1365
+service_phone-00124,legitimate,distinct listings; differ in ServiceType,4283e69c9f708a34,4,1171 1983 2832 4832,4120 5329 5330 5331,,,,347-555-1464
+service_phone-00125,legitimate,distinct listings; differ in ServiceType,67803f50247cd153,4,799 1214 2060 4743,2795 5035 5036 5037,,,,347-555-1522
+service_phone-00126,legitimate,distinct listings; differ in ServiceType,d5af6ae6636344e9,2,40 4810,429 430,,,,347-555-1565
+service_phone-00127,legitimate,distinct listings; differ in ServiceType,46151348353d4c5d,3,471 5128 5359,400 401 402,,,,347-555-1616
+service_phone-00128,likely_redundant,"same VendorKey/AddressKey; only text differs: DisplayName, Address1",9b25dc353b14c853,2,513 2169,1565 5629,,,,347-555-1633
+service_phone-00129,legitimate,distinct listings; differ in Network,9ed44c0c3274935a,2,318 3028,2258 5580,,,,347-555-1649
+service_phone-00130,legitimate,distinct listings; differ in AddressKey,c9540891703b8004,2,49 4968,3087 5682,,,,347-555-1661
+service_phone-00131,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,a49ef5ec07fc2fd3,2,3936 4379,3056 5643,,,,347-555-1667
+service_phone-00132,legitimate,distinct listings; differ in ServiceType,e2bd5b92d31283e1,3,475 695 5212,457 458 459,,,,347-555-1672
+service_phone-00133,legitimate,distinct listings; differ in ServiceType,09e0d5665591c1d8,4,1741 2499 4599 5021,4204 5344 5345 5346,,,,347-555-1674
+service_phone-00134,legitimate,distinct listings; differ in ServiceType,35e894f6cde22aec,2,1758 3640,999 1000,,,,347-555-1685
+service_phone-00135,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,1f588b2dcc9fb544,2,353 361,2678 5613,,,,347-555-1711
+service_phone-00136,legitimate,distinct listings; differ in ServiceType,c5b9831f1e2a5ba9,2,1855 2001,3266 3267,,,,347-555-1718
+service_phone-00137,legitimate,distinct listings; differ in ServiceType,89f6b96216b058d4,3,523 665 4137,863 864 865,,,,347-555-1726
+service_phone-00138,legitimate,distinct listings; differ in ServiceType,0ca0ac14ef5a8e2f,2,498 1093,61 62,,,,347-555-1735
+service_phone-00139,legitimate,"distinct listings; differ in ServiceType, AddressKey",870f50f6ba2820dd,3,1323 1982 3920,3017 3018 5688,,,,347-555-1781
+service_phone-00140,legitimate,distinct listings; differ in ServiceType,f65ee1bdd401ba50,2,1505 5537,1306 1307,,,,347-555-1798
+service_phone-00141,legitimate,distinct listings; differ in ServiceType,7f44bc34baaa6eb2,4,805 2803 4048 5549,3407 5161 5162 5163,,,,347-555-1814
+service_phone-00142,legitimate,"distinct listings; differ in Network, ServiceType",43c43a153c3ceaea,4,1305 1896 3201 5613,4136 4137 4138 5601,,,,347-555-1843
+service_phone-00143,legitimate,distinct listings; differ in ServiceType,b03be040e9ff7ab7,3,1012 2107 4791,368 369 370,,,,347-555-1938
+service_phone-00144,legitimate,distinct listings; differ in AddressKey,92f992d36a1a177a,2,3881 5075,2483 5686,,,,347-555-2045
+service_phone-00145,legitimate,distinct listings; differ in ServiceType,5337c2f4280d6936,2,135 3709,3155 3156,,,,347-555-2060
+service_phone-00146,legitimate,distinct listings; differ in ServiceType,dcbbb66907c5f42b,2,2338 4915,2336 2337,,,,347-555-2080
+service_phone-00147,legitimate,distinct listings; differ in ServiceType,2957e94c51cce312,2,1927 3646,2359 2360,,,,347-555-2116
+service_phone-00148,legitimate,distinct listings; differ in ServiceType,2fc0dde1161cb77f,2,1378 2537,1117 1118,,,,347-555-2125
+service_phone-00149,legitimate,distinct listings; differ in ServiceType,d524dc3830dfd40c,3,1670 2894 3296,1144 1145 1146,,,,347-555-2126
+service_phone-00150,legitimate,distinct listings; differ in ServiceType,56eeba15c2097e52,4,222 3694 3885 5259,2493 5008 5009 5010,,,,347-555-2200
+service_phone-00151,legitimate,distinct listings; differ in ServiceType,a074bcfc78f15bd1,3,686 4180 5050,1296 1297 1298,,,,347-555-2226
+service_phone-00152,legitimate,distinct listings; differ in ServiceType,1e60556e0a9e2883,4,1193 2340 2734 3238,100 4726 4727 4728,,,,347-555-2293
+service_phone-00153,legitimate,distinct listings; differ in ServiceType,bd6dd4ee2d324da8,2,2875 5160,1491 1492,,,,347-555-2328
+service_phone-00154,legitimate,distinct listings; differ in AddressKey,1b687fa64ee9df9e,2,3354 4592,4005 5655,,,,347-555-2371
+service_phone-00155,legitimate,distinct listings; differ in ServiceType,93d36bc87d21e6ab,3,2052 2358 2887,3621 3622 3623,,,,347-555-2394
+service_phone-00156,legitimate,distinct listings; differ in ServiceType,2b63d86921126428,2,1089 2915,2144 2145,,,,347-555-2436
+service_phone-00157,legitimate,distinct listings; differ in ServiceType,c46a85bacca05b38,2,2270 5373,2015 2016,,,,347-555-2528
+service_phone-00158,legitimate,distinct listings; differ in ServiceType,f62564c668d25cc2,4,1341 1838 2795 3057,1617 4897 4898 4899,,,,347-555-2578
+service_phone-00159,legitimate,distinct listings; differ in ServiceType,805a8cdf7ecf930d,4,1339 1728 3614 4276,3517 5188 5189 5190,,,,347-555-2634
+service_phone-00160,legitimate,distinct listings; differ in ServiceType,3f5c7eadc765a378,2,305 1813,2414 2415,,,,347-555-2667
+service_phone-00161,legitimate,distinct listings; differ in ServiceType,d68f7d473d00c70a,3,2688 4073 5329,2179 2180 2181,,,,347-555-2692
+service_phone-00162,legitimate,distinct listings; differ in ServiceType,af39f2791eeb407f,2,954 1189,2264 2265,,,,347-555-2718
+service_phone-00163,legitimate,distinct listings; differ in ServiceType,96fe5824a19eea57,2,491 5043,1716 1717,,,,347-555-2725
+service_phone-00164,legitimate,distinct listings; differ in ServiceType,ab8bedf7d484435b,4,1532 2466 3113 4035,4427 5368 5369 5370,,,,347-555-2852
+service_phone-00165,legitimate,distinct listings; differ in ServiceType,302f3b20a4caaa88,3,1966 4695 5114,299 300 301,,,,347-555-2863
+service_phone-00166,legitimate,distinct listings; differ in ServiceType,a5231a4ed01e87bc,2,64 3266,2817 2818,,,,347-555-2875
+service_phone-00167,legitimate,distinct listings; differ in ServiceType,b9b5867f9052f990,3,1784 3726 4622,2174 2175 2176,,,,347-555-2894
+service_phone-00168,legitimate,distinct listings; differ in ServiceType,808366f40810b57d,3,2214 3788 4291,218 219 220,,,,347-555-2897
+service_phone-00169,legitimate,distinct listings; differ in ServiceType,a2e0ae9fe97c0f42,2,1930 5431,2905 2906,,,,347-555-2957
+service_phone-00170,review,"differs in EffectiveStart, ServiceLocationKey; 1 other rows in this official group are distinct listings",546f6aeb927f92b3,2,228 1935,2260 5558,,,,347-555-2975
+service_phone-00171,legitimate,distinct listings; differ in Network,90c7e8897780be9e,2,791 4814,4238 5570,,,,347-555-2998
+service_phone-00172,legitimate,distinct listings; differ in ServiceType,13af7237c52d44c7,2,2185 4345,852 853,,,,347-555-2999
+service_phone-00173,legitimate,distinct listings; differ in ServiceType,6033ab3520c4b158,3,1882 2099 5072,3392 3393 3394,,,,347-555-3011
+service_phone-00174,legitimate,distinct listings; differ in ServiceType,94ed3eb73270b3b7,3,2058 3263 4545,947 948 949,,,,347-555-3022
+service_phone-00175,legitimate,distinct listings; differ in ServiceType,a25d2055bf390d39,4,3620 3717 3869 5107,3516 5185 5186 5187,,,,347-555-3042
+service_phone-00176,legitimate,distinct listings; differ in ServiceType,99c0c593941cfed2,2,573 3967,2195 2196,,,,347-555-3067
+service_phone-00177,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,9210158694520bde,2,219 5611,3452 5634,,,,347-555-3071
+service_phone-00178,legitimate,distinct listings; differ in ServiceType,c1b5e628921ea812,2,1539 3010,3751 3752,,,,347-555-3101
+service_phone-00179,legitimate,distinct listings; differ in ServiceType,393f82e0cb79327c,2,696 3294,2690 2691,,,,347-555-3136
+service_phone-00180,legitimate,distinct listings; differ in ServiceType,20b504afbdc4e10c,2,364 1763,3611 3612,,,,347-555-3200
+service_phone-00181,legitimate,distinct listings; differ in ServiceType,3a813d6180cb2acf,3,726 3510 4536,3368 3369 3370,,,,347-555-3202
+service_phone-00182,legitimate,distinct listings; differ in ServiceType,4f00f48344d6be64,2,125 1068,2701 2702,,,,347-555-3317
+service_phone-00183,legitimate,distinct listings; differ in ServiceType,e03966aab9d3b3b0,2,881 4993,657 658,,,,347-555-3381
+service_phone-00184,legitimate,distinct listings; differ in ServiceType,c68b92377f8c03cf,3,1783 2672 4913,704 705 706,,,,347-555-3467
+service_phone-00185,legitimate,distinct listings; differ in ServiceType,612f90366cc08507,2,19 2150,749 750,,,,347-555-3470
+service_phone-00186,legitimate,distinct listings; differ in ServiceType,0db7b7946c85c124,2,1887 4991,1526 1527,,,,347-555-3480
+service_phone-00187,legitimate,distinct listings; differ in ServiceType,78e4ae598a4d6d34,3,1841 1893 4779,411 412 413,,,,347-555-3504
+service_phone-00188,legitimate,distinct listings; differ in ServiceType,da7170e717732cca,2,4562 5526,4488 4489,,,,347-555-3568
+service_phone-00189,legitimate,distinct listings; differ in ServiceType,9a160e1eed9f0c05,2,2136 2540,2455 2456,,,,347-555-3609
+service_phone-00190,legitimate,distinct listings; differ in ServiceType,a946ec94a333ee1a,2,2222 5336,2517 2518,,,,347-555-3635
+service_phone-00191,legitimate,"distinct listings; differ in ServiceType, AddressKey",e92d657101c30b81,3,1327 2858 5238,4671 4672 5654,,,,347-555-3638
+service_phone-00192,legitimate,distinct listings; differ in ServiceType,78d732cc576917e6,2,179 4595,197 198,,,,347-555-3667
+service_phone-00193,legitimate,distinct listings; differ in ServiceType,29b79eba562ecbaf,2,609 2244,2654 2655,,,,347-555-3687
+service_phone-00194,legitimate,distinct listings; differ in ServiceType,4a3e3d4961f754e6,3,26 4921 4945,2023 2024 2025,,,,347-555-3835
+service_phone-00195,legitimate,distinct listings; differ in ServiceType,531f470814e34669,2,3172 3393,1680 1681,,,,347-555-3864
+service_phone-00196,likely_redundant,"same VendorKey/AddressKey; only text differs: DisplayName, Address1",bb2b91f575c5fcf0,2,436 3412,4616 5648,,,,347-555-3896
+service_phone-00197,legitimate,distinct listings; differ in Network,e7168e3238616c9a,2,1016 1825,2598 5575,,,,347-555-3920
+service_phone-00198,legitimate,distinct listings; differ in ServiceType,44a826d709a909d6,2,913 5295,2057 2058,,,,347-555-4072
+service_phone-00199,legitimate,distinct listings; differ in ServiceType,21fff1cb42667271,2,3333 3675,106 107,,,,347-555-4107
+service_phone-00200,legitimate,distinct listings; differ in ServiceType,efea14e724245e39,2,334 4055,4435 4436,,,,347-555-4114
+service_phone-00201,legitimate,distinct listings; differ in ServiceType,d7d95cd6d98fccca,2,1192 1388,4205 4206,,,,347-555-4132
+service_phone-00202,legitimate,distinct listings; differ in ServiceType,e6ae61f129cfbf8a,2,397 3256,866 867,,,,347-555-4138
+service_phone-00203,legitimate,distinct listings; differ in ServiceType,c2921daf91ce1dbe,2,1616 4889,2548 2549,,,,347-555-4148
+service_phone-00204,legitimate,distinct listings; differ in ServiceType,19ba1bb5e2508472,2,2114 4224,385 386,,,,347-555-4241
+service_phone-00205,legitimate,distinct listings; differ in ServiceType,0c6665424d96b6a5,3,220 875 2597,2433 2434 2435,,,,347-555-4386
+service_phone-00206,legitimate,distinct listings; differ in ServiceType,05730bd520303b3a,3,614 4124 5374,1104 1105 1106,,,,347-555-4435
+service_phone-00207,legitimate,distinct listings; differ in ServiceType,306e09a3f55cb8a5,4,191 3701 3992 4967,4675 5389 5390 5391,,,,347-555-4447
+service_phone-00208,legitimate,distinct listings; differ in ServiceType,ab037ff8276d6d4c,3,134 474 2830,4648 4649 4650,,,,347-555-4468
+service_phone-00209,likely_redundant,same VendorKey/AddressKey; only text differs: Address1,4b1364ac9f5b2392,2,3673 4730,2234 5617,,,,347-555-4527
+service_phone-00210,legitimate,distinct listings; differ in AddressKey,9afc1d4e9721ec5f,2,403 1395,685 5656,,,,347-555-4613
+service_phone-00211,legitimate,distinct listings; differ in ServiceType,fcddd94f7e8e9baf,2,574 617,1066 1067,,,,347-555-4649
+service_phone-00212,legitimate,distinct listings; differ in ServiceType,e3e76eb422e37aa5,4,178 2475 3063 3286,2321 4993 4994 4995,,,,347-555-4650
+service_phone-00213,legitimate,distinct listings; differ in ServiceType,3478b262ecd8b1bb,3,1962 4660 4920,4496 4497 4498,,,,347-555-4651
+service_phone-00214,legitimate,distinct listings; differ in AddressKey,0c180dfc3d043655,2,1345 2862,1481 5687,,,,347-555-4686
+service_phone-00215,legitimate,distinct listings; differ in ServiceType,0a61e38947c096ee,4,3556 5081 5148 5222,2202 4984 4985 4986,,,,347-555-4748
+service_phone-00216,legitimate,distinct listings; differ in ServiceType,a632241949b83070,3,76 3814 4007,1932 1933 1934,,,,347-555-4824
+service_phone-00217,legitimate,distinct listings; differ in ServiceType,a1cacf2ce3912a65,2,326 764,3781 3782,,,,347-555-4883
+service_phone-00218,legitimate,distinct listings; differ in AddressKey,3d9407651bd95467,2,371 1476,3445 5660,,,,347-555-4899
+service_phone-00219,legitimate,distinct listings; differ in ServiceType,70a40d2efa778e95,2,2891 4403,3730 3731,,,,347-555-4960
+service_phone-00220,legitimate,distinct listings; differ in ServiceType,59d44b7a8402aada,4,916 1231 4672 5305,4674 5386 5387 5388,,,,347-555-5014
+service_phone-00221,legitimate,distinct listings; differ in ServiceType,aa841c025f8c4bba,2,3950 5252,2384 2385,,,,347-555-5085
+service_phone-00222,legitimate,distinct listings; differ in ServiceType,64773343c9453a2d,4,717 3943 4068 5451,4680 5392 5393 5394,,,,347-555-5116
+service_phone-00223,legitimate,distinct listings; differ in ServiceType,2881cf26b4209fcd,4,1042 1181 2216 4217,1138 4849 4850 4851,,,,347-555-5144
+service_phone-00224,legitimate,distinct listings; differ in AddressKey,ff43e821ad660b91,2,2384 5094,3899 5685,,,,347-555-5147
+service_phone-00225,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,96c00e1f295e10cc,2,3270 3803,4198 5605,,,,347-555-5328
+service_phone-00226,legitimate,distinct listings; differ in ServiceType,cad88b9d0e8e83c4,2,2472 3110,4032 4033,,,,347-555-5363
+service_phone-00227,legitimate,distinct listings; differ in ServiceType,ba11647e1377eaee,4,338 1804 3282 3331,3863 5272 5273 5274,,,,347-555-5486
+service_phone-00228,legitimate,distinct listings; differ in ServiceType,ae4c144dd27f8745,2,3313 5070,3893 3894,,,,347-555-5563
+service_phone-00229,legitimate,distinct listings; differ in ServiceType,57acf4f81e129b57,2,2371 4510,2243 2244,,,,347-555-5592
+service_phone-00230,legitimate,distinct listings; differ in ServiceType,348f65618482d954,2,753 2581,4377 4378,,,,347-555-5725
+service_phone-00231,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,957b4732c82056f5,2,1534 4511,2371 5614,,,,347-555-5736
+service_phone-00232,legitimate,distinct listings; differ in ServiceType,47557488862df641,4,755 2837 2869 4158,733 4819 4820 4821,,,,347-555-5755
+service_phone-00233,legitimate,distinct listings; differ in ServiceType,5063bc4d3a4f4868,3,114 1269 5194,2952 2953 2954,,,,347-555-5769
+service_phone-00234,legitimate,distinct listings; differ in ServiceType,060c6c6bf9b48674,2,414 4006,144 145,,,,347-555-5772
+service_phone-00235,legitimate,distinct listings; differ in ServiceType,ce1154922a44b3b6,3,2065 2143 3312,1935 1936 1937,,,,347-555-5786
+service_phone-00236,legitimate,distinct listings; differ in ServiceType,39e39d44b8308e2b,3,3590 4033 4482,4506 4507 4508,,,,347-555-5840
+service_phone-00237,legitimate,distinct listings; differ in ServiceType,12d9a20be6ec9b0b,2,931 2793,1930 1931,,,,347-555-5884
+service_phone-00238,legitimate,distinct listings; differ in ServiceType,6e000e47ad86027a,2,2278 3329,1967 1968,,,,347-555-6119
+service_phone-00239,legitimate,distinct listings; differ in ServiceType,8ad5620931eef724,2,1908 2476,1739 1740,,,,347-555-6185
+service_phone-00240,legitimate,distinct listings; differ in ServiceType,b78bfe7e9b25aa48,4,888 3087 3322 4740,3953 5302 5303 5304,,,,347-555-6189
+service_phone-00241,legitimate,distinct listings; differ in ServiceType,6ae8a05c03b0efbb,4,1735 4054 4112 4352,96 4723 4724 4725,,,,347-555-6261
+service_phone-00242,likely_redundant,same VendorKey/AddressKey; only text differs: Address1,462cb3c52fdab401,2,1628 5126,2877 5646,,,,347-555-6325
+service_phone-00243,legitimate,distinct listings; differ in ServiceType,5eba96018b379f0a,2,4554 4998,3351 3352,,,,347-555-6360
+service_phone-00244,legitimate,distinct listings; differ in ServiceType,9db453383471848b,4,1069 2203 3723 5296,3535 5215 5216 5217,,,,347-555-6401
+service_phone-00245,legitimate,distinct listings; differ in ServiceType,20e246a757f28558,2,277 3931,3725 3726,,,,347-555-6416
+service_phone-00246,legitimate,distinct listings; differ in ServiceType,a571f577b9abad4e,2,1910 2393,325 326,,,,347-555-6432
+service_phone-00247,legitimate,distinct listings; differ in ServiceType,bd85a0f21b477a1f,4,17 217 3997 4059,3347 5149 5150 5151,,,,347-555-6480
+service_phone-00248,legitimate,distinct listings; differ in ServiceType,38c640ff5359987c,2,555 1714,3384 3385,,,,347-555-6516
+service_phone-00249,legitimate,distinct listings; differ in ServiceType,186593ef0677863e,2,857 4715,116 117,,,,347-555-6532
+service_phone-00250,legitimate,distinct listings; differ in ServiceType,a6717d6659ae5093,4,209 1601 3334 4891,730 4810 4811 4812,,,,347-555-6573
+service_phone-00251,legitimate,distinct listings; differ in ServiceType,8b0b663db31cb319,3,1212 1810 3132,1700 1701 1702,,,,347-555-6705
+service_phone-00252,legitimate,distinct listings; differ in ServiceType,974aeaa2f932aaf1,2,72 1519,1379 1380,,,,347-555-6801
+service_phone-00253,legitimate,distinct listings; differ in ServiceType,e0015a527d561e3f,2,2953 4391,1161 1162,,,,347-555-6973
+service_phone-00254,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,31db933bff5d4e86,2,4085 4329,2896 5631,,,,347-555-7024
+service_phone-00255,legitimate,distinct listings; differ in ServiceType,092b9168f841bba5,2,2011 4746,64 65,,,,347-555-7028
+service_phone-00256,legitimate,distinct listings; differ in ServiceType,8a7a725713457109,2,971 3446,3201 3202,,,,347-555-7044
+service_phone-00257,legitimate,distinct listings; differ in ServiceType,89fec296e50ea1e8,4,823 949 4953 5339,1149 4858 4859 4860,,,,347-555-7064
+service_phone-00258,legitimate,distinct listings; differ in ServiceType,eb3cd3081b823058,4,2094 3040 3082 3507,234 4744 4745 4746,,,,347-555-7111
+service_phone-00259,legitimate,distinct listings; differ in ServiceType,ba91d3c11aea0be4,2,3031 3774,3982 3983,,,,347-555-7175
+service_phone-00260,legitimate,distinct listings; differ in ServiceType,4b4168ea82618cfa,2,258 1577,816 817,,,,347-555-7202
+service_phone-00261,legitimate,distinct listings; differ in ServiceType,bbdde39b334803bc,4,754 1450 1729 3293,4347 5359 5360 5361,,,,347-555-7250
+service_phone-00262,legitimate,distinct listings; differ in ServiceType,d11e5bd1495c6764,3,90 1380 4240,3280 3281 3282,,,,347-555-7280
+service_phone-00263,legitimate,distinct listings; differ in ServiceType,60224744663229fe,2,1607 5450,1171 1172,,,,347-555-7343
+service_phone-00264,review,"differs in EffectiveStart, ServiceLocationKey; 2 other rows in this official group are distinct listings",67b311bd7473bb2d,2,3289 3367,4209 5536,,,,347-555-7361
+service_phone-00265,legitimate,distinct listings; differ in ServiceType,648cd9ad14876d45,2,2093 5064,747 748,,,,347-555-7512
+service_phone-00266,legitimate,distinct listings; differ in ServiceType,df1db2ecbad41bd1,4,123 1200 2381 3417,2358 4996 4997 4998,,,,347-555-7554
+service_phone-00267,legitimate,distinct listings; differ in ServiceType,1246e2b624fa735b,3,287 679 2304,1418 1419 1420,,,,347-555-7573
+service_phone-00268,legitimate,distinct listings; differ in ServiceType,61d4695500dbb15f,2,3459 5416,373 374,,,,347-555-7625
+service_phone-00269,legitimate,distinct listings; differ in ServiceType,4b4597b96ec83c84,4,650 3015 4576 5044,2494 5011 5012 5013,,,,347-555-7641
+service_phone-00270,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName; 2 other rows in this official group are distinct listings,b3cfadf65e083dd3,2,2350 3461,1222 5615,,,,347-555-7646
+service_phone-00271,legitimate,distinct listings; differ in ServiceType,fe2dcf9d02f879b7,2,763 3821,3121 3122,,,,347-555-7687
+service_phone-00272,legitimate,distinct listings; differ in ServiceType,3c1fb51dde2a3ff3,2,508 5136,1522 1523,,,,347-555-7714
+service_phone-00273,legitimate,distinct listings; differ in AddressKey,2eff16c669297a67,2,1135 3834,1683 5673,,,,347-555-7717
+service_phone-00274,legitimate,distinct listings; differ in ServiceType,75d6dd5479b5172b,2,482 3241,4714 4715,,,,347-555-7758
+service_phone-00275,legitimate,distinct listings; differ in ServiceType,a42af58ce7007e7d,2,1409 2946,1421 1422,,,,347-555-7785
+service_phone-00276,legitimate,distinct listings; differ in ServiceType,5144edf1e0a447e2,4,1047 1605 2947 3775,2201 4981 4982 4983,,,,347-555-7809
+service_phone-00277,legitimate,distinct listings; differ in Network,2c3b29e6d4939334,2,1020 3244,3371 5563,,,,347-555-7843
+service_phone-00278,legitimate,distinct listings; differ in ServiceType,3bb985ecd114fbce,2,1076 3542,2498 2499,,,,347-555-7849
+service_phone-00279,legitimate,distinct listings; differ in ServiceType,ab2832df3239b825,2,308 4487,564 565,,,,347-555-7857
+service_phone-00280,legitimate,distinct listings; differ in ServiceType,efe13b93898c270c,3,1137 5317 5591,1027 1028 1029,,,,347-555-7900
+service_phone-00281,legitimate,distinct listings; differ in ServiceType,91c7307a59424ee9,3,1526 1699 2221,4303 4304 4305,,,,347-555-8072
+service_phone-00282,legitimate,distinct listings; differ in ServiceType,b45614d0d9cd8429,2,2343 3801,3468 3469,,,,347-555-8136
+service_phone-00283,legitimate,distinct listings; differ in ServiceType,6d1789d34c0a55e8,4,1567 3261 3785 3980,4253 5350 5351 5352,,,,347-555-8140
+service_phone-00284,legitimate,distinct listings; differ in ServiceType,b106af8af97c3593,2,2218 2834,1737 1738,,,,347-555-8175
+service_phone-00285,legitimate,distinct listings; differ in ServiceType,11e9914b4621286f,4,39 3235 4450 5401,437 4768 4769 4770,,,,347-555-8177
+service_phone-00286,legitimate,distinct listings; differ in ServiceType,6839dd1a3b09495d,3,534 941 1096,3033 3034 3035,,,,347-555-8183
+service_phone-00287,legitimate,distinct listings; differ in ServiceType,7ff39d7adb1c6fe5,3,2769 3833 4489,2261 2262 2263,,,,347-555-8210
+service_phone-00288,review,"differs in EffectiveStart, ServiceLocationKey",4bb3579a014f612c,2,2683 5366,3134 5541,,,,347-555-8220
+service_phone-00289,legitimate,distinct listings; differ in ServiceType,c4e0bd3c19db68a6,4,1271 4498 5314 5539,1863 4927 4928 4929,,,,347-555-8247
+service_phone-00290,legitimate,distinct listings; differ in ServiceType,c0ca259e1c4b5f4e,2,1460 3228,1511 1512,,,,347-555-8255
+service_phone-00291,legitimate,distinct listings; differ in ServiceType,ecbcba5af8598f18,2,3605 3760,627 628,,,,347-555-8332
+service_phone-00292,legitimate,distinct listings; differ in ServiceType,2d310ce74f7cd45b,2,502 4022,2570 2571,,,,347-555-8360
+service_phone-00293,legitimate,distinct listings; differ in ServiceType,1dba8b4c9c5e7f1c,3,85 4169 4797,2695 2696 2697,,,,347-555-8362
+service_phone-00294,legitimate,distinct listings; differ in ServiceType,513db7a802fe182e,2,830 2209,3334 3335,,,,347-555-8438
+service_phone-00295,legitimate,distinct listings; differ in ServiceType,88be8009fb68eac3,3,2406 2835 4040,4334 4335 4336,,,,347-555-8501
+service_phone-00296,legitimate,distinct listings; differ in ServiceType,93d56df515f3eda1,2,822 872,3497 3498,,,,347-555-8514
+service_phone-00297,legitimate,distinct listings; differ in ServiceType,5ea35492c38e5afb,2,151 2620,1336 1337,,,,347-555-8546
+service_phone-00298,legitimate,distinct listings; differ in ServiceType,9d1da94510267e74,2,3301 3609,2382 2383,,,,347-555-8587
+service_phone-00299,legitimate,distinct listings; differ in ServiceType,2e28d431498476c7,4,2462 4602 4811 5406,451 4771 4772 4773,,,,347-555-8604
+service_phone-00300,legitimate,distinct listings; differ in ServiceType,11940ae0a8ef3001,4,2124 2690 4577 5249,2932 5068 5069 5070,,,,347-555-8611
+service_phone-00301,legitimate,distinct listings; differ in ServiceType,3b03579a1a759d2b,2,516 3445,1293 1294,,,,347-555-8628
+service_phone-00302,legitimate,distinct listings; differ in ServiceType,415692e9ffabda38,4,1778 1858 3804 3923,2934 5074 5075 5076,,,,347-555-8658
+service_phone-00303,legitimate,distinct listings; differ in ServiceType,31aad7820bf55f6e,4,1024 2886 3196 4878,648 4804 4805 4806,,,,347-555-8660
+service_phone-00304,legitimate,distinct listings; differ in ServiceType,92a1b6e15b11efbb,2,1364 2841,284 285,,,,347-555-8668
+service_phone-00305,legitimate,distinct listings; differ in ServiceType,d8fc7fa462380dc2,2,3692 5344,1281 1282,,,,347-555-8701
+service_phone-00306,legitimate,distinct listings; differ in ServiceType,fe6edffea9375aaa,2,1475 4641,309 310,,,,347-555-8820
+service_phone-00307,legitimate,distinct listings; differ in AddressKey,01e0eea51d370f4b,2,4588 5026,2004 5681,,,,347-555-8821
+service_phone-00308,legitimate,distinct listings; differ in ServiceType,afd53f2a053af0ba,2,1014 1355,4051 4052,,,,347-555-8910
+service_phone-00309,legitimate,distinct listings; differ in ServiceType,a427d8ef4d1d7d21,4,425 3096 4017 4479,3457 5176 5177 5178,,,,347-555-8950
+service_phone-00310,legitimate,distinct listings; differ in ServiceType,6a847d1b9445cb6a,2,118 890,12 13,,,,347-555-9033
+service_phone-00311,legitimate,distinct listings; differ in ServiceType,a81a17af713c22e8,4,1018 3933 4303 4703,1896 4942 4943 4944,,,,347-555-9041
+service_phone-00312,legitimate,distinct listings; differ in ServiceType,d74019256072545d,4,1154 2212 2223 3707,3151 5128 5129 5130,,,,347-555-9084
+service_phone-00313,legitimate,distinct listings; differ in ServiceType,66d5e91f867daecb,4,390 1953 4506 4637,3518 5191 5192 5193,,,,347-555-9212
+service_phone-00314,legitimate,distinct listings; differ in ServiceType,14746948dfb31d09,2,5326 5389,844 845,,,,347-555-9348
+service_phone-00315,legitimate,distinct listings; differ in ServiceType,c59e19da5960b36b,3,1005 2495 4625,1677 1678 1679,,,,347-555-9473
+service_phone-00316,legitimate,distinct listings; differ in ServiceType,a9a07c34f4944e6e,4,2103 2310 2599 3451,2942 5083 5084 5085,,,,347-555-9532
+service_phone-00317,legitimate,distinct listings; differ in ServiceType,b7b43c7b1b63dbb9,2,2427 4467,4291 4292,,,,347-555-9584
+service_phone-00318,legitimate,distinct listings; differ in ServiceType,ed11af5036a6adaa,2,672 2355,157 158,,,,347-555-9626
+service_phone-00319,legitimate,distinct listings; differ in ServiceType,1923aed223cf5271,2,98 657,2987 2988,,,,347-555-9635
+service_phone-00320,legitimate,distinct listings; differ in ServiceType,688fd51980c0f096,3,3925 4601 4731,1179 1180 1181,,,,347-555-9697
+service_phone-00321,legitimate,distinct listings; differ in ServiceType,3d6e9ef224045698,3,2694 3068 5049,3217 3218 3219,,,,347-555-9861
+service_phone-00322,legitimate,distinct listings; differ in ServiceType,0180dec60f56c339,3,663 2416 2531,306 307 308,,,,347-555-9896
+service_phone-00323,legitimate,distinct listings; differ in ServiceType,c1d9d390073a92fa,3,3378 5074 5251,1164 1165 1166,,,,347-555-9900
+service_phone-00324,legitimate,distinct listings; differ in ServiceType,86c8e3df3f0a6ef7,2,444 2631,994 995,,,,347-555-9932
+service_phone-00325,legitimate,distinct listings; differ in ServiceType,4119818f03cb0ae5,4,1322 1754 5521 5523,1912 4954 4955 4956,,,,347-555-9937
+service_phone-00326,legitimate,distinct listings; differ in ServiceType,793182f5c5f757f2,4,1067 4452 5060 5511,3478 5182 5183 5184,,,,347-555-9965
+service_phone-00327,legitimate,distinct listings; differ in ServiceType,7685c70a66571119,4,2149 3485 4053 4075,3794 5251 5252 5253,,,,646-555-0319
+service_phone-00328,likely_redundant,same VendorKey/AddressKey; only text differs: Address1,2f8935dd7b06fc32,2,4133 4522,506 5632,,,,646-555-0573
+service_phone-00329,legitimate,distinct listings; differ in ServiceType,4810030617fe8a7c,3,2608 3357 3421,4526 4527 4528,,,,646-555-0799
+service_phone-00330,legitimate,distinct listings; differ in ServiceType,3b841ba2967a642c,4,1716 2153 2902 5032,2838 5047 5048 5049,,,,646-555-0896
+service_phone-00331,legitimate,distinct listings; differ in ServiceType,e31f55abd7952ad1,2,651 4207,1448 1449,,,,646-555-1007
+service_phone-00332,legitimate,distinct listings; differ in Network,a9ad5f6bbdf947d8,2,157 1648,2939 5572,,,,646-555-1024
+service_phone-00333,legitimate,distinct listings; differ in ServiceType,38ca9f925bf0adb0,2,251 2897,4524 4525,,,,646-555-1174
+service_phone-00334,legitimate,distinct listings; differ in ServiceType,e9736b47325e03b3,2,1755 4757,2603 2604,,,,646-555-1354
+service_phone-00335,legitimate,distinct listings; differ in ServiceType,33a7cd158b032fa7,2,255 2277,1958 1959,,,,646-555-1356
+service_phone-00336,legitimate,distinct listings; differ in ServiceType,1b3596f8696c1f0c,2,5485 5571,2573 2574,,,,646-555-1382
+service_phone-00337,legitimate,distinct listings; differ in ServiceType,c6f87a7c3a270595,2,1497 2553,4710 4711,,,,646-555-1452
+service_phone-00338,legitimate,distinct listings; differ in ServiceType,946332df6f3bc31b,3,2064 3768 3955,1991 1992 1993,,,,646-555-1480
+service_phone-00339,legitimate,distinct listings; differ in ServiceType,456a4755715a57be,2,3173 5210,1095 1096,,,,646-555-1702
+service_phone-00340,legitimate,distinct listings; differ in ServiceType,4220781ce5d689a0,4,1977 2077 2571 4348,3454 5173 5174 5175,,,,646-555-1764
+service_phone-00341,legitimate,distinct listings; differ in ServiceType,fb4b2e4c13adac3a,2,330 2485,3379 3380,,,,646-555-2105
+service_phone-00342,legitimate,distinct listings; differ in ServiceType,3e5dda81243cea22,2,1295 2013,2294 2295,,,,646-555-2280
+service_phone-00343,legitimate,distinct listings; differ in ServiceType,c271f7dee8c7c606,4,433 2851 2910 5119,2199 4975 4976 4977,,,,646-555-2435
+service_phone-00344,legitimate,distinct listings; differ in ServiceType,67cb697e2580422f,2,3759 5517,4139 4140,,,,646-555-2453
+service_phone-00345,legitimate,distinct listings; differ in ServiceType,9e7bc4e3b2eb1ff0,2,285 5281,1792 1793,,,,646-555-2491
+service_phone-00346,likely_redundant,"same VendorKey/AddressKey; only text differs: DisplayName, Address1",c93383a5b545e6fe,2,3690 4247,1721 5652,,,,646-555-2517
+service_phone-00347,legitimate,distinct listings; differ in ServiceType,19cc228b3d54fa76,3,16 2469 5039,2650 2651 2652,,,,646-555-2581
+service_phone-00348,legitimate,distinct listings; differ in ServiceType,da488004e22e4876,2,3317 5231,1638 1639,,,,646-555-2873
+service_phone-00349,legitimate,distinct listings; differ in ServiceType,a434367e8e64fda6,4,1470 1586 2666 4056,3950 5293 5294 5295,,,,646-555-2931
+service_phone-00350,legitimate,distinct listings; differ in Network,8b5919f5280a5ea1,2,984 5162,4532 5584,,,,646-555-2942
+service_phone-00351,legitimate,distinct listings; differ in ServiceType,ab9a94274d100095,2,1369 4842,1727 1728,,,,646-555-2947
+service_phone-00352,review,"differs in EffectiveStart, ServiceLocationKey",6f7c342329eaaad3,2,310 472,2822 5540,,,,646-555-2973
+service_phone-00353,legitimate,distinct listings; differ in ServiceType,20cfab391e38e68f,3,1677 3733 4462,2032 2033 2034,,,,646-555-3099
+service_phone-00354,legitimate,distinct listings; differ in AddressKey,5408b98eb2f5ab68,2,2017 3964,1344 5657,,,,646-555-3178
+service_phone-00355,review,"differs in EffectiveStart, ServiceLocationKey",6c2bb52707e38b49,2,2718 4828,252 5542,,,,646-555-3218
+service_phone-00356,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,6973f3f5282cba9d,2,2929 5545,1303 5622,,,,646-555-3226
+service_phone-00357,legitimate,distinct listings; differ in ServiceType,1f2ed984b1f53983,4,2 493 1451 3909,4119 5326 5327 5328,,,,646-555-3338
+service_phone-00358,legitimate,distinct listings; differ in ServiceType,40945316d646d612,4,832 834 3562 4233,318 4759 4760 4761,,,,646-555-3354
+service_phone-00359,legitimate,distinct listings; differ in ServiceType,cf358391b5a2eb82,2,1592 3815,3147 3148,,,,646-555-3444
+service_phone-00360,legitimate,distinct listings; differ in ServiceType,987f50b3ebcfb542,4,1051 2488 3262 3437,3534 5212 5213 5214,,,,646-555-3612
+service_phone-00361,legitimate,distinct listings; differ in ServiceType,9e87b09dc2991b94,2,1430 2586,170 171,,,,646-555-3625
+service_phone-00362,legitimate,distinct listings; differ in ServiceType,e4e47291f098f65b,3,4392 4753 5586,2389 2390 2391,,,,646-555-3711
+service_phone-00363,legitimate,distinct listings; differ in ServiceType,2837e2c896577b68,2,675 3209,819 820,,,,646-555-3759
+service_phone-00364,review,"differs in EffectiveStart, ServiceLocationKey; 2 other rows in this official group are distinct listings",94bd75cb223df6b0,2,1353 3026,3873 5554,,,,646-555-3777
+service_phone-00365,legitimate,distinct listings; differ in ServiceType,9b26be602c8c7553,2,3509 4684,821 822,,,,646-555-3806
+service_phone-00366,legitimate,distinct listings; differ in ServiceType,78f29ce602bc2e66,2,894 1251,4587 4588,,,,646-555-4387
+service_phone-00367,legitimate,distinct listings; differ in ServiceType,b577978e8444bb9a,3,2215 2502 4611,4452 4453 4454,,,,646-555-4772
+service_phone-00368,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,7d4aa3937479ffa1,2,3167 5362,932 5651,,,,646-555-4800
+service_phone-00369,legitimate,distinct listings; differ in ServiceType,2d1672a87677792a,4,1822 1830 3481 3968,4464 5371 5372 5373,,,,646-555-4925
+service_phone-00370,legitimate,distinct listings; differ in ServiceType,091a4092f28dcf81,3,1789 2685 4958,1596 1597 1598,,,,646-555-5175
+service_phone-00371,legitimate,distinct listings; differ in ServiceType,2ecffb0d44e436d4,2,880 4516,3164 3165,,,,646-555-5409
+service_phone-00372,legitimate,distinct listings; differ in ServiceType,afd4e1803ad2ec43,2,150 2308,957 958,,,,646-555-5509
+service_phone-00373,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName; 1 other rows in this official group are distinct listings,756c820990586c9a,2,2522 4003,3373 5621,,,,646-555-6156
+service_phone-00374,legitimate,distinct listings; differ in ServiceType,830e6bec5b08a0a9,2,2704 3875,2299 2300,,,,646-555-6191
+service_phone-00375,legitimate,"distinct listings; differ in ServiceType, AddressKey",ed9ff02ab3120c56,4,100 1487 1931 2294,3786 3787 3788 5667,,,,646-555-6253
+service_phone-00376,legitimate,distinct listings; differ in ServiceType,5fd244f5db30b9b0,4,366 697 1531 2684,3150 5125 5126 5127,,,,646-555-6598
+service_phone-00377,legitimate,distinct listings; differ in ServiceType,253fcfdcd1c3e626,3,180 4080 5183,1539 1540 1541,,,,646-555-6817
+service_phone-00378,legitimate,distinct listings; differ in ServiceType,b1070012ec7e32ea,3,3730 4949 5527,4456 4457 4458,,,,646-555-6850
+service_phone-00379,legitimate,distinct listings; differ in ServiceType,96c239cf55be7dcc,4,1606 1852 2680 4720,1283 4867 4868 4869,,,,646-555-6882
+service_phone-00380,legitimate,distinct listings; differ in ServiceType,b24244aaedcf5ac7,2,1851 2365,2407 2408,,,,646-555-6989
+service_phone-00381,legitimate,distinct listings; differ in ServiceType,52775ca616ae4e9f,3,28 1160 5425,1260 1261 1262,,,,646-555-7068
+service_phone-00382,legitimate,distinct listings; differ in ServiceType,f4f8bc1bcc41d014,4,714 1314 2334 3127,3052 5098 5099 5100,,,,646-555-7095
+service_phone-00383,legitimate,distinct listings; differ in ServiceType,4d03bb3fcd87c05c,2,1090 2138,3319 3320,,,,646-555-7267
+service_phone-00384,legitimate,distinct listings; differ in ServiceType,33bbea6ff376b111,2,3600 4675,1251 1252,,,,646-555-7272
+service_phone-00385,legitimate,distinct listings; differ in ServiceType,df37b5a010079b92,4,1250 1282 2127 5535,1572 4891 4892 4893,,,,646-555-7447
+service_phone-00386,legitimate,distinct listings; differ in ServiceType,46effde7f22e2f33,3,1920 2471 4579,174 175 176,,,,646-555-7495
+service_phone-00387,legitimate,distinct listings; differ in ServiceType,5405453b0823dcb5,2,3215 3583,2007 2008,,,,646-555-7518
+service_phone-00388,legitimate,distinct listings; differ in ServiceType,beba67ecdd979754,4,213 735 945 3702,1653 4903 4904 4905,,,,646-555-7727
+service_phone-00389,legitimate,distinct listings; differ in AddressKey,9c7d7d43ba223e32,2,147 3635,941 5659,,,,646-555-7887
+service_phone-00390,legitimate,distinct listings; differ in ServiceType,ee2b6302ba3b18ef,2,416 5034,3411 3412,,,,646-555-8052
+service_phone-00391,legitimate,distinct listings; differ in ServiceType,1b9cdbb048c70ca9,2,812 5352,888 889,,,,646-555-8107
+service_phone-00392,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,f39c524a8878ae1a,2,2693 3515,3989 5630,,,,646-555-8272
+service_phone-00393,legitimate,distinct listings; differ in ServiceType,a5196e5a74878ece,3,1780 2000 2840,255 256 257,,,,646-555-8330
+service_phone-00394,legitimate,distinct listings; differ in ServiceType,a9601a0dbe261108,3,1459 1831 4300,2465 2466 2467,,,,646-555-8424
+service_phone-00395,legitimate,distinct listings; differ in ServiceType,bc6bd09b27a82992,2,5208 5245,1190 1191,,,,646-555-8435
+service_phone-00396,legitimate,distinct listings; differ in ServiceType,f55c6dd2d4772d0d,2,709 1446,4331 4332,,,,646-555-8522
+service_phone-00397,legitimate,distinct listings; differ in ServiceType,e31ce035aca110c7,4,1360 1585 3081 3827,3528 5203 5204 5205,,,,646-555-8625
+service_phone-00398,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,62348af4be8aae8a,2,3526 4538,3417 5633,,,,646-555-8681
+service_phone-00399,legitimate,distinct listings; differ in ServiceType,de8cf04f3b84508f,2,2628 4023,2013 2014,,,,646-555-8707
+service_phone-00400,legitimate,distinct listings; differ in ServiceType,4131a9b0ae0b259e,2,3822 5211,3803 3804,,,,646-555-8791
+service_phone-00401,legitimate,distinct listings; differ in ServiceType,1ddcea7139a4ff46,4,2432 3100 4796 5421,919 4828 4829 4830,,,,646-555-8832
+service_phone-00402,legitimate,distinct listings; differ in Network,30b7ee52572bf6af,2,1958 4095,2186 5587,,,,646-555-8839
+service_phone-00403,legitimate,distinct listings; differ in ServiceType,c6e354a0a8b97115,2,1536 2954,4390 4391,,,,646-555-8910
+service_phone-00404,legitimate,distinct listings; differ in ServiceType,15dadd7f1a19888e,4,92 2291 2983 4030,3952 5299 5300 5301,,,,646-555-9200
+service_phone-00405,legitimate,distinct listings; differ in ServiceType,336c38fe3279d06c,4,1542 2753 2961 3362,2200 4978 4979 4980,,,,646-555-9276
+service_phone-00406,review,"differs in EffectiveStart, ServiceLocationKey",b2cad4dd1ded367f,2,2184 2750,3261 5560,,,,646-555-9300
+service_phone-00407,legitimate,distinct listings; differ in ServiceType,061aa7c2220e4b26,2,767 3230,2842 2843,,,,646-555-9357
+service_phone-00408,legitimate,distinct listings; differ in ServiceType,a42b3bc406f8f19a,4,36 2229 3236 3284,3604 5224 5225 5226,,,,646-555-9405
+service_phone-00409,legitimate,distinct listings; differ in ServiceType,c13cae9066c79a2c,2,1976 3104,3235 3236,,,,646-555-9430
+service_phone-00410,legitimate,distinct listings; differ in ServiceType,9a611f5ae793bd78,2,613 1143,2082 2083,,,,646-555-9439
+service_phone-00411,legitimate,distinct listings; differ in ServiceType,3f43ae5aef1df89a,4,1162 1530 2068 3066,1253 4864 4865 4866,,,,646-555-9492
+service_phone-00412,legitimate,distinct listings; differ in ServiceType,3103f8181559629e,2,1203 3360,541 542,,,,646-555-9533
+service_phone-00413,legitimate,"distinct listings; differ in ServiceType, AddressKey",413629342b7bb0cc,4,1501 1591 4381 4549,789 790 791 5664,,,,646-555-9555
+service_phone-00414,legitimate,distinct listings; differ in ServiceType,2effd777ba9a7136,2,1676 3558,1043 1044,,,,646-555-9624
+service_phone-00415,legitimate,distinct listings; differ in ServiceType,b12695762992daf6,3,1368 1640 2210,2536 2537 2538,,,,646-555-9833
+service_phone-00416,legitimate,distinct listings; differ in AddressKey,bd6b2405127a1dca,2,115 1031,2231 5665,,,,646-555-9847
+service_phone-00417,legitimate,distinct listings; differ in ServiceType,5a318b991c813ed1,2,3708 5202,4393 4394,,,,646-555-9916
+service_phone-00418,legitimate,distinct listings; differ in ServiceType,8dff77b0cc50689c,4,810 1236 1396 1649,1655 4909 4910 4911,,,,646-555-9922
+service_phone-00419,legitimate,distinct listings; differ in ServiceType,b187a712a9cc1518,3,1511 3601 5007,4404 4405 4406,,,,646-555-9936
+service_phone-00420,legitimate,distinct listings; differ in ServiceType,a5a7bda2605ed706,3,2729 3471 5248,3161 3162 3163,,,,718-555-0021
+service_phone-00421,legitimate,distinct listings; differ in ServiceType,b94ce2a76911f917,4,3067 4160 4954 5041,2677 5023 5024 5025,,,,718-555-0029
+service_phone-00422,legitimate,distinct listings; differ in ServiceType,f9c4eee7e32670b6,3,644 3649 4547,2329 2330 2331,,,,718-555-0042
+service_phone-00423,legitimate,distinct listings; differ in ServiceType,c7ba09b05456150c,3,642 987 1704,1403 1404 1405,,,,718-555-0121
+service_phone-00424,legitimate,distinct listings; differ in ServiceType,76ded8d3b21a188a,2,1669 3229,303 304,,,,718-555-0161
+service_phone-00425,legitimate,distinct listings; differ in ServiceType,fc1bd3a3800d0fde,3,2323 3531 5541,296 297 298,,,,718-555-0202
+service_phone-00426,likely_redundant,"same VendorKey/AddressKey; only text differs: DisplayName, Address1; 2 other rows in this official group are distinct listings",6df5cabc270e04d9,2,2282 4667,929 5650,,,,718-555-0308
+service_phone-00427,legitimate,distinct listings; differ in ServiceType,5240f60d18966d49,2,2643 5391,964 965,,,,718-555-0332
+service_phone-00428,legitimate,distinct listings; differ in ServiceType,2b588fb38e09c718,4,977 1506 3898 4236,1910 4948 4949 4950,,,,718-555-0532
+service_phone-00429,legitimate,distinct listings; differ in AddressKey,2611f5a6f49fa7e4,2,5385 5506,3762 5671,,,,718-555-0537
+service_phone-00430,legitimate,distinct listings; differ in ServiceType,02a1cec7852bc9a0,2,3164 4623,4409 4410,,,,718-555-0615
+service_phone-00431,legitimate,distinct listings; differ in ServiceType,8620cfb783c7bec9,2,4087 4959,1301 1302,,,,718-555-0704
+service_phone-00432,legitimate,distinct listings; differ in ServiceType,5f4dd78dc77eea3d,2,1228 2772,4645 4646,,,,718-555-0715
+service_phone-00433,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName; 2 other rows in this official group are distinct listings,bf3d34f4ce4746ec,2,2736 3817,1998 5608,,,,718-555-0743
+service_phone-00434,legitimate,distinct listings; differ in ServiceType,c2bf225e4e0f7745,2,2361 3738,2101 2102,,,,718-555-0747
+service_phone-00435,legitimate,distinct listings; differ in ServiceType,f57d975413bd17df,2,701 2778,2997 2998,,,,718-555-0770
+service_phone-00436,legitimate,distinct listings; differ in ServiceType,5ce7855448c01b64,2,3486 5077,1387 1388,,,,718-555-0853
+service_phone-00437,legitimate,distinct listings; differ in ServiceType,af07f4f69a0e4d3f,2,93 3647,1814 1815,,,,718-555-0947
+service_phone-00438,legitimate,distinct listings; differ in ServiceType,4e0148a1c94669f2,2,1774 2305,2349 2350,,,,718-555-1010
+service_phone-00439,legitimate,distinct listings; differ in ServiceType,db9f3c466a0e8a97,2,3787 4671,2453 2454,,,,718-555-1019
+service_phone-00440,legitimate,distinct listings; differ in ServiceType,1e97cbacb37e220d,3,632 1850 5609,36 37 38,,,,718-555-1063
+service_phone-00441,legitimate,distinct listings; differ in ServiceType,6827491306f53963,3,1030 3615 5117,3767 3768 3769,,,,718-555-1110
+service_phone-00442,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,b7a59ae708aa3e60,2,68 2944,4027 5620,,,,718-555-1118
+service_phone-00443,legitimate,distinct listings; differ in ServiceType,a7ecfb8171b88048,4,1376 1905 2575 2726,3520 5197 5198 5199,,,,718-555-1161
+service_phone-00444,legitimate,distinct listings; differ in ServiceType,d4f00997184acdc1,2,95 2818,3937 3938,,,,718-555-1188
+service_phone-00445,legitimate,distinct listings; differ in ServiceType,320c508b8b31d122,2,772 2756,1707 1708,,,,718-555-1266
+service_phone-00446,legitimate,distinct listings; differ in ServiceType,6ace7ad8143bc74c,4,195 3974 4893 5360,729 4807 4808 4809,,,,718-555-1284
+service_phone-00447,legitimate,distinct listings; differ in ServiceType,5e693f9d8f7d4d57,2,1996 4154,2310 2311,,,,718-555-1316
+service_phone-00448,legitimate,distinct listings; differ in ServiceType,b04ee5263bd9e12a,2,1328 1481,970 971,,,,718-555-1319
+service_phone-00449,legitimate,distinct listings; differ in ServiceType,ebd46ed22807968b,4,639 4251 4542 4812,3137 5119 5120 5121,,,,718-555-1420
+service_phone-00450,legitimate,distinct listings; differ in ServiceType,de9a2eda0b6e9bf4,3,1727 3953 5257,1859 1860 1861,,,,718-555-1424
+service_phone-00451,legitimate,distinct listings; differ in AddressKey,15db5040166b400e,2,1176 1906,2851 5666,,,,718-555-1441
+service_phone-00452,legitimate,distinct listings; differ in ServiceType,721aee994488cb76,2,1500 5219,4580 4581,,,,718-555-1459
+service_phone-00453,legitimate,distinct listings; differ in ServiceType,7d4035979f861c5e,2,1075 3037,533 534,,,,718-555-1480
+service_phone-00454,legitimate,distinct listings; differ in ServiceType,13fe553b0ca65298,2,2035 5040,618 619,,,,718-555-1542
+service_phone-00455,legitimate,distinct listings; differ in ServiceType,6622606f7f314705,3,1423 1667 1871,3314 3315 3316,,,,718-555-1596
+service_phone-00456,legitimate,distinct listings; differ in ServiceType,e265ffdba39ba6ef,4,2125 3616 3893 5106,4085 5317 5318 5319,,,,718-555-1604
+service_phone-00457,legitimate,distinct listings; differ in ServiceType,8353f25d730ae38b,2,3106 4509,2440 2441,,,,718-555-1632
+service_phone-00458,legitimate,distinct listings; differ in ServiceType,46dbabb2b141b65b,2,2220 5082,3029 3030,,,,718-555-1634
+service_phone-00459,legitimate,distinct listings; differ in ServiceType,06becaa327512d54,4,1036 3529 4691 4763,1137 4846 4847 4848,,,,718-555-1638
+service_phone-00460,legitimate,"distinct listings; differ in ServiceType, AddressKey",8c55da6feeabcf9b,3,1507 1546 2859,2800 2801 5672,,,,718-555-1641
+service_phone-00461,legitimate,distinct listings; differ in ServiceType,0f9eada0d2828eb6,4,2548 3462 4823 5089,3968 5311 5312 5313,,,,718-555-1661
+service_phone-00462,legitimate,distinct listings; differ in ServiceType,8af6f3a11ad4c43c,2,352 4809,3573 3574,,,,718-555-1671
+service_phone-00463,legitimate,distinct listings; differ in ServiceType,17c39f928cd1b0fc,2,2932 3894,3450 3451,,,,718-555-1679
+service_phone-00464,legitimate,distinct listings; differ in ServiceType,7ad1cd9f94e7d3d5,2,4658 5086,3057 3058,,,,718-555-1685
+service_phone-00465,legitimate,distinct listings; differ in ServiceType,ffd9b1f1d923abed,2,903 2728,2553 2554,,,,718-555-1711
+service_phone-00466,legitimate,distinct listings; differ in ServiceType,0a62e4ea5398ec5b,2,1859 3288,3916 3917,,,,718-555-1757
+service_phone-00467,legitimate,distinct listings; differ in ServiceType,d9475f749d589bce,4,2503 2974 5130 5443,2154 4960 4961 4962,,,,718-555-1769
+service_phone-00468,legitimate,distinct listings; differ in ServiceType,437de56540ca3458,4,3634 3916 5205 5218,2495 5014 5015 5016,,,,718-555-1772
+service_phone-00469,legitimate,distinct listings; differ in ServiceType,be044c690a9e621c,2,3291 5083,1128 1129,,,,718-555-1779
+service_phone-00470,legitimate,distinct listings; differ in ServiceType,0c14bbff7ec71255,2,757 974,842 843,,,,718-555-1781
+service_phone-00471,legitimate,distinct listings; differ in ServiceType,d73ffcb3fd13b73f,2,2071 3358,2768 2769,,,,718-555-1870
+service_phone-00472,legitimate,distinct listings; differ in ServiceType,04d21ece29e614b4,3,722 2854 4736,735 736 737,,,,718-555-1948
+service_phone-00473,legitimate,distinct listings; differ in ServiceType,c2ba0e9c9210acd0,3,761 3050 4065,3693 3694 3695,,,,718-555-1979
+service_phone-00474,legitimate,distinct listings; differ in ServiceType,fadbd632b5c93625,3,3387 4288 4364,1944 1945 1946,,,,718-555-2057
+service_phone-00475,legitimate,distinct listings; differ in ServiceType,a5ac660e37f02b98,4,687 3051 3464 3489,2933 5071 5072 5073,,,,718-555-2090
+service_phone-00476,legitimate,distinct listings; differ in ServiceType,e8dcbac418e59845,3,1752 3748 4873,2885 2886 2887,,,,718-555-2107
+service_phone-00477,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName; 2 other rows in this official group are distinct listings,e51899d6c2409dce,2,929 1809,882 5619,,,,718-555-2140
+service_phone-00478,legitimate,distinct listings; differ in ServiceType,e080e45c3708d074,2,5283 5554,1078 1079,,,,718-555-2144
+service_phone-00479,legitimate,distinct listings; differ in ServiceType,1d9b7b8f1d0bbe7e,4,2142 3630 4502 4604,4348 5362 5363 5364,,,,718-555-2148
+service_phone-00480,legitimate,distinct listings; differ in ServiceType,43119ebb55e71046,3,2407 2901 3076,4317 4318 4319,,,,718-555-2273
+service_phone-00481,legitimate,distinct listings; differ in ServiceType,fc5767a8687934d4,2,4820 5616,4582 4583,,,,718-555-2283
+service_phone-00482,legitimate,distinct listings; differ in ServiceType,baa1f435301a3ea9,4,1706 2238 4121 5122,1895 4939 4940 4941,,,,718-555-2293
+service_phone-00483,legitimate,"distinct listings; differ in Network, ServiceType",0ed247def99e2600,4,811 1445 2297 4941,4215 4216 4217 5602,,,,718-555-2349
+service_phone-00484,legitimate,distinct listings; differ in ServiceType,f804fda951ecb77b,4,1318 1770 4825 5165,3471 5179 5180 5181,,,,718-555-2398
+service_phone-00485,legitimate,distinct listings; differ in ServiceType,940d4c86a0a77f52,4,637 1916 2003 4460,1516 4885 4886 4887,,,,718-555-2423
+service_phone-00486,legitimate,distinct listings; differ in ServiceType,23cfb2e6c9e6d6e6,2,1711 4654,1017 1018,,,,718-555-2531
+service_phone-00487,legitimate,distinct listings; differ in ServiceType,6f13992f32547863,2,729 783,1844 1845,,,,718-555-2549
+service_phone-00488,legitimate,distinct listings; differ in ServiceType,7bc4808e0ddcebb1,2,2579 3206,3957 3958,,,,718-555-2626
+service_phone-00489,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,f2bacc95af04c17d,2,230 2682,3325 5609,,,,718-555-2637
+service_phone-00490,legitimate,distinct listings; differ in ServiceType,394767934274d5bf,2,975 2807,641 642,,,,718-555-2700
+service_phone-00491,legitimate,distinct listings; differ in ServiceType,2b3ed485eb9a45d7,2,3349 4337,1877 1878,,,,718-555-2779
+service_phone-00492,legitimate,distinct listings; differ in ServiceType,4c4697eb1c26738b,4,494 509 2161 2671,2183 4966 4967 4968,,,,718-555-2782
+service_phone-00493,legitimate,distinct listings; differ in ServiceType,1adae3edf76da533,2,744 3252,4484 4485,,,,718-555-2855
+service_phone-00494,legitimate,distinct listings; differ in ServiceType,a2b8fe42327fcc98,2,345 3397,4521 4522,,,,718-555-2866
+service_phone-00495,legitimate,distinct listings; differ in ServiceType,356459ca51565e91,2,1443 4620,2055 2056,,,,718-555-2883
+service_phone-00496,legitimate,distinct listings; differ in ServiceType,aedb075ddff6e8ba,3,2399 4984 5472,2531 2532 2533,,,,718-555-2915
+service_phone-00497,legitimate,distinct listings; differ in AddressKey,20ded9b0d1fd3c1e,2,450 3512,900 5683,,,,718-555-2989
+service_phone-00498,legitimate,distinct listings; differ in ServiceType,d5a9ca8c5fa102a5,2,250 1529,2730 2731,,,,718-555-3055
+service_phone-00499,legitimate,distinct listings; differ in ServiceType,1b8b5b137b1791fb,3,1554 1946 5289,3060 3061 3062,,,,718-555-3074
+service_phone-00500,legitimate,distinct listings; differ in ServiceType,b9acabe8643095dc,4,3 1272 5132 5585,3286 5143 5144 5145,,,,718-555-3083
+service_phone-00501,legitimate,distinct listings; differ in ServiceType,4be3ddea21838d99,2,3886 4323,2836 2837,,,,718-555-3098
+service_phone-00502,legitimate,distinct listings; differ in ServiceType,09e2ca3353582573,2,2431 3919,2341 2342,,,,718-555-3192
+service_phone-00503,legitimate,distinct listings; differ in AddressKey,29a9ee4bc9c0e053,2,2380 4259,1903 5653,,,,718-555-3218
+service_phone-00504,legitimate,distinct listings; differ in ServiceType,bbfac91a62c5dc34,2,2014 5054,849 850,,,,718-555-3250
+service_phone-00505,legitimate,distinct listings; differ in ServiceType,6d98b4915b9d6a69,3,194 3084 3231,4687 4688 4689,,,,718-555-3266
+service_phone-00506,legitimate,distinct listings; differ in ServiceType,93ef35d2f4d98f03,2,725 2128,14 15,,,,718-555-3284
+service_phone-00507,legitimate,distinct listings; differ in ServiceType,da3862b90559dba2,2,1749 2505,1368 1369,,,,718-555-3323
+service_phone-00508,legitimate,distinct listings; differ in ServiceType,3377d270dac38c93,2,4647 5190,2797 2798,,,,718-555-3352
+service_phone-00509,legitimate,distinct listings; differ in ServiceType,6bd0f9b4fd7fef54,3,1298 1939 4642,69 70 71,,,,718-555-3359
+service_phone-00510,legitimate,distinct listings; differ in ServiceType,48467dfc512a8fcb,3,2880 2992 4018,2240 2241 2242,,,,718-555-3442
+service_phone-00511,legitimate,distinct listings; differ in ServiceType,e7dee5f4942186b4,2,788 5051,2751 2752,,,,718-555-3487
+service_phone-00512,legitimate,distinct listings; differ in ServiceType,5fbc0189d7112711,3,1107 4011 5216,244 245 246,,,,718-555-3557
+service_phone-00513,legitimate,distinct listings; differ in ServiceType,b4b39037cd280b45,4,2186 3038 3207 3452,732 4816 4817 4818,,,,718-555-3711
+service_phone-00514,legitimate,distinct listings; differ in ServiceType,5e1c7c8c4648cc32,3,2554 3540 4952,2567 2568 2569,,,,718-555-3770
+service_phone-00515,legitimate,distinct listings; differ in ServiceType,cbe11e7eac47cbdd,4,533 3216 4281 4664,316 4753 4754 4755,,,,718-555-3926
+service_phone-00516,legitimate,distinct listings; differ in ServiceType,f8adac2b3b46560f,3,1259 1994 4401,497 498 499,,,,718-555-3985
+service_phone-00517,legitimate,distinct listings; differ in ServiceType,e63971ebd33734d5,3,1224 2454 2519,28 29 30,,,,718-555-4015
+service_phone-00518,legitimate,distinct listings; differ in ServiceType,ad5e428c667bacaa,2,1829 2764,4499 4500,,,,718-555-4042
+service_phone-00519,legitimate,distinct listings; differ in ServiceType,699aa77a580025ce,2,1326 5264,2528 2529,,,,718-555-4143
+service_phone-00520,legitimate,distinct listings; differ in ServiceType,8e520b58afc93b15,2,1691 2881,2910 2911,,,,718-555-4234
+service_phone-00521,legitimate,distinct listings; differ in ServiceType,0d75a40ffc2a0b2f,4,769 3519 4786 5508,918 4825 4826 4827,,,,718-555-4329
+service_phone-00522,legitimate,distinct listings; differ in ServiceType,a810465ba42518d3,4,56 935 1932 5399,3519 5194 5195 5196,,,,718-555-4336
+service_phone-00523,legitimate,distinct listings; differ in ServiceType,548ce4a63f214709,3,963 1294 4156,3297 3298 3299,,,,718-555-4341
+service_phone-00524,legitimate,distinct listings; differ in ServiceType,9a29643933ff7b03,2,320 4004,4358 4359,,,,718-555-4344
+service_phone-00525,legitimate,"distinct listings; differ in ServiceType, AddressKey",ae200dfd080af965,4,1123 3661 5258 5614,4547 4548 4549 5669,,,,718-555-4349
+service_phone-00526,legitimate,distinct listings; differ in ServiceType,12049f91645d369a,2,161 2883,4407 4408,,,,718-555-4377
+service_phone-00527,legitimate,distinct listings; differ in ServiceType,60e8e00f808ffda6,4,127 1864 3245 4279,4681 5395 5396 5397,,,,718-555-4390
+service_phone-00528,legitimate,distinct listings; differ in ServiceType,bad57116047845f0,2,1242 2301,1371 1372,,,,718-555-4475
+service_phone-00529,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,15d35d1085682f08,2,175 2072,4298 5618,,,,718-555-4476
+service_phone-00530,legitimate,distinct listings; differ in AddressKey,ee67dc04f7010332,2,321 2268,1417 5676,,,,718-555-4491
+service_phone-00531,legitimate,distinct listings; differ in ServiceType,10b66b17ed57b94b,4,487 549 1464 5447,616 4798 4799 4800,,,,718-555-4492
+service_phone-00532,legitimate,distinct listings; differ in ServiceType,a672eb4e01670344,2,2183 2619,492 493,,,,718-555-4573
+service_phone-00533,legitimate,distinct listings; differ in ServiceType,f8cd778b221643e1,2,2527 2903,4264 4265,,,,718-555-4574
+service_phone-00534,legitimate,distinct listings; differ in ServiceType,5ef29a261b1784ff,2,1038 2027,2339 2340,,,,718-555-4604
+service_phone-00535,legitimate,distinct listings; differ in ServiceType,62a0a729613bc65d,3,2082 4067 4822,3446 3447 3448,,,,718-555-4643
+service_phone-00536,legitimate,distinct listings; differ in Network,6142ce190e94c05a,2,3786 4244,1836 5588,,,,718-555-4686
+service_phone-00537,legitimate,distinct listings; differ in ServiceType,f53739878905d258,2,2083 5442,600 601,,,,718-555-4761
+service_phone-00538,legitimate,distinct listings; differ in ServiceType,4babd303286488ba,2,1584 3683,3102 3103,,,,718-555-4803
+service_phone-00539,legitimate,distinct listings; differ in ServiceType,68ae46ed3fe4b3a4,4,1560 2701 3046 3088,1148 4855 4856 4857,,,,718-555-4818
+service_phone-00540,legitimate,distinct listings; differ in ServiceType,4ead0291529319b1,2,203 2713,4168 4169,,,,718-555-4852
+service_phone-00541,legitimate,distinct listings; differ in ServiceType,5f58e38d33a3b6fd,4,2714 2927 3399 3549,2943 5086 5087 5088,,,,718-555-4870
+service_phone-00542,legitimate,"distinct listings; differ in ServiceType, AddressKey",aea323d1cb03fc71,4,253 703 765 3277,86 87 88 5692,,,,718-555-4900
+service_phone-00543,legitimate,distinct listings; differ in ServiceType,361bff6d6f5c9d06,2,1742 5029,2286 2287,,,,718-555-4933
+service_phone-00544,legitimate,distinct listings; differ in ServiceType,d428b732a810608f,2,1233 4624,2473 2474,,,,718-555-4960
+service_phone-00545,legitimate,distinct listings; differ in ServiceType,1f251b9d14646ef5,4,1052 2351 3153 4679,1454 4876 4877 4878,,,,718-555-4963
+service_phone-00546,legitimate,distinct listings; differ in ServiceType,2de4fcdcb898c1a1,3,1313 3129 3674,237 238 239,,,,718-555-5059
+service_phone-00547,legitimate,distinct listings; differ in ServiceType,489b2e72429673e7,4,2749 3830 3865 4551,3867 5275 5276 5277,,,,718-555-5238
+service_phone-00548,legitimate,distinct listings; differ in ServiceType,c3ee65c367c3b8b5,2,1466 3904,2732 2733,,,,718-555-5382
+service_phone-00549,legitimate,distinct listings; differ in ServiceType,3388a5dff167c4c9,3,329 1064 2786,1406 1407 1408,,,,718-555-5417
+service_phone-00550,legitimate,distinct listings; differ in ServiceType,74403cece367e769,2,2647 3641,1114 1115,,,,718-555-5437
+service_phone-00551,legitimate,distinct listings; differ in ServiceType,7da885111257bd2e,4,80 721 2748 4575,3855 5269 5270 5271,,,,718-555-5484
+service_phone-00552,legitimate,distinct listings; differ in ServiceType,568228b9445cb381,2,3838 4410,4425 4426,,,,718-555-5508
+service_phone-00553,legitimate,distinct listings; differ in ServiceType,3bd1e39bd9a4a113,4,461 1651 2119 4937,2829 5041 5042 5043,,,,718-555-5554
+service_phone-00554,legitimate,distinct listings; differ in ServiceType,80952895dace53f8,2,1180 1565,4601 4602,,,,718-555-5586
+service_phone-00555,legitimate,distinct listings; differ in Network,a22f9f1c3cfe7334,2,1263 5530,3381 5592,,,,718-555-5654
+service_phone-00556,legitimate,distinct listings; differ in ServiceType,dde11bdcb5610268,4,633 1528 4421 5597,615 4795 4796 4797,,,,718-555-5680
+service_phone-00557,legitimate,distinct listings; differ in ServiceType,ba052b3463a4f2be,2,631 659,3861 3862,,,,718-555-5714
+service_phone-00558,legitimate,distinct listings; differ in ServiceType,4dc2ce4e5cc5e8e2,4,544 1718 2412 3467,2946 5095 5096 5097,,,,718-555-5766
+service_phone-00559,legitimate,distinct listings; differ in ServiceType,1dcbe92e8e2adf90,2,1086 3225,4554 4555,,,,718-555-5767
+service_phone-00560,legitimate,distinct listings; differ in ServiceType,09996cb721531e22,2,119 2111,4355 4356,,,,718-555-5790
+service_phone-00561,legitimate,distinct listings; differ in ServiceType,a8c861ff04cc3fcb,4,1642 2079 2589 2971,490 4777 4778 4779,,,,718-555-5814
+service_phone-00562,review,"differs in EffectiveStart, ServiceLocationKey; 1 other rows in this official group are distinct listings",53c0f9de767e5a29,2,1238 2090,4028 5552,,,,718-555-5820
+service_phone-00563,legitimate,distinct listings; differ in Network,56b4475f0bf4cac7,2,2741 4216,3191 5566,,,,718-555-5822
+service_phone-00564,legitimate,distinct listings; differ in ServiceType,3e85065a02df2c6b,4,2037 2383 2463 3514,1188 4861 4862 4863,,,,718-555-5829
+service_phone-00565,legitimate,distinct listings; differ in ServiceType,32ca4e87517cd3ef,2,2015 3977,3659 3660,,,,718-555-5833
+service_phone-00566,legitimate,distinct listings; differ in ServiceType,c2d9db55e57a57d6,4,168 1823 2159 5307,4349 5365 5366 5367,,,,718-555-5849
+service_phone-00567,legitimate,distinct listings; differ in ServiceType,c13abbfa3d72e879,4,1847 1894 2321 4423,2205 4987 4988 4989,,,,718-555-5862
+service_phone-00568,legitimate,distinct listings; differ in ServiceType,f2ff14e008efd05d,3,1121 3602 5046,1316 1317 1318,,,,718-555-5887
+service_phone-00569,legitimate,distinct listings; differ in Network,cb7d40780167f6c0,2,2162 4230,3481 5565,,,,718-555-6033
+service_phone-00570,legitimate,distinct listings; differ in Network,bedb17472e95ac13,2,901 4962,757 5569,,,,718-555-6050
+service_phone-00571,legitimate,distinct listings; differ in ServiceType,b9afced295dcd031,3,4600 5063 5492,2072 2073 2074,,,,718-555-6060
+service_phone-00572,legitimate,distinct listings; differ in ServiceType,ef8ad50f570882cf,2,649 2943,1364 1365,,,,718-555-6082
+service_phone-00573,legitimate,distinct listings; differ in ServiceType,2ccbf76df2466617,2,1818 2670,906 907,,,,718-555-6154
+service_phone-00574,legitimate,distinct listings; differ in ServiceType,066fc43957909573,3,1543 2863 5548,2955 2956 2957,,,,718-555-6184
+service_phone-00575,legitimate,"distinct listings; differ in Network, ServiceType",32ec21ca2e2cef17,3,705 4880 5079,3795 3796 5598,,,,718-555-6301
+service_phone-00576,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,846e2bbf14db9c93,2,700 4484,661 5623,,,,718-555-6362
+service_phone-00577,legitimate,distinct listings; differ in ServiceType,47f7c4e4ae4d6262,3,282 770 4853,1519 1520 1521,,,,718-555-6399
+service_phone-00578,legitimate,distinct listings; differ in ServiceType,69eb53d6faaa39af,2,1675 4155,2748 2749,,,,718-555-6402
+service_phone-00579,legitimate,distinct listings; differ in ServiceType,082ddafd836e18a4,3,1391 2724 3223,3696 3697 3698,,,,718-555-6461
+service_phone-00580,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,bc8f046db1eef2dc,2,1979 5297,870 5647,,,,718-555-6476
+service_phone-00581,legitimate,distinct listings; differ in ServiceType,2249b8666ab5d2f3,4,621 1488 3456 5066,188 4741 4742 4743,,,,718-555-6507
+service_phone-00582,legitimate,distinct listings; differ in Network,1c85eb554697c322,2,1371 4907,2562 5577,,,,718-555-6561
+service_phone-00583,legitimate,distinct listings; differ in ServiceType,e46fa7ac389d91ba,2,849 3189,1014 1015,,,,718-555-6611
+service_phone-00584,legitimate,distinct listings; differ in ServiceType,49ac51593eaba622,3,1011 1944 5395,4199 4200 4201,,,,718-555-6706
+service_phone-00585,legitimate,distinct listings; differ in ServiceType,5c887c27aa11d848,2,2108 4260,3435 3436,,,,718-555-6775
+service_phone-00586,legitimate,distinct listings; differ in ServiceType,9eb9cc75c63e09bb,2,2941 5244,2727 2728,,,,718-555-6863
+service_phone-00587,legitimate,distinct listings; differ in ServiceType,dd739dce806209c1,3,1987 5145 5150,1004 1005 1006,,,,718-555-6925
+service_phone-00588,legitimate,distinct listings; differ in ServiceType,7e1d502a909c4a38,2,4997 5319,3377 3378,,,,718-555-6963
+service_phone-00589,legitimate,distinct listings; differ in ServiceType,a6f24aed7865f813,3,2640 3374 4802,1733 1734 1735,,,,718-555-6968
+service_phone-00590,legitimate,distinct listings; differ in ServiceType,127ef1c29f5df682,3,242 1462 5038,3336 3337 3338,,,,718-555-7067
+service_phone-00591,legitimate,"distinct listings; differ in Network, ServiceType",f9f94ac802bb3b14,3,1694 2563 4942,920 921 5593,,,,718-555-7093
+service_phone-00592,legitimate,distinct listings; differ in Network,6e32fd9e0fcaa28d,2,3351 4801,1504 5589,,,,718-555-7095
+service_phone-00593,legitimate,distinct listings; differ in ServiceType,0c9554e3e26b8a3d,3,5 252 1122,2276 2277 2278,,,,718-555-7162
+service_phone-00594,review,"differs in EffectiveStart, ServiceLocationKey",fceacf2990f32e14,2,3913 4350,3561 5539,,,,718-555-7175
+service_phone-00595,legitimate,distinct listings; differ in ServiceType,aa617094761201cd,3,184 3080 5036,4258 4259 4260,,,,718-555-7189
+service_phone-00596,legitimate,distinct listings; differ in ServiceType,a52af5e6b933f06b,4,2921 4182 4286 4424,3678 5236 5237 5238,,,,718-555-7231
+service_phone-00597,legitimate,distinct listings; differ in ServiceType,d5149764ca6c35ba,2,1912 2311,1940 1941,,,,718-555-7244
+service_phone-00598,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,fd432d85e59819e7,2,3416 4629,2816 5606,,,,718-555-7256
+service_phone-00599,legitimate,distinct listings; differ in ServiceType,20534ee4ecdf7945,2,162 2924,2020 2021,,,,718-555-7339
+service_phone-00600,legitimate,distinct listings; differ in ServiceType,6f7b23cfdfd63107,4,291 1555 3242 3922,1139 4852 4853 4854,,,,718-555-7361
+service_phone-00601,legitimate,distinct listings; differ in ServiceType,b45b91648f6b519e,2,1824 2966,4704 4705,,,,718-555-7386
+service_phone-00602,legitimate,distinct listings; differ in ServiceType,530bad372a7dca43,3,254 3004 4146,2606 2607 2608,,,,718-555-7393
+service_phone-00603,legitimate,distinct listings; differ in ServiceType,d325f4645c5053a2,4,24 1044 2179 2890,4300 5353 5354 5355,,,,718-555-7428
+service_phone-00604,legitimate,distinct listings; differ in ServiceType,3f63ce0c80c13d64,2,2478 4263,3475 3476,,,,718-555-7468
+service_phone-00605,legitimate,distinct listings; differ in Network,c870c8055a2bd3f7,2,1199 4183,2206 5599,,,,718-555-7510
+service_phone-00606,legitimate,distinct listings; differ in ServiceType,4060439d95eacd8d,4,1746 2008 4277 4370,1133 4834 4835 4836,,,,718-555-7529
+service_phone-00607,legitimate,distinct listings; differ in ServiceType,e2b96815c9ed2d6d,2,2996 5239,3554 3555,,,,718-555-7658
+service_phone-00608,legitimate,distinct listings; differ in ServiceType,326c74d25d3067a6,2,1990 2785,3919 3920,,,,718-555-7701
+service_phone-00609,legitimate,distinct listings; differ in ServiceType,5d025c39a431350a,2,3411 4887,3689 3690,,,,718-555-7706
+service_phone-00610,legitimate,distinct listings; differ in ServiceType,e765d76696e99d23,2,155 1472,537 538,,,,718-555-7744
+service_phone-00611,legitimate,distinct listings; differ in ServiceType,09bded2702d4929c,4,1175 4408 4531 5424,3443 5167 5168 5169,,,,718-555-7747
+service_phone-00612,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,c19390f36948ebe3,2,619 2884,357 5627,,,,718-555-7751
+service_phone-00613,legitimate,distinct listings; differ in ServiceType,d09a544129548b61,3,2322 3544 3914,1396 1397 1398,,,,718-555-7783
+service_phone-00614,legitimate,distinct listings; differ in ServiceType,134ab5e8d37eaa9f,2,5197 5563,3909 3910,,,,718-555-7827
+service_phone-00615,legitimate,distinct listings; differ in ServiceType,157048d825c4d07d,3,65 3989 5575,751 752 753,,,,718-555-7841
+service_phone-00616,legitimate,distinct listings; differ in ServiceType,719af6f2c4e5edca,4,38 622 3109 4365,3184 5131 5132 5133,,,,718-555-7850
+service_phone-00617,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,2f3d8d1aa15f399f,2,200 2248,3884 5603,,,,718-555-7897
+service_phone-00618,legitimate,distinct listings; differ in ServiceType,45e6070be8fb4f7f,3,232 645 3928,2673 2674 2675,,,,718-555-7924
+service_phone-00619,legitimate,distinct listings; differ in ServiceType,5a001c792ee028ab,4,1846 2507 2811 4923,2482 5005 5006 5007,,,,718-555-7953
+service_phone-00620,legitimate,distinct listings; differ in ServiceType,5544bb796092c421,3,1492 4268 4360,118 119 120,,,,718-555-7957
+service_phone-00621,legitimate,distinct listings; differ in ServiceType,85372211af13c037,4,1265 1827 2588 3347,2142 4957 4958 4959,,,,718-555-8049
+service_phone-00622,legitimate,distinct listings; differ in ServiceType,3422c712f48f93ac,2,3166 4830,1107 1108,,,,718-555-8103
+service_phone-00623,legitimate,distinct listings; differ in ServiceType,641a521cf9612128,4,152 3272 4113 5403,1862 4924 4925 4926,,,,718-555-8162
+service_phone-00624,legitimate,distinct listings; differ in ServiceType,3c94467dde6110f0,2,1538 4149,2898 2899,,,,718-555-8167
+service_phone-00625,legitimate,distinct listings; differ in ServiceType,ad0b228c57702168,2,3861 4457,1155 1156,,,,718-555-8204
+service_phone-00626,legitimate,distinct listings; differ in ServiceType,7e6b00f03929f436,2,418 4196,651 652,,,,718-555-8249
+service_phone-00627,legitimate,distinct listings; differ in Network,5ca9a3d4ba20d88f,2,2759 5367,335 5581,,,,718-555-8288
+service_phone-00628,legitimate,distinct listings; differ in ServiceType,3986f9faed321123,2,276 3077,4637 4638,,,,718-555-8331
+service_phone-00629,legitimate,distinct listings; differ in ServiceType,59934f0c43b393e8,2,2356 5173,2334 2335,,,,718-555-8393
+service_phone-00630,legitimate,distinct listings; differ in ServiceType,f05dcbd571558d66,2,356 3799,4081 4082,,,,718-555-8432
+service_phone-00631,legitimate,distinct listings; differ in ServiceType,2a197dc81f9dee63,4,106 1525 3472 4950,1135 4840 4841 4842,,,,718-555-8496
+service_phone-00632,legitimate,distinct listings; differ in ServiceType,c796bb3f7d4f9539,4,14 1004 3171 3578,235 4747 4748 4749,,,,718-555-8497
+service_phone-00633,legitimate,distinct listings; differ in ServiceType,9cf5e507a69e3221,4,2175 2999 3203 4376,4154 5335 5336 5337,,,,718-555-8529
+service_phone-00634,legitimate,distinct listings; differ in ServiceType,10cc643ce8225e81,4,988 2415 4638 5312,3967 5308 5309 5310,,,,718-555-8622
+service_phone-00635,legitimate,distinct listings; differ in ServiceType,aaa4e330cbbd5f0f,3,1210 2102 2387,3193 3194 3195,,,,718-555-8665
+service_phone-00636,legitimate,distinct listings; differ in ServiceType,ff0a1aba8b1bfe3c,2,1201 5229,3275 3276,,,,718-555-8786
+service_phone-00637,legitimate,distinct listings; differ in ServiceType,d9572a241e717617,4,522 734 883 5192,2774 5032 5033 5034,,,,718-555-8802
+service_phone-00638,legitimate,distinct listings; differ in Network,3edcd621c60d1123,2,2106 2514,746 5586,,,,718-555-8829
+service_phone-00639,legitimate,distinct listings; differ in ServiceType,98edd7575f692fba,2,2804 4806,350 351,,,,718-555-8875
+service_phone-00640,legitimate,distinct listings; differ in ServiceType,9602e49c9be3d8c4,2,1602 4218,3887 3888,,,,718-555-8892
+service_phone-00641,legitimate,distinct listings; differ in Network,163cd57738ca3422,2,1951 2962,3562 5568,,,,718-555-8956
+service_phone-00642,legitimate,distinct listings; differ in ServiceType,f9c553fba0e58bb6,4,790 1132 2348 5175,2941 5080 5081 5082,,,,718-555-8970
+service_phone-00643,legitimate,distinct listings; differ in AddressKey,5f3437d613852c49,2,575 3500,3818 5663,,,,718-555-9008
+service_phone-00644,legitimate,distinct listings; differ in ServiceType,452ebca9adeb55e6,2,2960 4354,1082 1083,,,,718-555-9017
+service_phone-00645,legitimate,distinct listings; differ in AddressKey,461d19a1559e14f5,2,1015 3961,725 5678,,,,718-555-9105
+service_phone-00646,legitimate,distinct listings; differ in ServiceType,48566dec5a4b564e,2,1120 4690,2968 2969,,,,718-555-9248
+service_phone-00647,legitimate,distinct listings; differ in ServiceType,c9441db1970c3122,3,3586 3693 5303,1672 1673 1674,,,,718-555-9260
+service_phone-00648,legitimate,distinct listings; differ in ServiceType,85cc69310d8c512b,3,2650 2747 3121,440 441 442,,,,718-555-9271
+service_phone-00649,legitimate,distinct listings; differ in ServiceType,bc8bb23c069cbb7c,2,415 1496,1906 1907,,,,718-555-9290
+service_phone-00650,legitimate,distinct listings; differ in Network,f968ce616b454ec3,2,3618 3828,4695 5576,,,,718-555-9304
+service_phone-00651,legitimate,distinct listings; differ in ServiceType,3f46fd2c87a2dfff,2,608 1277,3618 3619,,,,718-555-9337
+service_phone-00652,legitimate,distinct listings; differ in ServiceType,f997b02959c19adc,2,373 968,1308 1309,,,,718-555-9374
+service_phone-00653,legitimate,distinct listings; differ in ServiceType,5395f0694544cdb5,2,558 4476,1284 1285,,,,718-555-9401
+service_phone-00654,legitimate,distinct listings; differ in ServiceType,0c57d68184611929,4,120 2299 2850 4402,1652 4900 4901 4902,,,,718-555-9416
+service_phone-00655,legitimate,distinct listings; differ in ServiceType,f75dafb1079c7565,4,2838 4226 5434 5562,1595 4894 4895 4896,,,,718-555-9441
+service_phone-00656,legitimate,distinct listings; differ in ServiceType,02ec4bdd284d8fcb,3,1433 3381 5172,635 636 637,,,,718-555-9488
+service_phone-00657,review,"differs in EffectiveStart, ServiceLocationKey",3b913cc24a6fedbb,2,307 4173,3339 5559,,,,718-555-9514
+service_phone-00658,legitimate,distinct listings; differ in ServiceType,6db57c2d15ff32bc,4,2446 3264 5137 5477,2364 5002 5003 5004,,,,718-555-9540
+service_phone-00659,legitimate,distinct listings; differ in ServiceType,e21e62fa7fe9e061,3,1050 3144 5423,3173 3174 3175,,,,718-555-9589
+service_phone-00660,legitimate,distinct listings; differ in Network,d7d7ea0c6654618f,2,1240 5180,4558 5594,,,,718-555-9644
+service_phone-00661,legitimate,distinct listings; differ in ServiceType,6f019f308d806715,2,1119 1142,3637 3638,,,,718-555-9736
+service_phone-00662,legitimate,distinct listings; differ in ServiceType,58fd9148f4e57a0b,2,2123 3237,1753 1754,,,,718-555-9759
+service_phone-00663,legitimate,distinct listings; differ in ServiceType,964837e7bce50e51,4,2663 3440 4404 4896,603 4786 4787 4788,,,,718-555-9793
+service_phone-00664,legitimate,distinct listings; differ in ServiceType,a8ec893530e82504,2,1961 5065,722 723,,,,718-555-9918
+service_phone-00665,legitimate,distinct listings; differ in ServiceType,8a7133bd621b83ce,3,171 3097 4914,1485 1486 1487,,,,718-555-9994
+service_phone-00666,legitimate,distinct listings; differ in ServiceType,6767b426c221d89c,3,1334 2152 2982,1640 1641 1642,,,,917-555-0065
+service_phone-00667,legitimate,distinct listings; differ in ServiceType,5feff19439d42636,4,2602 3492 5141 5361,3949 5290 5291 5292,,,,917-555-0191
+service_phone-00668,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,1e2595a789d89abc,2,3019 5358,2966 5616,,,,917-555-0200
+service_phone-00669,legitimate,distinct listings; differ in ServiceType,e9e8d3390a61985d,4,979 1229 2021 2856,3453 5170 5171 5172,,,,917-555-0337
+service_phone-00670,legitimate,distinct listings; differ in ServiceType,be0492c989f506da,2,535 4166,2193 2194,,,,917-555-0376
+service_phone-00671,legitimate,distinct listings; differ in ServiceType,5ae2c0a4fe6c602b,2,48 4397,1748 1749,,,,917-555-0385
+service_phone-00672,legitimate,distinct listings; differ in ServiceType,8140f261de3e2d0f,4,1187 1773 2192 2777,2681 5026 5027 5028,,,,917-555-0438
+service_phone-00673,legitimate,distinct listings; differ in ServiceType,74a2d991f6b6e80e,3,1347 2374 3843,3843 3844 3845,,,,917-555-0491
+service_phone-00674,legitimate,distinct listings; differ in ServiceType,b206df1b1e86000c,3,2592 4083 5553,2831 2832 2833,,,,917-555-0633
+service_phone-00675,legitimate,distinct listings; differ in ServiceType,f8a89cc592aaa97f,3,3006 4411 4616,3209 3210 3211,,,,917-555-0712
+service_phone-00676,legitimate,distinct listings; differ in ServiceType,307c6e7a52595ac7,2,363 4333,1524 1525,,,,917-555-0764
+service_phone-00677,legitimate,distinct listings; differ in ServiceType,0bcb66ab6899bff9,2,4139 4262,1741 1742,,,,917-555-0869
+service_phone-00678,review,"differs in EffectiveStart, ServiceLocationKey",821140534a17e26e,2,546 1730,3973 5556,,,,917-555-0927
+service_phone-00679,legitimate,distinct listings; differ in ServiceType,17f408657abc191c,3,3175 4829 5133,2809 2810 2811,,,,917-555-1027
+service_phone-00680,legitimate,distinct listings; differ in ServiceType,d92f486f7173d1b5,2,2677 3794,1718 1719,,,,917-555-1062
+service_phone-00681,legitimate,distinct listings; differ in ServiceType,02b6af138dbb4fdc,4,2845 3496 4438 4875,3646 5230 5231 5232,,,,917-555-1107
+service_phone-00682,likely_redundant,"same VendorKey/AddressKey; only text differs: DisplayName, Address1",f399425df3482293,2,423 2580,1908 5649,,,,917-555-1109
+service_phone-00683,legitimate,distinct listings; differ in Network,ac76bfc9cc81910c,2,1083 3810,4363 5564,,,,917-555-1142
+service_phone-00684,legitimate,distinct listings; differ in ServiceType,1021dd6ec99ce253,3,279 2594 3128,3221 3222 3223,,,,917-555-1158
+service_phone-00685,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,0a2f606b884df453,2,4331 5189,2976 5637,,,,917-555-1169
+service_phone-00686,legitimate,distinct listings; differ in ServiceType,2c3ece9ba2e73314,3,2618 3188 3554,4418 4419 4420,,,,917-555-1180
+service_phone-00687,legitimate,distinct listings; differ in ServiceType,2e441e34b3c67d5d,2,3703 4761,1867 1868,,,,917-555-1438
+service_phone-00688,legitimate,distinct listings; differ in ServiceType,86c35ac86eb7998c,2,597 2722,3398 3399,,,,917-555-1460
+service_phone-00689,legitimate,distinct listings; differ in ServiceType,cd3c78a7de68483f,4,301 3021 4296 5301,2874 5050 5051 5052,,,,917-555-1496
+service_phone-00690,legitimate,distinct listings; differ in ServiceType,40c2dc8bffaaa09a,4,547 1209 1440 1498,4626 5380 5381 5382,,,,917-555-1569
+service_phone-00691,legitimate,"distinct listings; differ in ServiceType, AddressKey",09b221fae3613ce2,3,874 2318 5185,3341 3342 5680,,,,917-555-1707
+service_phone-00692,legitimate,distinct listings; differ in ServiceType,9e31dca7556dcad0,4,342 2457 2590 3704,1656 4912 4913 4914,,,,917-555-1745
+service_phone-00693,legitimate,distinct listings; differ in ServiceType,675ef11bb355ad0e,4,3350 3802 4282 5505,4078 5314 5315 5316,,,,917-555-1804
+service_phone-00694,legitimate,distinct listings; differ in ServiceType,773aed972c295c52,2,2275 3348,2059 2060,,,,917-555-1876
+service_phone-00695,legitimate,distinct listings; differ in ServiceType,ba9ad836fba39b80,4,385 1057 1947 3842,3647 5233 5234 5235,,,,917-555-1903
+service_phone-00696,legitimate,distinct listings; differ in ServiceType,3a00c469311df959,2,2591 3061,1832 1833,,,,917-555-1928
+service_phone-00697,legitimate,distinct listings; differ in ServiceType,10d06bd3163b6512,2,206 1802,2557 2558,,,,917-555-1947
+service_phone-00698,legitimate,distinct listings; differ in ServiceType,c512c32fdf353b0f,2,289 3255,1019 1020,,,,917-555-1994
+service_phone-00699,legitimate,distinct listings; differ in ServiceType,7fd41f3eb1ebac6a,2,165 2451,3026 3027,,,,917-555-2173
+service_phone-00700,legitimate,distinct listings; differ in ServiceType,6bf4cad2cb579186,2,1553 2839,2403 2404,,,,917-555-2192
+service_phone-00701,legitimate,distinct listings; differ in ServiceType,414b0ddc65f17fbb,4,652 3839 3841 4131,1286 4870 4871 4872,,,,917-555-2248
+service_phone-00702,legitimate,distinct listings; differ in ServiceType,cdd80099c39fc2e1,4,1516 2316 3714 5378,4607 5377 5378 5379,,,,917-555-2335
+service_phone-00703,legitimate,distinct listings; differ in ServiceType,2cbc622c1c32a854,3,60 3017 4225,3704 3705 3706,,,,917-555-2501
+service_phone-00704,legitimate,distinct listings; differ in AddressKey,821545d3111d29ab,2,4106 4884,3331 5684,,,,917-555-2602
+service_phone-00705,legitimate,distinct listings; differ in ServiceType,e15cb20c4473080d,4,3276 3662 4123 4544,315 4750 4751 4752,,,,917-555-2816
+service_phone-00706,legitimate,distinct listings; differ in ServiceType,31ab5833bc35ee77,2,1225 4050,2742 2743,,,,917-555-2897
+service_phone-00707,legitimate,distinct listings; differ in ServiceType,8d87158b578cce4b,2,44 2766,382 383,,,,917-555-2992
+service_phone-00708,legitimate,distinct listings; differ in ServiceType,f10512127c7c5236,2,272 3406,2084 2085,,,,917-555-3276
+service_phone-00709,legitimate,distinct listings; differ in ServiceType,b055464fb068e106,2,3798 5223,2991 2992,,,,917-555-3445
+service_phone-00710,legitimate,distinct listings; differ in ServiceType,96e6b3f2c7d633fe,2,2792 4851,2042 2043,,,,917-555-3466
+service_phone-00711,legitimate,distinct listings; differ in ServiceType,7346f9efb361483b,3,467 2633 4653,2614 2615 2616,,,,917-555-3674
+service_phone-00712,legitimate,distinct listings; differ in ServiceType,1092e480b950f0ab,2,676 1686,313 314,,,,917-555-3703
+service_phone-00713,legitimate,distinct listings; differ in ServiceType,d9516e6ed0a4f6c8,3,825 1158 4784,1245 1246 1247,,,,917-555-3759
+service_phone-00714,legitimate,distinct listings; differ in ServiceType,3ece234412852132,2,1159 4655,679 680,,,,917-555-3859
+service_phone-00715,legitimate,distinct listings; differ in ServiceType,ed829aceedeea5db,2,964 1114,4529 4530,,,,917-555-3887
+service_phone-00716,legitimate,distinct listings; differ in ServiceType,3a22f456748ed1d8,3,1109 2324 5457,2460 2461 2462,,,,917-555-3921
+service_phone-00717,legitimate,distinct listings; differ in ServiceType,6ca9d2b2c99724bd,2,1115 3622,707 708,,,,917-555-3952
+service_phone-00718,legitimate,distinct listings; differ in ServiceType,bdef500a96ae2bf3,4,1411 1757 2389 4612,186 4735 4736 4737,,,,917-555-4282
+service_phone-00719,legitimate,distinct listings; differ in ServiceType,c8b65ed8956c3516,4,74 404 3370 3573,1657 4915 4916 4917,,,,917-555-4320
+service_phone-00720,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName; 2 other rows in this official group are distinct listings,aa20d45960d28f8a,2,4170 4200,4144 5640,,,,917-555-4344
+service_phone-00721,legitimate,distinct listings; differ in ServiceType,3ae6babd84820154,2,3182 4908,591 592,,,,917-555-4444
+service_phone-00722,legitimate,distinct listings; differ in ServiceType,b0c933afce4f3a2d,2,55 4817,1949 1950,,,,917-555-4595
+service_phone-00723,legitimate,distinct listings; differ in ServiceType,85c4a7fe1f558bec,2,2062 2498,1125 1126,,,,917-555-4741
+service_phone-00724,legitimate,distinct listings; differ in Network,05d676c21df2b510,2,15 4775,1130 5578,,,,917-555-5093
+service_phone-00725,legitimate,distinct listings; differ in ServiceType,1fd5cf9963ca0857,3,57 4077 4456,1881 1882 1883,,,,917-555-5138
+service_phone-00726,review,"differs in EffectiveStart, ServiceLocationKey",3186634c21786fce,2,1971 2918,387 5535,,,,917-555-5392
+service_phone-00727,legitimate,distinct listings; differ in ServiceType,39b0fd903215211d,4,1079 2349 3938 4355,2197 4969 4970 4971,,,,917-555-5420
+service_phone-00728,legitimate,distinct listings; differ in ServiceType,52f1ffc63c92ee48,2,293 1427,3566 3567,,,,917-555-5544
+service_phone-00729,legitimate,distinct listings; differ in ServiceType,cd8909b15db80865,4,1039 2041 4670 5428,2198 4972 4973 4974,,,,917-555-5746
+service_phone-00730,legitimate,distinct listings; differ in ServiceType,fcf572fa6adfe993,2,22 2707,1087 1088,,,,917-555-5846
+service_phone-00731,legitimate,distinct listings; differ in ServiceType,7201105b44961972,4,1060 2723 3141 4205,3951 5296 5297 5298,,,,917-555-5868
+service_phone-00732,legitimate,distinct listings; differ in ServiceType,ebc714ba1aae6ef4,2,976 3300,3224 3225,,,,917-555-5902
+service_phone-00733,legitimate,distinct listings; differ in ServiceType,f1361806b2d3a9c6,3,1308 2049 4635,1919 1920 1921,,,,917-555-5903
+service_phone-00734,legitimate,distinct listings; differ in ServiceType,72c6c3c45c2426cd,4,441 1558 3983 4729,3761 5245 5246 5247,,,,917-555-5915
+service_phone-00735,legitimate,distinct listings; differ in ServiceType,d56521163113f39a,4,1589 2703 3365 4978,2914 5059 5060 5061,,,,917-555-5929
+service_phone-00736,legitimate,distinct listings; differ in AddressKey,a927df8aebde9f09,2,551 2638,761 5679,,,,917-555-6086
+service_phone-00737,legitimate,"distinct listings; differ in Network, ServiceType",cc3e219b53652eea,3,1393 2306 3561,3177 3178 5574,,,,917-555-6095
+service_phone-00738,legitimate,distinct listings; differ in ServiceType,28eb957c004a68f0,4,424 827 1186 1788,1782 4918 4919 4920,,,,917-555-6116
+service_phone-00739,legitimate,distinct listings; differ in ServiceType,be1847cb2cbe01d1,4,815 3443 4492 4681,4465 5374 5375 5376,,,,917-555-6227
+service_phone-00740,legitimate,distinct listings; differ in ServiceType,3ac8c6c80983dcdc,4,2048 3676 5310 5520,187 4738 4739 4740,,,,917-555-6239
+service_phone-00741,legitimate,distinct listings; differ in ServiceType,f4300175e382b916,2,867 4903,2624 2625,,,,917-555-6353
+service_phone-00742,legitimate,distinct listings; differ in ServiceType,0c75dc59a8e1bfdd,4,297 2346 3660 4284,3939 5278 5279 5280,,,,917-555-6441
+service_phone-00743,legitimate,distinct listings; differ in ServiceType,20ed6df09bab88aa,4,521 1631 3957 4827,2916 5065 5066 5067,,,,917-555-6521
+service_phone-00744,legitimate,distinct listings; differ in ServiceType,97852d6b40395634,4,505 1580 3473 5025,3605 5227 5228 5229,,,,917-555-6536
+service_phone-00745,legitimate,distinct listings; differ in ServiceType,48ae5be5b855a992,4,789 1390 3101 5475,3940 5281 5282 5283,,,,917-555-6748
+service_phone-00746,legitimate,distinct listings; differ in ServiceType,17f95fd035398c90,4,1402 1568 2942 3994,3078 5107 5108 5109,,,,917-555-6806
+service_phone-00747,legitimate,distinct listings; differ in ServiceType,ed7597ebb276ec35,2,833 1647,3050 3051,,,,917-555-6819
+service_phone-00748,legitimate,distinct listings; differ in ServiceType,2c14f6741883270e,2,1457 3845,3483 3484,,,,917-555-7065
+service_phone-00749,legitimate,distinct listings; differ in ServiceType,4db52c82b1ea5cc6,4,1975 2030 4451 5335,3793 5248 5249 5250,,,,917-555-7371
+service_phone-00750,legitimate,distinct listings; differ in ServiceType,c65ba3361a2fc4e3,4,181 2283 3667 4029,2689 5029 5030 5031,,,,917-555-7387
+service_phone-00751,legitimate,distinct listings; differ in ServiceType,9f42d667dfa4dab8,2,1373 3108,1961 1962,,,,917-555-7500
+service_phone-00752,legitimate,distinct listings; differ in ServiceType,ad36f28d00881095,4,136 382 427 4239,2915 5062 5063 5064,,,,917-555-7523
+service_phone-00753,legitimate,distinct listings; differ in ServiceType,dc4df6b244a5db3c,2,2303 3062,4565 4566,,,,917-555-7731
+service_phone-00754,likely_redundant,"same VendorKey/AddressKey; only text differs: DisplayName, Address1; 1 other rows in this official group are distinct listings",7d1a10f9d111ec2c,2,911 1933,1250 5635,,,,917-555-8012
+service_phone-00755,legitimate,distinct listings; differ in ServiceType,36be4914c4179ac9,2,1102 1168,2039 2040,,,,917-555-8084
+service_phone-00756,legitimate,distinct listings; differ in ServiceType,d2f489f80880201d,4,2024 3075 3678 3711,1515 4882 4883 4884,,,,917-555-8154
+service_phone-00757,legitimate,distinct listings; differ in ServiceType,bf117fa86dc024ea,3,411 3045 3995,2734 2735 2736,,,,917-555-8167
+service_phone-00758,legitimate,distinct listings; differ in ServiceType,ff0449ccf1d19341,2,359 5464,3932 3933,,,,917-555-8235
+service_phone-00759,legitimate,distinct listings; differ in ServiceType,1bfe8ce78d9de4a7,4,302 1279 3281 5184,1654 4906 4907 4908,,,,917-555-8306
+service_phone-00760,legitimate,distinct listings; differ in ServiceType,59b3f855e51c9339,3,1760 2081 2325,3986 3987 3988,,,,917-555-8596
+service_phone-00761,legitimate,distinct listings; differ in ServiceType,e2392a6423f97dfd,2,3268 3878,1537 1538,,,,917-555-8674
+service_phone-00762,legitimate,distinct listings; differ in ServiceType,4baf89750fbf6339,3,727 3234 4939,553 554 555,,,,917-555-8683
+service_phone-00763,legitimate,distinct listings; differ in ServiceType,46025b1d446eab37,4,3200 4496 4885 5355,184 4729 4730 4731,,,,917-555-8770
+service_phone-00764,legitimate,distinct listings; differ in ServiceType,bdbd188efd2de2cb,2,4032 4161,1763 1764,,,,917-555-8789
+service_phone-00765,legitimate,distinct listings; differ in ServiceType,8121cc2dc7e57f64,4,2768 2823 3043 4034,3533 5209 5210 5211,,,,917-555-8847
+service_phone-00766,legitimate,distinct listings; differ in ServiceType,d25499df6bbbb55f,2,1152 3594,1816 1817,,,,917-555-9302
+service_phone-00767,legitimate,distinct listings; differ in ServiceType,0ea3dff8c30b4dee,2,1062 5031,2630 2631,,,,917-555-9525
+service_phone-00768,legitimate,distinct listings; differ in ServiceType,205d77c04df1682b,4,395 1721 3120 3553,2875 5053 5054 5055,,,,917-555-9616
+service_phone-00769,legitimate,distinct listings; differ in ServiceType,c4d1254c4db2c9b9,3,2802 4100 5497,2036 2037 2038,,,,929-555-0005
+service_phone-00770,legitimate,distinct listings; differ in ServiceType,fe9c3d87ff300733,4,2569 2827 3151 4957,3854 5266 5267 5268,,,,929-555-0195
+service_phone-00771,legitimate,distinct listings; differ in ServiceType,93b5581aa718d31a,2,1100 2775,2912 2913,,,,929-555-0199
+service_phone-00772,legitimate,distinct listings; differ in ServiceType,862342d4aad32b60,4,1685 2796 2988 5476,3081 5116 5117 5118,,,,929-555-0205
+service_phone-00773,legitimate,distinct listings; differ in ServiceType,4963865cbdb539ea,2,1904 4756,1069 1070,,,,929-555-0240
+service_phone-00774,legitimate,distinct listings; differ in ServiceType,c9271e55f85bf2b8,2,4528 4566,2352 2353,,,,929-555-0261
+service_phone-00775,legitimate,distinct listings; differ in ServiceType,8bde1d32f4f6620b,4,1710 3114 4437 4754,1911 4951 4952 4953,,,,929-555-0269
+service_phone-00776,review,"differs in EffectiveStart, ServiceLocationKey",d7d9acf10c73c1e2,2,2541 4132,4437 5543,,,,929-555-0322
+service_phone-00777,legitimate,distinct listings; differ in ServiceType,5bae3733b0f6be22,2,4472 5124,2162 2163,,,,929-555-0567
+service_phone-00778,legitimate,distinct listings; differ in ServiceType,4958305ffd22383e,2,3432 3444,2900 2901,,,,929-555-0687
+service_phone-00779,legitimate,distinct listings; differ in ServiceType,e0e43565bce47495,2,2513 5156,1547 1548,,,,929-555-0731
+service_phone-00780,legitimate,distinct listings; differ in ServiceType,866b159358c0fdc3,4,1346 2073 2515 5291,2945 5092 5093 5094,,,,929-555-0888
+service_phone-00781,legitimate,distinct listings; differ in ServiceType,6bb31e2810eb2143,4,571 745 3297 3849,2944 5089 5090 5091,,,,929-555-0917
+service_phone-00782,legitimate,distinct listings; differ in ServiceType,4e339b16e6080c62,4,419 2738 2914 5191,3853 5263 5264 5265,,,,929-555-1001
+service_phone-00783,legitimate,distinct listings; differ in ServiceType,c61416f333b6b263,4,1040 1888 2188 5483,4110 5320 5321 5322,,,,929-555-1018
+service_phone-00784,legitimate,distinct listings; differ in ServiceType,29a10e16415e6829,2,1348 1853,2187 2188,,,,929-555-1042
+service_phone-00785,legitimate,distinct listings; differ in ServiceType,9247e7d21a6af53d,2,1048 2189,1001 1002,,,,929-555-1086
+service_phone-00786,legitimate,distinct listings; differ in ServiceType,622a6f6a0dad40c0,2,3224 4524,3546 3547,,,,929-555-1091
+service_phone-00787,legitimate,distinct listings; differ in ServiceType,f7a2258b2bf2d162,2,914 5338,1801 1802,,,,929-555-1092
+service_phone-00788,legitimate,distinct listings; differ in ServiceType,37296432d2b3c60d,2,3018 4195,2515 2516,,,,929-555-1144
+service_phone-00789,legitimate,distinct listings; differ in ServiceType,06d510a006240795,3,2985 3345 4793,2279 2280 2281,,,,929-555-1212
+service_phone-00790,legitimate,distinct listings; differ in ServiceType,05ca2337665ec36e,4,1937 4193 4844 5069,3828 5254 5255 5256,,,,929-555-1246
+service_phone-00791,legitimate,distinct listings; differ in ServiceType,37c62d9268096302,3,793 1981 5138,3740 3741 3742,,,,929-555-1254
+service_phone-00792,legitimate,distinct listings; differ in ServiceType,1763f13547070aad,3,996 2626 2752,1757 1758 1759,,,,929-555-1258
+service_phone-00793,legitimate,distinct listings; differ in ServiceType,b574125b65a97443,3,1697 4120 4327,4460 4461 4462,,,,929-555-1428
+service_phone-00794,legitimate,"distinct listings; differ in ServiceType, AddressKey",07874586d1b5adf0,3,231 2508 5053,1666 1667 5670,,,,929-555-1491
+service_phone-00795,legitimate,distinct listings; differ in ServiceType,3e125778778e9d83,2,1455 1956,3728 3729,,,,929-555-1573
+service_phone-00796,legitimate,distinct listings; differ in ServiceType,98f984200aeff468,4,41 1517 1668 5186,3421 5164 5165 5166,,,,929-555-1581
+service_phone-00797,legitimate,distinct listings; differ in ServiceType,d0d6541a0e85d215,2,2808 4747,1264 1265,,,,929-555-1608
+service_phone-00798,legitimate,distinct listings; differ in ServiceType,05c253d957ff1f50,2,104 2799,2865 2866,,,,929-555-1637
+service_phone-00799,legitimate,distinct listings; differ in ServiceType,c6318c390e48ecc7,4,699 1182 1713 3240,2165 4963 4964 4965,,,,929-555-1704
+service_phone-00800,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,3f040a213ace1a69,2,4389 5607,4677 5607,,,,929-555-1731
+service_phone-00801,legitimate,distinct listings; differ in ServiceType,c0c05b17d8646058,4,2577 2809 3212 4583,489 4774 4775 4776,,,,929-555-1825
+service_phone-00802,legitimate,distinct listings; differ in ServiceType,866888b2162b44e4,3,372 4519 4895,1276 1277 1278,,,,929-555-1979
+service_phone-00803,legitimate,distinct listings; differ in ServiceType,ded010fae7db283a,2,234 1921,785 786,,,,929-555-2001
+service_phone-00804,legitimate,distinct listings; differ in ServiceType,73d9bdb7eb054ab9,4,556 1925 3645 4378,185 4732 4733 4734,,,,929-555-2010
+service_phone-00805,legitimate,distinct listings; differ in Network,216bdefbce39f8e9,2,585 4242,1047 5596,,,,929-555-2018
+service_phone-00806,legitimate,distinct listings; differ in ServiceType,0f56caacf5a00962,3,1197 2634 4702,205 206 207,,,,929-555-2051
+service_phone-00807,legitimate,distinct listings; differ in ServiceType,2d19bdba01f32377,3,83 1188 4669,1099 1100 1101,,,,929-555-2063
+service_phone-00808,legitimate,distinct listings; differ in ServiceType,895fe4d5aecc0a5d,2,557 3035,3993 3994,,,,929-555-2083
+service_phone-00809,legitimate,distinct listings; differ in ServiceType,0d833ed4d33bab48,2,107 2044,2112 2113,,,,929-555-2091
+service_phone-00810,legitimate,distinct listings; differ in ServiceType,933a357a602b01da,2,236 4940,1458 1459,,,,929-555-2224
+service_phone-00811,legitimate,distinct listings; differ in ServiceType,cc12f7298e396d07,2,2984 4877,3921 3922,,,,929-555-2263
+service_phone-00812,legitimate,distinct listings; differ in ServiceType,199608750d9ef0a5,2,730 5417,468 469,,,,929-555-2282
+service_phone-00813,legitimate,distinct listings; differ in ServiceType,8397e0e870623bce,2,957 2447,3433 3434,,,,929-555-2360
+service_phone-00814,legitimate,distinct listings; differ in ServiceType,a9328a6c79c66846,4,112 204 3304 4398,436 4765 4766 4767,,,,929-555-2371
+service_phone-00815,legitimate,distinct listings; differ in ServiceType,222efdc3202b53f6,2,2895 5407,3607 3608,,,,929-555-2419
+service_phone-00816,legitimate,distinct listings; differ in ServiceType,43672a5480787830,2,199 3653,1450 1451,,,,929-555-2427
+service_phone-00817,legitimate,distinct listings; differ in ServiceType,a8e1e2d6998562a2,2,3959 4094,2158 2159,,,,929-555-2448
+service_phone-00818,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName; 2 other rows in this official group are distinct listings,8b0a543a3734ac4d,2,748 1799,4668 5625,,,,929-555-2495
+service_phone-00819,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,d57d97458de2d7d7,2,2534 4209,1141 5624,,,,929-555-2567
+service_phone-00820,legitimate,"distinct listings; differ in ServiceType, AddressKey",fa9400a625db2bd3,3,2939 4898 5435,2229 2230 5674,,,,929-555-2616
+service_phone-00821,legitimate,distinct listings; differ in ServiceType,67496759642d9ae9,2,756 1623,2779 2780,,,,929-555-2621
+service_phone-00822,legitimate,distinct listings; differ in ServiceType,ed3dbffcf370c59b,3,160 2635 4771,1399 1400 1401,,,,929-555-2734
+service_phone-00823,legitimate,distinct listings; differ in ServiceType,275bbf59cad60200,2,3161 4990,4551 4552,,,,929-555-2772
+service_phone-00824,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName; 1 other rows in this official group are distinct listings,4cb4c48b7fc7842d,2,1403 2994,2109 5644,,,,929-555-2798
+service_phone-00825,legitimate,distinct listings; differ in ServiceType,f05e443f2ed7794f,3,599 2805 4443,4188 4189 4190,,,,929-555-2874
+service_phone-00826,legitimate,distinct listings; differ in AddressKey,1d6edb9eba911e5b,2,781 3275,3603 5689,,,,929-555-2942
+service_phone-00827,legitimate,distinct listings; differ in ServiceType,bdf95eb10715f0ba,2,819 3627,4196 4197,,,,929-555-2971
+service_phone-00828,legitimate,distinct listings; differ in ServiceType,c83f52e38e56dea3,4,3116 5382 5386 5574,3852 5260 5261 5262,,,,929-555-3001
+service_phone-00829,legitimate,distinct listings; differ in ServiceType,83b0caa10fafeff0,3,1700 2330 2937,1272 1273 1274,,,,929-555-3053
+service_phone-00830,legitimate,distinct listings; differ in ServiceType,4ac533ddfc93e4d3,4,1008 1645 2842 4465,3966 5305 5306 5307,,,,929-555-3146
+service_phone-00831,legitimate,distinct listings; differ in ServiceType,988e4dc0fb9df98f,2,370 1418,4660 4661,,,,929-555-3196
+service_phone-00832,legitimate,distinct listings; differ in ServiceType,1be3caa8197dc814,2,1453 5588,3710 3711,,,,929-555-3246
+service_phone-00833,legitimate,distinct listings; differ in ServiceType,dce00dc7a76feba8,3,1338 3860 4631,214 215 216,,,,929-555-3406
+service_phone-00834,legitimate,distinct listings; differ in ServiceType,fad60d1bb0807cc4,3,233 785 3253,4244 4245 4246,,,,929-555-3427
+service_phone-00835,legitimate,distinct listings; differ in ServiceType,3e25821684176f05,2,1144 2395,41 42,,,,929-555-3450
+service_phone-00836,legitimate,distinct listings; differ in ServiceType,9d9cf382a2c44ae1,3,856 3642 5115,2706 2707 2708,,,,929-555-3564
+service_phone-00837,legitimate,distinct listings; differ in Network,0025f6d8793f4e9c,2,3603 5030,1987 5571,,,,929-555-3615
+service_phone-00838,legitimate,distinct listings; differ in ServiceType,c5653507c2bd8639,4,1406 1972 2092 4512,3530 5206 5207 5208,,,,929-555-3831
+service_phone-00839,legitimate,distinct listings; differ in ServiceType,1d19381856bd027c,3,10 492 1782,1978 1979 1980,,,,929-555-3868
+service_phone-00840,legitimate,distinct listings; differ in ServiceType,1929713e1d8a5657,2,855 2814,1333 1334,,,,929-555-3893
+service_phone-00841,legitimate,distinct listings; differ in AddressKey,9c7fb50115522d1b,2,2829 4215,992 5691,,,,929-555-3928
+service_phone-00842,legitimate,distinct listings; differ in ServiceType,0ba14d41cf3f4626,2,1138 2201,2139 2140,,,,929-555-3933
+service_phone-00843,legitimate,distinct listings; differ in ServiceType,f5c36de6c5607fe7,2,3424 4015,1668 1669,,,,929-555-4036
+service_phone-00844,legitimate,distinct listings; differ in ServiceType,069170f0db30627c,2,295 4988,3404 3405,,,,929-555-4038
+service_phone-00845,legitimate,distinct listings; differ in ServiceType,61d66f8dc5e6764c,4,1764 2692 3435 5593,4346 5356 5357 5358,,,,929-555-4041
+service_phone-00846,legitimate,distinct listings; differ in ServiceType,1f413b5bbfe8e777,2,2558 4886,470 471,,,,929-555-4201
+service_phone-00847,legitimate,distinct listings; differ in ServiceType,46249a6d72b23263,2,500 3140,1821 1822,,,,929-555-4310
+service_phone-00848,legitimate,distinct listings; differ in Network,51c1192967e14a25,2,816 2668,2365 5591,,,,929-555-4369
+service_phone-00849,legitimate,distinct listings; differ in ServiceType,fe920261f282749c,3,3912 3975 4428,1606 1607 1608,,,,929-555-4401
+service_phone-00850,legitimate,distinct listings; differ in ServiceType,c849c69e57c79ee3,2,566 4922,2399 2400,,,,929-555-4428
+service_phone-00851,legitimate,distinct listings; differ in ServiceType,b1da1f74e7c079ea,3,796 2228 4294,4657 4658 4659,,,,929-555-4444
+service_phone-00852,legitimate,distinct listings; differ in ServiceType,77ef5262b9c49a93,4,30 1797 5140 5313,539 4783 4784 4785,,,,929-555-4551
+service_phone-00853,legitimate,distinct listings; differ in ServiceType,fb8918ad148a3967,3,3576 4298 4571,2500 2501 2502,,,,929-555-4605
+service_phone-00854,legitimate,distinct listings; differ in ServiceType,3233df303f26484a,2,967 5271,2508 2509,,,,929-555-4638
+service_phone-00855,legitimate,distinct listings; differ in ServiceType,909fed6750eeff70,2,2166 3557,693 694,,,,929-555-4745
+service_phone-00856,legitimate,distinct listings; differ in AddressKey,65df5f7f0d044b24,2,1356 5241,1081 5675,,,,929-555-4789
+service_phone-00857,legitimate,distinct listings; differ in ServiceType,e58515895205df6c,2,1679 4705,3991 3992,,,,929-555-4795
+service_phone-00858,legitimate,distinct listings; differ in ServiceType,16c92f8888a8021b,2,4924 5445,460 461,,,,929-555-4951
+service_phone-00859,legitimate,distinct listings; differ in ServiceType,884cb355fc472264,2,766 5518,66 67,,,,929-555-4970
+service_phone-00860,legitimate,distinct listings; differ in ServiceType,2978b549ff742a61,4,1195 1869 3454 4097,1869 4930 4931 4932,,,,929-555-5035
+service_phone-00861,legitimate,distinct listings; differ in ServiceType,4778dfb9e777f33b,4,349 3099 3210 3684,617 4801 4802 4803,,,,929-555-5061
+service_phone-00862,legitimate,distinct listings; differ in ServiceType,5ce475df4b5022f2,4,1438 1551 3219 4255,2876 5056 5057 5058,,,,929-555-5089
+service_phone-00863,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName,a099635bf0fcce08,2,568 1416,1045 5611,,,,929-555-5194
+service_phone-00864,legitimate,distinct listings; differ in ServiceType,1ef50b1426ae4387,3,243 682 1463,3911 3912 3913,,,,929-555-5256
+service_phone-00865,legitimate,distinct listings; differ in ServiceType,4ddf031232a3ac85,4,271 2477 4266 5486,1897 4945 4946 4947,,,,929-555-5393
+service_phone-00866,legitimate,distinct listings; differ in ServiceType,f9fcb95d8fe2bcc0,2,495 1945,1089 1090,,,,929-555-5638
+service_phone-00867,legitimate,distinct listings; differ in ServiceType,9da602d5840f2dae,2,1611 4422,3868 3869,,,,929-555-5657
+service_phone-00868,legitimate,distinct listings; differ in ServiceType,f199ae1f02ee7ce9,2,1260 4865,1209 1210,,,,929-555-5665
+service_phone-00869,legitimate,distinct listings; differ in ServiceType,77c21a6b48c48966,2,2319 4016,2929 2930,,,,929-555-5692
+service_phone-00870,legitimate,distinct listings; differ in ServiceType,046332d1e7aa56df,2,1268 4079,2989 2990,,,,929-555-5753
+service_phone-00871,legitimate,distinct listings; differ in ServiceType,6d52e542a9b2cfd9,2,94 528,2663 2664,,,,929-555-5811
+service_phone-00872,legitimate,distinct listings; differ in ServiceType,42767a7f13e29a80,3,354 962 2600,1994 1995 1996,,,,929-555-5837
+service_phone-00873,legitimate,distinct listings; differ in ServiceType,3583779aa04336e4,3,3752 4332 4925,2094 2095 2096,,,,929-555-5930
+service_phone-00874,legitimate,distinct listings; differ in ServiceType,535c73d7f144a4b5,2,84 3248,1496 1497,,,,929-555-5947
+service_phone-00875,legitimate,distinct listings; differ in ServiceType,81119e0532161e7e,2,1343 2302,2840 2841,,,,929-555-6118
+service_phone-00876,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName; 2 other rows in this official group are distinct listings,58178535992c4a5b,2,1074 1637,2047 5636,,,,929-555-6153
+service_phone-00877,legitimate,distinct listings; differ in ServiceType,64f3a3d447754d08,4,207 938 1281 4265,1136 4843 4844 4845,,,,929-555-6174
+service_phone-00878,legitimate,distinct listings; differ in ServiceType,3392aff2e5e3a7aa,4,2272 2539 3011 3551,3149 5122 5123 5124,,,,929-555-6211
+service_phone-00879,review,"differs in EffectiveStart, ServiceLocationKey",5982238767f68384,2,1379 2559,2514 5544,,,,929-555-6281
+service_phone-00880,legitimate,distinct listings; differ in ServiceType,ff58cc13d518a937,4,545 1617 2711 3543,1518 4888 4889 4890,,,,929-555-6314
+service_phone-00881,legitimate,distinct listings; differ in ServiceType,778eb9907d51d825,2,1333 4881,1072 1073,,,,929-555-6417
+service_phone-00882,legitimate,distinct listings; differ in ServiceType,28b81f7ad305f88e,4,435 481 4041 4474,2363 4999 5000 5001,,,,929-555-6450
+service_phone-00883,legitimate,"distinct listings; differ in ServiceType, AddressKey",dd437ff6f5ac9b7a,3,86 3285 4066,4608 4609 5662,,,,929-555-6455
+service_phone-00884,legitimate,distinct listings; differ in ServiceType,d81658f53184e3b3,4,18 1707 1717 4497,1134 4837 4838 4839,,,,929-555-6457
+service_phone-00885,legitimate,distinct listings; differ in AddressKey,c41f09cbd76d16e3,2,369 1441,377 5668,,,,929-555-6494
+service_phone-00886,legitimate,distinct listings; differ in ServiceType,4cc28645ef0e280f,3,1684 2460 4493,1872 1873 1874,,,,929-555-6532
+service_phone-00887,legitimate,"distinct listings; differ in Network, ServiceType",5aa87dfe16ce2052,3,2874 2940 5377,4701 4702 5567,,,,929-555-6606
+service_phone-00888,legitimate,distinct listings; differ in ServiceType,06bc5fce0ba8cc50,2,2893 3652,2146 2147,,,,929-555-6663
+service_phone-00889,legitimate,distinct listings; differ in ServiceType,1dbd7216c98ed818,3,137 3749 4861,33 34 35,,,,929-555-6695
+service_phone-00890,legitimate,distinct listings; differ in ServiceType,ccc6776d9fdb7f56,2,5164 5515,3974 3975,,,,929-555-6792
+service_phone-00891,legitimate,distinct listings; differ in ServiceType,854d55027fac8a0f,3,912 2231 4248,3772 3773 3774,,,,929-555-6865
+service_phone-00892,legitimate,distinct listings; differ in ServiceType,aa37cde5cd7c0585,4,1690 1940 4349 5514,1132 4831 4832 4833,,,,929-555-6886
+service_phone-00893,legitimate,distinct listings; differ in ServiceType,d36fe051f242544e,2,198 4848,3581 3582,,,,929-555-7036
+service_phone-00894,legitimate,distinct listings; differ in ServiceType,8c95a09132182092,3,309 3962 5103,3926 3927 3928,,,,929-555-7205
+service_phone-00895,legitimate,distinct listings; differ in ServiceType,a2e38aa94df66c73,4,1594 3890 4795 5573,1885 4936 4937 4938,,,,929-555-7217
+service_phone-00896,legitimate,distinct listings; differ in ServiceType,53de639bfb9dbe48,3,263 2418 5093,1743 1744 1745,,,,929-555-7285
+service_phone-00897,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName; 2 other rows in this official group are distinct listings,fc65a4336f249fe5,2,4070 4609,2671 5628,,,,929-555-7333
+service_phone-00898,legitimate,distinct listings; differ in ServiceType,28edc7f6f2664419,3,3585 3659 4453,4621 4622 4623,,,,929-555-7384
+service_phone-00899,legitimate,distinct listings; differ in ServiceType,b0f1195b0d15b341,3,817 1206 2583,2026 2027 2028,,,,929-555-7505
+service_phone-00900,legitimate,distinct listings; differ in Network,925eb9d51e36db38,2,1494 5510,4466 5597,,,,929-555-7568
+service_phone-00901,likely_redundant,"same VendorKey/AddressKey; only text differs: DisplayName, Address1; 1 other rows in this official group are distinct listings",ffc3be9a509f8e71,2,2708 4336,1393 5638,,,,929-555-7646
+service_phone-00902,likely_redundant,same VendorKey/AddressKey; only text differs: Address1,7110fcd02b436431,2,183 4996,3070 5612,,,,929-555-7768
+service_phone-00903,legitimate,distinct listings; differ in ServiceType,a3d61945f9395223,3,1126 2899 4849,690 691 692,,,,929-555-7945
+service_phone-00904,legitimate,distinct listings; differ in AddressKey,76d54c0baa0408b2,2,4439 4918,3715 5690,,,,929-555-8017
+service_phone-00905,legitimate,distinct listings; differ in ServiceType,15997b82cca80ec2,4,603 1025 1078 3859,3321 5146 5147 5148,,,,929-555-8020
+service_phone-00906,legitimate,distinct listings; differ in ServiceType,b731db56070dec71,2,4399 5014,3362 3363,,,,929-555-8067
+service_phone-00907,legitimate,distinct listings; differ in ServiceType,f3b151da480cd9e0,2,3750 4143,2068 2069,,,,929-555-8190
+service_phone-00908,legitimate,distinct listings; differ in ServiceType,513e0a76d60d45f7,3,4072 4264 5494,3043 3044 3045,,,,929-555-8224
+service_phone-00909,legitimate,distinct listings; differ in ServiceType,3188e0468ebcbe99,2,1124 1469,2712 2713,,,,929-555-8258
+service_phone-00910,legitimate,distinct listings; differ in ServiceType,5c3f2d20ed869906,2,1800 4677,1505 1506,,,,929-555-8347
+service_phone-00911,legitimate,distinct listings; differ in ServiceType,f653964ab08e4b85,4,2898 4663 4726 5490,2320 4990 4991 4992,,,,929-555-8395
+service_phone-00912,legitimate,distinct listings; differ in ServiceType,7849fe69686a2745,2,2146 3758,4255 4256,,,,929-555-8411
+service_phone-00913,legitimate,distinct listings; differ in ServiceType,218927b03b75a1dc,3,2101 3344 3806,3167 3168 3169,,,,929-555-8524
+service_phone-00914,legitimate,distinct listings; differ in ServiceType,6472d77957b40554,2,300 2781,2693 2694,,,,929-555-8581
+service_phone-00915,legitimate,distinct listings; differ in ServiceType,f14e3985a7faf733,4,870 2661 2797 3162,731 4813 4814 4815,,,,929-555-8760
+service_phone-00916,legitimate,distinct listings; differ in ServiceType,6de7e0a5300bba50,2,661 3041,2203 2204,,,,929-555-8782
+service_phone-00917,legitimate,distinct listings; differ in ServiceType,bd1172cc5df7a8d9,2,2085 3429,2070 2071,,,,929-555-8810
+service_phone-00918,legitimate,distinct listings; differ in ServiceType,1572eebda8fb7e71,4,2727 2877 4104 4668,3215 5134 5135 5136,,,,929-555-8812
+service_phone-00919,legitimate,distinct listings; differ in ServiceType,81394315aa675beb,2,1483 5151,3575 3576,,,,929-555-8849
+service_phone-00920,legitimate,distinct listings; differ in ServiceType,a8e910719db4f2f2,2,407 2651,3691 3692,,,,929-555-8851
+service_phone-00921,legitimate,distinct listings; differ in ServiceType,9828263d651fa4db,2,3699 5298,327 328,,,,929-555-8887
+service_phone-00922,legitimate,distinct listings; differ in ServiceType,ffb2f65486dab73a,2,2429 4994,1842 1843,,,,929-555-8931
+service_phone-00923,legitimate,distinct listings; differ in ServiceType,69cc1dcc883ff195,4,2158 2572 2878 4441,813 4822 4823 4824,,,,929-555-8932
+service_phone-00924,legitimate,distinct listings; differ in ServiceType,af8702dbee9a202a,2,3844 5529,2 3,,,,929-555-8938
+service_phone-00925,likely_redundant,same VendorKey/AddressKey; only text differs: DisplayName; 2 other rows in this official group are distinct listings,beabc3a8d1e6c6e3,2,2557 5161,3019 5641,,,,929-555-9022
+service_phone-00926,legitimate,distinct listings; differ in ServiceType,5d2e846e7bc2a4b1,2,2089 5582,1488 1489,,,,929-555-9036
+service_phone-00927,legitimate,"distinct listings; differ in Network, ServiceType",b326f15eada48d49,3,2538 3055 3405,4470 4471 5579,,,,929-555-9039
+service_phone-00928,legitimate,distinct listings; differ in ServiceType,9c364906cea93a0c,3,711 2468 5484,4341 4342 4343,,,,929-555-9074
+service_phone-00929,legitimate,distinct listings; differ in ServiceType,16de713c06a61c3c,2,8 2610,898 899,,,,929-555-9161
+service_phone-00930,legitimate,distinct listings; differ in ServiceType,25cb6473ecaf2d49,2,908 4192,380 381,,,,929-555-9215
+service_phone-00931,legitimate,distinct listings; differ in ServiceType,dc78f1d5c462874b,4,412 2226 2658 4713,3402 5158 5159 5160,,,,929-555-9327
+service_phone-00932,legitimate,distinct listings; differ in Network,c0ea6e5ead0cfe7f,2,1520 5512,393 5585,,,,929-555-9375
+service_phone-00933,legitimate,distinct listings; differ in ServiceType,9b1f5baa5adf0dee,2,943 4975,2770 2771,,,,929-555-9510
+service_phone-00934,legitimate,distinct listings; differ in ServiceType,e2ecfb2cbcd390d3,2,3315 4434,1731 1732,,,,929-555-9535
+service_phone-00935,legitimate,distinct listings; differ in ServiceType,814dfc3cdfac2a2a,2,1280 1324,3838 3839,,,,929-555-9619
+service_phone-00936,legitimate,distinct listings; differ in ServiceType,192216728088ae3d,2,1389 1995,2001 2002,,,,929-555-9635
+service_phone-00937,legitimate,distinct listings; differ in ServiceType,561d48cad85bd450,3,1336 1781 4798,1429 1430 1431,,,,929-555-9651
+service_phone-00938,review,"differs in EffectiveStart, ServiceLocationKey",cb546e7bfe963ca1,2,2172 3259,3142 5537,,,,929-555-9696
+service_phone-00939,legitimate,distinct listings; differ in Network,f4b106e0400d82c3,2,261 4800,4644 5595,,,,929-555-9725
+service_phone-00940,legitimate,distinct listings; differ in ServiceType,421750d2e6098dbe,4,1000 2200 4114 5027,3355 5152 5153 5154,,,,929-555-9844
+service_phone-00941,legitimate,distinct listings; differ in ServiceType,2b64d2ed5e28d8b4,3,1 4256 4934,1217 1218 1219,,,,929-555-9891
+service_phone-00942,legitimate,distinct listings; differ in ServiceType,535949b46f1200a0,2,1351 2639,4048 4049,,,,929-555-9910
+service_phone-00943,legitimate,distinct listings; differ in ServiceType,5e51105590c4770a,2,1522 5392,2936 2937,,,,929-555-9941
+service_phone-00944,legitimate,distinct listings; differ in ServiceType,90a63d2ee318c1ae,4,1337 1622 2178 2613,4111 5323 5324 5325,,,,929-555-9962
+service_phone-00945,legitimate,distinct listings; differ in ServiceType,a3e22b1440f729f4,2,4634 5275,3159 3160,,,,929-555-9976

@@ -1,0 +1,251 @@
+group_id,kind,reason,group_hash,rows,record_ids,stable_keys,keep,delete,decision,sample
+professional-00001,exact,every compared field identical; same stable key,b1391d7f1911cf97,2,260 696,4322,260,696,,O'Brien | Ahmed | 985 Myrtle Ave | 
+professional-00002,exact,every compared field identical; same stable key,94196e648e8e838c,2,8910 12664,15971,8910,12664,,Abbott | Christopher | 3509 Bruckner Blvd | 
+professional-00003,exact,every compared field identical; same stable key,e03d7145f6cd2721,3,6693 10335 13175,5917,6693,10335 13175,,Abbott | James | 238 1st Ave | 
+professional-00004,exact,every compared field identical; same stable key,3068522d4623d6da,2,207 5617,13514,207,5617,,Acosta | Adriana | 149 Columbus Ave | 
+professional-00005,exact,every compared field identical; same stable key,1d101e5b9d53a063,2,3650 4626,15202,3650,4626,,Acosta | Brian | 2406 Myrtle Ave | 
+professional-00006,exact,every compared field identical; same stable key,5a74b683a7fdf8e2,2,1537 13853,16879,1537,13853,,Adler | Jessica | 3753 Nostrand Ave | Ground Floor
+professional-00007,exact,every compared field identical; same stable key,1b4497186923bc15,3,7129 7869 10917,6198,7129,7869 10917,,Adler | Sara | 754 Jamaica Ave | 3rd Floor
+professional-00008,review,"differs in Phone, PracticeLocationKey",51e2686fb3b07444,2,9448 16250,12552 19789,,,,Aguilar | Michael | 3122 Clove Rd | Suite 201
+professional-00009,exact,every compared field identical; same stable key,d36346619d78cf3c,2,3178 8205,6032,3178,8205,,Ahmed | Omar | 2147 Boston Rd | 2nd Floor
+professional-00010,exact,every compared field identical; same stable key,e6f43dc71557e0a6,2,5518 11654,2791,5518,11654,,Ali | Benjamin | 3534 Hillside Ave | 
+professional-00011,exact,every compared field identical; same stable key,faf3b7bd50301838,2,5056 7052,681,5056,7052,,Ali | Dylan | 1308 White Plains Rd | 
+professional-00012,review,"differs in Phone, PracticeLocationKey",808ffe327c40aaf2,2,8681 10974,5350 19823,,,,Ali | Dylan | 901 W 57th St | 2nd Floor
+professional-00013,exact,every compared field identical; same stable key,e32060b86d1e1ac9,2,12605 17376,6472,12605,17376,,Ali | Lucas | 2654 Boston Rd | 3rd Floor
+professional-00014,review,"differs in Phone, PracticeLocationKey",fe688685e659d35b,2,1226 1707,14514 19829,,,,Ali | Samuel | 3250 Flatbush Ave | Suite 3B
+professional-00015,exact,every compared field identical; same stable key,2aab347eb75b4cf7,2,87 6129,5553,87,6129,,Anderson | Daniela | 198 Hylan Blvd | 
+professional-00016,exact,every compared field identical; same stable key,274b054ad5eed72d,2,2974 6618,16676,2974,6618,,Anderson | Deborah | 3441 Fulton St | Ground Floor
+professional-00017,exact,every compared field identical; same stable key,592fc3a52f5fab64,2,1813 10529,4808,1813,10529,,Anderson | Isaac | 2884 Clove Rd | 
+professional-00018,exact,every compared field identical; same stable key,40f4a2b457ed1873,2,2825 16144,4422,2825,16144,,Anderson | Omar | 3666 E 86th St | 
+professional-00019,legitimate,distinct listings; differ in Network,fd214e0bb74763b2,2,6094 6162,4197 19873,,,,Banerjee | Carlos | 3176 Court St | Suite 100
+professional-00020,review,"differs in Phone, PracticeLocationKey",a4552b52d7089c71,2,9432 18469,12838 19799,,,,Banerjee | Nadia | 2468 Queens Blvd | Suite 100
+professional-00021,review,"differs in EffectiveDate, PracticeLocationKey",e860c64723f2781e,2,3772 14865,7732 19809,,,,Banerjee | Patricia | 493 Arthur Kill Rd | 
+professional-00022,exact,every compared field identical; same stable key,6450bb8bdb8b5d86,2,7858 11258,2573,7858,11258,,Barnes | Jasmine | 756 Nostrand Ave | Lower Level
+professional-00023,legitimate,distinct listings; differ in Network,abb31966d482c7fa,2,6409 10712,1581 19875,,,,Becker | Maria | 482 Utica Ave | Ground Floor
+professional-00024,legitimate,distinct listings; differ in Network,0bb8eccb5b004b31,2,13000 16122,2239 19872,,,,Becker | Nicole | 2766 Targee St | Ground Floor
+professional-00025,exact,every compared field identical; same stable key,3c939e980fe32b7b,2,10494 13998,14109,10494,13998,,Bell | Denise | 3466 Bay Pkwy | 
+professional-00026,legitimate,distinct listings; differ in Network,4a38be284ced9ac0,2,6659 7719,11967 19858,,,,Bell | Mark | 1122 Northern Blvd | 
+professional-00027,exact,every compared field identical; same stable key,3252eeb5cf432b76,2,10867 13206,9600,10867,13206,,Bennett | Ryan | 1536 W 57th St | 
+professional-00028,exact,every compared field identical; same stable key,d254ce75d6071939,2,11477 12275,13443,11477,12275,,Berg | Sean | 1149 St Nicholas Ave | Suite 201
+professional-00029,review,"differs in EffectiveDate, PracticeLocationKey",f21ac44073de4b51,2,5666 16333,8856 19813,,,,Blake | Diana | 888 Broadway | Suite 201
+professional-00030,legitimate,distinct listings; differ in Network,8a3ed498a59e6709,2,3267 9511,13436 19878,,,,Blake | Mark | 258 Kings Hwy | 
+professional-00031,exact,every compared field identical; same stable key,f0616ba2e79c6254,2,2401 10058,1249,2401,10058,,Blake | Wei | 3906 Coney Island Ave | 
+professional-00032,exact,every compared field identical; same stable key,cdfe5f6d6c100eab,2,4159 12774,18637,4159,12774,,Bowen | Anthony | 33 Victory Blvd | 
+professional-00033,review,"differs in Phone, PracticeLocationKey",926bd2c0fac987c5,2,1216 16878,8779 19838,,,,Bowen | Jordan | 477 Park Ave | 2nd Floor
+professional-00034,legitimate,distinct listings; differ in Network,bb5dd06605d739b8,2,208 919,18887 19882,,,,Brooks | Adriana | 2964 Steinway St | Suite 100
+professional-00035,review,"differs in EffectiveDate, PracticeLocationKey",5c94714749eafe06,2,9789 16049,4390 19802,,,,Byrne | Amara | 436 Bay Ridge Ave | 
+professional-00036,review,"differs in EffectiveDate, PracticeLocationKey",66b904f419bd9a87,2,2555 19504,18425 19804,,,,Byrne | Ethan | 2527 Union Tpke | Ground Floor
+professional-00037,exact,every compared field identical; same stable key,d9307813ba6a3891,2,16287 17279,14719,16287,17279,,Byrne | John | 2195 Canal St | 
+professional-00038,exact,every compared field identical; same stable key,1a514ef64cbfc54d,2,4288 6926,17971,4288,6926,,Byrne | Joseph | 2600 Myrtle Ave | 
+professional-00039,exact,every compared field identical; same stable key,1dd509f66152e1a6,2,367 7220,12941,367,7220,,Calloway | Lila | 2424 Hillside Ave | 3rd Floor
+professional-00040,exact,every compared field identical; same stable key,181a60e932c961e3,2,2566 15141,16081,2566,15141,,Campbell | Claire | 728 Main St | Ground Floor
+professional-00041,exact,every compared field identical; same stable key,359aceb6ff7f3262,2,4157 14812,13340,4157,14812,,Campbell | Victoria | 3257 Church Ave | 2nd Floor
+professional-00042,exact,every compared field identical; same stable key,808f4c47951fee31,2,2898 10815,13754,2898,10815,,Carter | Elizabeth | 2571 Richmond Ave | Ground Floor
+professional-00043,exact,every compared field identical; same stable key,bd9df3cfe3784b3e,2,2832 9382,6285,2832,9382,,Carter | Stephen | 1536 Beach 20th St | 
+professional-00044,exact,every compared field identical; same stable key,85030313dee87633,2,5880 9311,13062,5880,9311,,Castillo | Chloe | 1432 Nostrand Ave | Suite 100
+professional-00045,legitimate,distinct listings; differ in Network,200247b014eba515,2,53 4703,19489 19866,,,,Castillo | Ibrahim | 3735 Union Tpke | 3rd Floor
+professional-00046,legitimate,distinct listings; differ in Network,45875b5d3401be4e,2,6063 15856,11504 19865,,,,Choi | Alejandro | 3740 New Dorp Ln | 3rd Floor
+professional-00047,review,"differs in Phone, PracticeLocationKey",b7636507b2090f87,2,10022 12931,3018 19798,,,,Choi | Olivia | 323 Hillside Ave | 
+professional-00048,exact,every compared field identical; same stable key,98d677ab744ee470,2,2098 18314,5731,2098,18314,,Choi | Thomas | 3092 Roosevelt Ave | Ground Floor
+professional-00049,exact,every compared field identical; same stable key,5dfbaa29bd6beecd,2,5490 6850,7046,5490,6850,,Clark | Deborah | 1189 1st Ave | Ground Floor
+professional-00050,legitimate,distinct listings; differ in Network,06e01bfa55ded93c,2,4594 12948,13842 19856,,,,Clark | Ibrahim | 3899 Church Ave | Suite 100
+professional-00051,exact,every compared field identical; same stable key,0ce8e25917484165,2,12209 13836,10798,12209,13836,,Cole | Felix | 2714 Pelham Pkwy | 
+professional-00052,exact,every compared field identical; same stable key,3d34efa655264f9e,2,254 5075,15407,254,5075,,Cole | Ivan | 2882 W 57th St | Suite 100
+professional-00053,review,"differs in EffectiveDate, PracticeLocationKey",5b966dd3dabaf41a,2,1011 9774,8100 19831,,,,Cortez | Ava | 3084 Liberty Ave | 3rd Floor
+professional-00054,exact,every compared field identical; same stable key,712d07a4cfc081f8,3,1072 4598 16822,6947,1072,4598 16822,,Cortez | Rosa | 3075 Queens Blvd | Lower Level
+professional-00055,exact,every compared field identical; same stable key,77d4f0c0cc5c58c4,2,4317 4659,16515,4317,4659,,Cruz | Sara | 1184 Bruckner Blvd | 
+professional-00056,exact,every compared field identical; same stable key,e303ebb99042b2fe,2,813 9600,18601,813,9600,,Dawson | Carlos | 1448 Pelham Pkwy | 
+professional-00057,exact,every compared field identical; same stable key,511b726cd7032d24,2,1670 2923,1681,1670,2923,,Dawson | Luis | 2298 Steinway St | Lower Level
+professional-00058,legitimate,distinct listings; differ in Network,2645c7fe37aa5434,2,1156 13868,5999 19857,,,,Diaz | Brandon | 2719 Park Ave | 
+professional-00059,exact,every compared field identical; same stable key,7f64ab0919fced75,2,2682 13126,6885,2682,13126,,Dixon | Lucas | 3011 Amboy Rd | Suite 3B
+professional-00060,review,"differs in Phone, PracticeLocationKey",3d237babb4ad1836,2,3154 10538,17947 19837,,,,Duarte | Caroline | 2411 Arthur Kill Rd | 
+professional-00061,exact,every compared field identical; same stable key,06832340bf360f3d,2,9049 18727,754,9049,18727,,Edwards | Daniela | 1911 Queens Blvd | Suite 201
+professional-00062,exact,every compared field identical; same stable key,146912dbebdbbcf3,2,12491 16541,13572,12491,16541,,Ellis | Diana | 3369 Kings Hwy | 
+professional-00063,legitimate,distinct listings; differ in Network,66e9807269eddc4d,2,7687 9290,7878 19859,,,,Ellis | John | 103 1st Ave | 3rd Floor
+professional-00064,exact,every compared field identical; same stable key,175f20f103497a9d,3,1438 6805 10872,7349,1438,6805 10872,,Espinoza | Rafael | 3087 Myrtle Ave | Ground Floor
+professional-00065,exact,every compared field identical; same stable key,2f608a734736ddb8,2,3999 7743,7350,3999,7743,,Espinoza | Rafael | 671 Bay Ridge Ave | 
+professional-00066,legitimate,distinct listings; differ in Network,29e030f7d8315f30,2,4147 19120,13510 19869,,,,Fischer | Amara | 1481 Hillside Ave | 
+professional-00067,exact,every compared field identical; same stable key,2df5869b274365d2,2,12074 16992,12781,12074,16992,,Fischer | Isabella | 2901 Forest Ave | 
+professional-00068,exact,every compared field identical; same stable key,fda6f195e985e27f,2,6197 16542,10846,6197,16542,,Fischer | Sarah | 2292 Ocean Pkwy | Ground Floor
+professional-00069,exact,every compared field identical; same stable key,e95cf0799dfe07a4,2,5092 16893,13208,5092,16893,,Flores | Tariq | 3336 Atlantic Ave | 
+professional-00070,legitimate,distinct listings; differ in Network,97ce34dae15a7fbc,2,3156 12085,4393 19863,,,,Foster | Anna | 2728 Roosevelt Ave | 
+professional-00071,exact,every compared field identical; same stable key,59a37e75bfea39c5,2,2885 15871,6437,2885,15871,,Foster | Camila | 3898 Nostrand Ave | Suite 100
+professional-00072,exact,every compared field identical; same stable key,9a7b7951635fbf92,2,6637 17028,1616,6637,17028,,Fox | Thomas | 12 Richmond Ave | 
+professional-00073,exact,every compared field identical; same stable key,cfc1ce2c7ac9e698,3,3640 8604 17406,3861,3640,8604 17406,,Fox | Victor | 1236 Kissena Blvd | 
+professional-00074,exact,every compared field identical; same stable key,bcc95aaffac3bb54,2,6975 9698,17568,6975,9698,,Franklin | Ahmed | 1428 2nd Ave | Suite 100
+professional-00075,review,"differs in EffectiveDate, PracticeLocationKey",aa8a55f85f9d316e,2,8276 14524,6434 19812,,,,Franklin | Victor | 513 Coney Island Ave | Suite 201
+professional-00076,exact,every compared field identical; same stable key,0d9ce01354497216,2,5308 13439,3191,5308,13439,,Freeman | Nicole | 2186 1st Ave | 
+professional-00077,exact,every compared field identical; same stable key,854b01b41f4699b5,2,3005 12995,18124,3005,12995,,Fuentes | James | 739 Jerome Ave | 2nd Floor
+professional-00078,exact,every compared field identical; same stable key,2aa654452b148765,2,1811 5845,10537,1811,5845,,Fuentes | Jennifer | 67 Amsterdam Ave | 
+professional-00079,review,"differs in EffectiveDate, PracticeLocationKey",792f75f4a9750e70,2,561 5931,14070 19835,,,,Fuentes | Patricia | 7 Astoria Blvd | 
+professional-00080,exact,every compared field identical; same stable key,e5259ba5fa116106,2,16116 16885,13331,16116,16885,,Gonzalez | Evelyn | 1076 Steinway St | Suite 201
+professional-00081,exact,every compared field identical; same stable key,51527de65cf2442a,2,16207 17296,7204,16207,17296,,Gonzalez | Oscar | 3420 Bay St | Lower Level
+professional-00082,exact,every compared field identical; same stable key,dd4c2e02d810299f,3,1797 7117 7347,17991,1797,7117 7347,,Graham | Hassan | 508 Amsterdam Ave | 
+professional-00083,review,"differs in EffectiveDate, PracticeLocationKey",3e2a29d13ea74a51,2,1051 3791,7432 19794,,,,Graham | Victoria | 1343 Clove Rd | 3rd Floor
+professional-00084,exact,every compared field identical; same stable key,08e1bacde3c68215,2,2465 16176,1836,2465,16176,,Green | Mei | 1076 Steinway St | Suite 201
+professional-00085,exact,every compared field identical; same stable key,296d458b4093a189,2,4165 8032,18699,4165,8032,,Green | Yusuf | 936 Northern Blvd | Ground Floor
+professional-00086,review,"differs in EffectiveDate, PracticeLocationKey",3894c874dcd1303e,2,7874 9748,12127 19818,,,,Hamilton | Diego | 1942 Bruckner Blvd | Suite 201
+professional-00087,review,"differs in Phone, PracticeLocationKey",a9ec4fa7643132f4,2,2914 14802,3473 19819,,,,Harper | Aria | 3206 E 86th St | 
+professional-00088,legitimate,distinct listings; differ in Network,90c61d7838ea0d72,2,3349 15826,13341 19886,,,,Hayes | Aaliyah | 2851 Utica Ave | Suite 3B
+professional-00089,exact,every compared field identical; same stable key,dc6bedbd1fab9757,2,14175 15039,398,14175,15039,,Henderson | Rafael | 1878 Court St | 2nd Floor
+professional-00090,exact,every compared field identical; same stable key,40e76f074965d71b,2,5759 16744,5237,5759,16744,,Hernandez | Asher | 2089 Coney Island Ave | 
+professional-00091,exact,every compared field identical; same stable key,f08449919def3c95,2,12142 17441,4736,12142,17441,,Hernandez | Mark | 2389 E 86th St | 2nd Floor
+professional-00092,exact,every compared field identical; same stable key,1c87e12c1e63865d,2,15450 18186,9789,15450,18186,,Holland | Lila | 1807 Steinway St | Lower Level
+professional-00093,review,"differs in Phone, PracticeLocationKey",34a3de350dfe2af6,2,1238 14309,15619 19805,,,,Howard | Jessica | 2289 Roosevelt Ave | 
+professional-00094,review,"differs in Phone, PracticeLocationKey",6e5dc4ec587ffc24,2,7650 15510,11995 19797,,,,Hughes | Wei | 3870 Bay Pkwy | Suite 201
+professional-00095,exact,every compared field identical; same stable key,e719f42b57ed5344,2,13351 17913,19145,13351,17913,,Hunt | Grace | 2642 Columbus Ave | 2nd Floor
+professional-00096,legitimate,distinct listings; differ in Network,52b321b542f118ad,2,6934 19284,13223 19862,,,,Jackson | Aisha | 1490 E 86th St | Ground Floor
+professional-00097,exact,every compared field identical; same stable key,364826aadf565cd5,2,11681 18002,1106,11681,18002,,Jackson | Asher | 159 Hylan Blvd | 
+professional-00098,exact,every compared field identical; same stable key,35608e407c053cbc,2,10852 12782,6360,10852,12782,,Jackson | Caroline | 1123 Madison Ave | 3rd Floor
+professional-00099,review,"differs in Phone, PracticeLocationKey",f70179e4d085171d,2,2837 9759,321 19793,,,,Jackson | Naomi | 3500 Castleton Ave | 3rd Floor
+professional-00100,legitimate,distinct listings; differ in Network,d393690925aa090e,2,7503 18687,17672 19852,,,,Jackson | Ruth | 1899 Bay Pkwy | 2nd Floor
+professional-00101,review,"differs in EffectiveDate, PracticeLocationKey",bd54b77a7a7165b8,2,4002 15375,12747 19832,,,,Jensen | Xavier | 816 Lexington Ave | 3rd Floor
+professional-00102,legitimate,distinct listings; differ in Network,a730e95903546bc1,2,648 18938,14056 19885,,,,Jones | Ana | 40 Columbus Ave | 
+professional-00103,review,"differs in EffectiveDate, PracticeLocationKey",7348b0b23daec4ed,2,1358 14208,16923 19843,,,,Jones | Richard | 3154 Fulton St | 3rd Floor
+professional-00104,review,"differs in EffectiveDate, PracticeLocationKey",f22bfb628f42b2d7,2,6641 19323,8970 19844,,,,Jordan | Maya | 888 Kissena Blvd | 2nd Floor
+professional-00105,exact,every compared field identical; same stable key,c508eae0f981c3b2,2,11502 13993,14082,11502,13993,,Keller | Tariq | 84 Beach 20th St | 
+professional-00106,review,"differs in EffectiveDate, PracticeLocationKey",3bb8b720344bd834,2,15533 17253,18629 19803,,,,Keller | Thomas | 3051 Ocean Pkwy | 
+professional-00107,exact,every compared field identical; same stable key,8585d4465c16c1eb,2,2721 12174,2946,2721,12174,,Khan | Claire | 1771 W 125th St | Suite 100
+professional-00108,exact,every compared field identical; same stable key,78e44a9f58b9d3f5,3,2579 13690 16286,17955,2579,13690 16286,,Kim | Claire | 465 E Fordham Rd | 3rd Floor
+professional-00109,review,"differs in EffectiveDate, PracticeLocationKey",fd4868e58f53fae5,2,1793 11659,10749 19825,,,,Kim | Isaac | 1387 Boston Rd | Suite 3B
+professional-00110,review,"differs in EffectiveDate, PracticeLocationKey",694744b0840bb6b0,2,10286 19651,15074 19839,,,,Kim | Isabella | 534 2nd Ave | 
+professional-00111,exact,every compared field identical; same stable key,dcb12e735e1a155f,2,9909 16107,17019,9909,16107,,King | Victoria | 1202 Steinway St | Suite 201
+professional-00112,exact,every compared field identical; same stable key,dc5d6747874b03b6,2,11706 13324,19739,11706,13324,,Klein | David | 34 Hillside Ave | 2nd Floor
+professional-00113,exact,every compared field identical; same stable key,6c792d9cfe049f9b,2,2613 16569,1312,2613,16569,,Klein | Javier | 3344 E 86th St | 
+professional-00114,exact,every compared field identical; same stable key,72aee663e90e0e0a,2,4583 15190,9557,4583,15190,,Kowalski | Joseph | 3050 E 149th St | Lower Level
+professional-00115,review,"differs in EffectiveDate, PracticeLocationKey",1ca7f2cd8a82428f,2,16909 17708,5087 19834,,,,Kumar | Nathan | 3328 St Nicholas Ave | 2nd Floor
+professional-00116,exact,every compared field identical; same stable key,ae8ddfb4b33ee56d,2,11996 18744,1286,11996,18744,,Lam | Diana | 1797 Coney Island Ave | 
+professional-00117,exact,every compared field identical; same stable key,01a523169015c3bf,2,7608 14045,8166,7608,14045,,Lam | Luis | 1631 E Fordham Rd | Ground Floor
+professional-00118,exact,every compared field identical; same stable key,0dacd5e6a0eb5e96,3,6356 6874 17032,15255,6356,6874 17032,,Lam | Miguel | 1612 Flatbush Ave | 
+professional-00119,legitimate,distinct listings; differ in Network,7d38239fb96118b6,2,3658 4815,4787 19876,,,,Lambert | Karen | 3028 E 14th St | Suite 100
+professional-00120,review,"differs in Phone, PracticeLocationKey",50d01a28b665413d,2,8208 13464,13458 19800,,,,Lambert | Leon | 2796 Bay Pkwy | Suite 3B
+professional-00121,exact,every compared field identical; same stable key,2dac60ec66818824,2,9773 13061,1101,9773,13061,,Lambert | Lucas | 1765 Hillside Ave | Ground Floor
+professional-00122,legitimate,distinct listings; differ in Network,bcd288697076e6de,2,6532 18624,12423 19879,,,,Lambert | Miguel | 2778 Arthur Kill Rd | 3rd Floor
+professional-00123,review,"differs in Phone, PracticeLocationKey",9ff11f93fe7c55b6,2,3355 11263,11096 19847,,,,Lee | Dominic | 3664 E Fordham Rd | Lower Level
+professional-00124,exact,every compared field identical; same stable key,e5385c93b576f1de,2,3364 8731,1146,3364,8731,,Levine | Ivan | 1699 Union Tpke | Suite 100
+professional-00125,exact,every compared field identical; same stable key,e7809fd98d5e13b4,2,1714 4039,16607,1714,4039,,Lewis | Daniela | 3494 Utica Ave | Lower Level
+professional-00126,exact,every compared field identical; same stable key,0f22b8375603d23d,2,878 7560,17444,878,7560,,Lewis | Ibrahim | 252 W 125th St | Ground Floor
+professional-00127,exact,every compared field identical; same stable key,5a72da43462ca005,2,10573 17475,12392,10573,17475,,Li | Jonathan | 2655 Astoria Blvd | Ground Floor
+professional-00128,legitimate,distinct listings; differ in Network,d3592afeac669b26,2,6339 8352,4144 19849,,,,Lin | Oscar | 1793 Ocean Pkwy | 
+professional-00129,exact,every compared field identical; same stable key,bcaeec8c2ebf0076,2,15522 17834,16271,15522,17834,,Lin | Robert | 748 Bay Ridge Ave | 
+professional-00130,exact,every compared field identical; same stable key,f3bcf7a27a006ecf,2,8015 15627,5236,8015,15627,,Lopez | Arjun | 2778 Arthur Kill Rd | 3rd Floor
+professional-00131,exact,every compared field identical; same stable key,77ba906d49f43945,2,2285 15784,13632,2285,15784,,Lynch | Catherine | 2576 1st Ave | Lower Level
+professional-00132,legitimate,distinct listings; differ in Network,91e89ce5a5c3d352,2,1808 12799,3799 19883,,,,Malik | Javier | 1142 Roosevelt Ave | 
+professional-00133,exact,every compared field identical; same stable key,1715068cf778e5e9,2,14619 17056,11999,14619,17056,,Malik | Oscar | 3687 Jerome Ave | Suite 201
+professional-00134,exact,every compared field identical; same stable key,9831ece901ccbbf7,2,10396 18971,10970,10396,18971,,Marsh | Caroline | 468 Boston Rd | 2nd Floor
+professional-00135,review,"differs in EffectiveDate, PracticeLocationKey",f1991e541b2c2df9,2,3466 8126,8420 19795,,,,Martin | Ava | 3274 Lexington Ave | 
+professional-00136,exact,every compared field identical; same stable key,bb7a6232a684b46f,2,6359 17140,16066,6359,17140,,Mehta | Aisha | 505 Park Ave | Suite 100
+professional-00137,exact,every compared field identical; same stable key,87ca44ebe1c63e4b,2,12090 13982,6551,12090,13982,,Mehta | Anthony | 3007 White Plains Rd | Ground Floor
+professional-00138,legitimate,distinct listings; differ in Network,6afa2cdb1e54da9e,2,1946 14759,6518 19881,,,,Mehta | Christopher | 1465 Main St | Suite 100
+professional-00139,review,"differs in Phone, PracticeLocationKey",efdb5100535c410f,2,1646 10994,12922 19828,,,,Mendez | Anthony | 3430 Lexington Ave | Suite 100
+professional-00140,exact,every compared field identical; same stable key,7571e78399e2b7f0,2,3881 11105,5879,3881,11105,,Mendez | Camila | 3610 Hillside Ave | 
+professional-00141,exact,every compared field identical; same stable key,c873b89b209f6837,2,3478 18857,2256,3478,18857,,Mendez | Lucas | 1122 Northern Blvd | 
+professional-00142,exact,every compared field identical; same stable key,908669b898af0b7b,2,9947 12007,4562,9947,12007,,Miller | Asher | 1982 Union Tpke | 3rd Floor
+professional-00143,exact,every compared field identical; same stable key,aeb545933c635d92,2,5538 6593,1083,5538,6593,,Mitchell | Martin | 3430 Lexington Ave | Suite 100
+professional-00144,exact,every compared field identical; same stable key,5045c057f28b1825,2,3313 14709,13432,3313,14709,,Moore | Abigail | 3763 2nd Ave | 
+professional-00145,exact,every compared field identical; same stable key,10aaf48af29bd48e,2,737 18301,18562,737,18301,,Morales | Anthony | 2202 Steinway St | 
+professional-00146,exact,every compared field identical; same stable key,b02c2b92bb0a24d3,2,14416 19520,5147,14416,19520,,Morales | Thomas | 1853 Nostrand Ave | 2nd Floor
+professional-00147,legitimate,distinct listings; differ in Network,7af120e7e22b43c6,2,9412 15541,18231 19848,,,,Moreno | Isaac | 3328 Bedford Ave | 
+professional-00148,legitimate,distinct listings; differ in Network,39d6d023165ce2da,2,4534 14284,10054 19880,,,,Morgan | Ana | 1815 Main St | 2nd Floor
+professional-00149,legitimate,distinct listings; differ in Network,c6b628717c9b6ef7,2,8921 12580,10703 19884,,,,Morgan | Robert | 1777 St Nicholas Ave | 
+professional-00150,exact,every compared field identical; same stable key,05e9767cdf4ba227,2,9239 16568,6604,9239,16568,,Murphy | John | 2651 St Nicholas Ave | 2nd Floor
+professional-00151,exact,every compared field identical; same stable key,c6947ddfa3ce7d70,2,10443 19022,10554,10443,19022,,Murphy | Yara | 2483 Canal St | 
+professional-00152,exact,every compared field identical; same stable key,34478143e6cdeaaa,2,3483 7986,10946,3483,7986,,Nakamura | Victor | 1325 Northern Blvd | 
+professional-00153,legitimate,distinct listings; differ in Network,5dd9cd94a6b56c71,2,3715 12502,8372 19870,,,,Nash | Eric | 895 Church Ave | 
+professional-00154,legitimate,distinct listings; differ in Network,69b33afebfc24049,2,2957 11272,13525 19868,,,,Nelson | Anthony | 2037 Astoria Blvd | 
+professional-00155,exact,every compared field identical; same stable key,a71768285a8bd7bb,2,13946 14372,13700,13946,14372,,Nelson | James | 3441 Fulton St | 3rd Floor
+professional-00156,exact,every compared field identical; same stable key,890c3a519005d4d8,2,4335 12513,18920,4335,12513,,Novak | Anna | 2785 Westchester Ave | 
+professional-00157,legitimate,distinct listings; differ in Network,2bfafed0eb5f5a49,2,13769 19281,7640 19853,,,,Okafor | Isabella | 2659 Beach 20th St | Suite 201
+professional-00158,exact,every compared field identical; same stable key,01f6ed9a87c1034e,2,3766 17182,11441,3766,17182,,Okafor | Leon | 1307 Arthur Kill Rd | 2nd Floor
+professional-00159,review,"differs in EffectiveDate, PracticeLocationKey",68f8d47c23018e8e,2,11487 17924,10530 19845,,,,Okafor | Noah | 3688 Madison Ave | 
+professional-00160,exact,every compared field identical; same stable key,1acc1b2da6494882,2,9038 16149,9549,9038,16149,,Okafor | Rosa | 2298 Westchester Ave | 
+professional-00161,exact,every compared field identical; same stable key,ce041caedeb44db6,3,11859 13379 17193,6568,11859,13379 17193,,Okafor | Sofia | 2907 Morris Park Ave | 2nd Floor
+professional-00162,exact,every compared field identical; same stable key,ad235fb1d3593fe4,2,6787 16640,16192,6787,16640,,Osei | James | 3697 Boston Rd | Suite 100
+professional-00163,review,"differs in Phone, PracticeLocationKey",042f7c18a2b3c8a7,2,550 16490,1210 19790,,,,Osei | Jasmine | 2708 Park Ave | Suite 3B
+professional-00164,legitimate,distinct listings; differ in Network,bf4c3025e68ac1df,2,5652 9605,17470 19871,,,,Owens | Layla | 1543 E 86th St | 2nd Floor
+professional-00165,review,"differs in EffectiveDate, PracticeLocationKey",9156294ebb9d6ee6,2,3779 6330,7686 19842,,,,Park | Caroline | 831 Coney Island Ave | Ground Floor
+professional-00166,exact,every compared field identical; same stable key,027e71e275d9cb9f,2,1651 12213,11133,1651,12213,,Patel | Anna | 2301 1st Ave | 
+professional-00167,exact,every compared field identical; same stable key,99bdc0ad2ae48234,2,4207 7461,15311,4207,7461,,Perez | Robert | 2709 Church Ave | Ground Floor
+professional-00168,exact,every compared field identical; same stable key,c2412d7d101c98c3,2,4030 14539,1426,4030,14539,,Peterson | Lila | 1393 Church Ave | Suite 100
+professional-00169,legitimate,distinct listings; differ in Network,c9593c4c8b764518,2,5042 14560,4589 19861,,,,Peterson | Lila | 2477 Fulton St | Suite 100
+professional-00170,review,"differs in Phone, PracticeLocationKey",36bdacc9cfb7bc96,2,8172 14807,10633 19846,,,,Peterson | Michael | 2046 Myrtle Ave | 
+professional-00171,exact,every compared field identical; same stable key,07136a330f3dfe2b,2,3094 17025,18499,3094,17025,,Peterson | Mohammed | 3991 Clove Rd | Ground Floor
+professional-00172,review,"differs in Phone, PracticeLocationKey",6357674d3785e343,2,3901 12969,8303 19822,,,,Pham | Jonathan | 2370 Beach 20th St | 
+professional-00173,exact,every compared field identical; same stable key,f83c2e7b1756d93e,2,1953 10511,2854,1953,10511,,Pham | Lucas | 2696 2nd Ave | Suite 100
+professional-00174,exact,every compared field identical; same stable key,9a19a8119a03a65e,2,664 4608,887,664,4608,,Pham | Paul | 3790 Court St | Suite 3B
+professional-00175,exact,every compared field identical; same stable key,6156d69d573e73ad,2,1038 5107,6664,1038,5107,,Phillips | Chen | 1501 Broadway | Ground Floor
+professional-00176,review,"differs in EffectiveDate, PracticeLocationKey",e4dee1805da9422a,2,3297 19067,16813 19817,,,,Porter | Camila | 1224 Jerome Ave | 
+professional-00177,review,"differs in EffectiveDate, PracticeLocationKey",abf1433e751fd335,2,6123 16445,14408 19788,,,,Porter | Rebecca | 1499 Westchester Ave | 2nd Floor
+professional-00178,review,"differs in Phone, PracticeLocationKey",cba4b9f55dc38be9,2,13598 17525,2441 19833,,,,Porter | Sean | 3859 Columbus Ave | Suite 100
+professional-00179,exact,every compared field identical; same stable key,2c32e049780e816f,2,2996 5926,1135,2996,5926,,Reed | Mariam | 3620 Canal St | 2nd Floor
+professional-00180,legitimate,distinct listings; differ in Network,10f2d1237429f30a,2,4272 16389,11929 19850,,,,Reed | Rosa | 3628 Clove Rd | 
+professional-00181,exact,every compared field identical; same stable key,6d0c2538380947ae,2,2840 18350,6653,2840,18350,,Reyes | Denise | 2960 Bruckner Blvd | 3rd Floor
+professional-00182,review,"differs in EffectiveDate, PracticeLocationKey",5acb84d0e21f8723,2,11560 17609,6682 19801,,,,Reyes | Samuel | 1799 E Tremont Ave | 
+professional-00183,exact,every compared field identical; same stable key,53fad633ff855e45,2,2798 13687,15992,2798,13687,,Rivera | Sean | 2642 2nd Ave | 
+professional-00184,review,"differs in Phone, PracticeLocationKey",9bd2cdbb8313d540,2,3442 5260,5893 19824,,,,Roberts | Irene | 2375 Bay Pkwy | Lower Level
+professional-00185,exact,every compared field identical; same stable key,f90ef4d59877bb80,2,7488 14419,241,7488,14419,,Roberts | Layla | 578 Jerome Ave | Suite 201
+professional-00186,review,"differs in EffectiveDate, PracticeLocationKey",f79fcb1bc4cad8df,2,2477 7739,17678 19791,,,,Roberts | Leah | 1421 Church Ave | 
+professional-00187,exact,every compared field identical; same stable key,0c80a7c0e5b66ef8,2,5027 5394,17107,5027,5394,,Robinson | Diana | 1711 Coney Island Ave | Suite 3B
+professional-00188,exact,every compared field identical; same stable key,bac88f5838349c0d,2,2221 19095,7271,2221,19095,,Robinson | Yusuf | 2410 Utica Ave | 
+professional-00189,review,"differs in Phone, PracticeLocationKey",5d38f6811375831d,2,5382 19522,6056 19826,,,,Rodriguez | Olivia | 2007 Union Tpke | 
+professional-00190,review,"differs in Phone, PracticeLocationKey",0b499ccd6265ed1c,2,1855 10109,9955 19827,,,,Russo | Henry | 2882 W 57th St | Suite 100
+professional-00191,legitimate,distinct listings; differ in Network,a88639f2a00c9137,2,1081 3678,18787 19887,,,,Russo | Isaac | 739 Jerome Ave | Lower Level
+professional-00192,exact,every compared field identical; same stable key,7407f419305a5aa6,2,5678 16411,17905,5678,16411,,Ryan | Dominic | 3401 Jerome Ave | 
+professional-00193,review,"differs in Phone, PracticeLocationKey",d6b2c46dbc08b3df,2,4459 18439,12896 19815,,,,Ryan | Dylan | 1117 Bay St | Suite 201
+professional-00194,exact,every compared field identical; same stable key,28ceef891bf3ee7f,2,4862 11307,5735,4862,11307,,Ryan | Susan | 1268 Beach 20th St | 
+professional-00195,exact,every compared field identical; same stable key,4ec75c5824900a04,3,4908 5442 18282,18891,4908,5442 18282,,Sanchez | Aaliyah | 3591 Canal St | 
+professional-00196,exact,every compared field identical; same stable key,d9d1546e2903001f,2,5612 6006,11844,5612,6006,,Sanchez | Grace | 2314 Main St | 2nd Floor
+professional-00197,exact,every compared field identical; same stable key,fce215b76bf9bd07,2,6087 14510,19451,6087,14510,,Sanchez | Jacob | 3835 W 57th St | 
+professional-00198,exact,every compared field identical; same stable key,594074ae4644d89f,2,12175 18521,8566,12175,18521,,Sanchez | Rachel | 2078 Kissena Blvd | 
+professional-00199,exact,every compared field identical; same stable key,7ff4506226ffd9f9,2,4432 10126,14566,4432,10126,,Sanders | Jessica | 40 Columbus Ave | 
+professional-00200,review,"differs in Phone, PracticeLocationKey",6a80fcac43c8d356,2,1027 11909,18701 19836,,,,Santos | Bianca | 2745 E Fordham Rd | 
+professional-00201,review,"differs in EffectiveDate, PracticeLocationKey",a97b7ccc0c9e47b7,2,15104 16439,3424 19830,,,,Santos | Rachel | 2241 St Nicholas Ave | 
+professional-00202,legitimate,distinct listings; differ in Network,2830c0b011f4a54a,2,4450 8655,6232 19877,,,,Schmidt | Patricia | 804 Utica Ave | 
+professional-00203,review,"differs in Phone, PracticeLocationKey",dcc1ff3827027110,2,430 11733,7221 19792,,,,Schmidt | Priya | 3826 Utica Ave | 
+professional-00204,legitimate,distinct listings; differ in Network,586e152ecfd80719,2,12907 19645,9727 19851,,,,Scott | Jordan | 1939 Park Ave | 
+professional-00205,review,"differs in EffectiveDate, PracticeLocationKey",15336975c127fc25,2,17029 19083,5866 19814,,,,Shah | Anna | 1072 Hillside Ave | 2nd Floor
+professional-00206,exact,every compared field identical; same stable key,c668baf46c777835,2,13702 16659,18771,13702,16659,,Shah | Ethan | 2084 Richmond Rd | 
+professional-00207,legitimate,distinct listings; differ in Network,42314460ea2bfedc,2,12728 14301,5820 19864,,,,Shah | Robert | 8 Fulton St | Suite 100
+professional-00208,legitimate,distinct listings; differ in Network,43970d468ab329c1,2,13502 17453,13636 19854,,,,Shah | Yara | 1845 Clove Rd | Suite 100
+professional-00209,review,"differs in Phone, PracticeLocationKey",15284f3b439db8ab,2,169 19534,789 19816,,,,Sharma | Ethan | 708 Ocean Pkwy | Suite 201
+professional-00210,exact,every compared field identical; same stable key,57c51b81d6a03c04,2,14789 15362,11179,14789,15362,,Sharma | Fatima | 238 1st Ave | 
+professional-00211,legitimate,distinct listings; differ in Network,043fd96067a4bb94,2,10788 11360,4884 19867,,,,Sharma | Ruth | 1421 Church Ave | 
+professional-00212,review,"differs in Phone, PracticeLocationKey",7a12a98fc6754eb3,2,6895 11063,8600 19840,,,,Silva | Mei | 2546 Bruckner Blvd | 
+professional-00213,review,"differs in Phone, PracticeLocationKey",601221c3da5fa8a3,2,8229 19633,8598 19821,,,,Silva | Mei | 2742 Clove Rd | Ground Floor
+professional-00214,exact,every compared field identical; same stable key,9c0ba48295e6201b,3,1425 4558 11701,1920,1425,4558 11701,,Singh | Amir | 3313 Broadway | 3rd Floor
+professional-00215,exact,every compared field identical; same stable key,05c4f4aa13a7bf10,2,3819 12575,16350,3819,12575,,Singh | Henry | 3509 Bruckner Blvd | 
+professional-00216,review,"differs in Phone, PracticeLocationKey",0532b5a8ea80cf0f,2,5122 6565,5098 19796,,,,Singh | Rebecca | 561 Liberty Ave | Suite 3B
+professional-00217,exact,every compared field identical; same stable key,3361daa3f491c891,2,16152 19278,10166,16152,19278,,Smith | Martin | 2422 Bay Ridge Ave | 
+professional-00218,review,"differs in Phone, PracticeLocationKey",041f683ef6925f9a,2,2238 9116,13121 19806,,,,Smith | Victoria | 3543 St Nicholas Ave | 3rd Floor
+professional-00219,exact,every compared field identical; same stable key,09ed6c73ff618df6,2,14596 19515,5646,14596,19515,,Sullivan | Andre | 2807 Amboy Rd | Suite 3B
+professional-00220,exact,every compared field identical; same stable key,dcef5f354492178f,2,6085 18924,6767,6085,18924,,Tanaka | Charles | 3762 Beach 20th St | 
+professional-00221,exact,every compared field identical; same stable key,4c57dcc3e27ad3a3,2,6774 9221,744,6774,9221,,Tanaka | Nicole | 810 Atlantic Ave | 
+professional-00222,legitimate,distinct listings; differ in Network,7f70c5b7b607738a,2,6713 17350,10322 19874,,,,Torres | Aria | 3523 Canal St | Suite 201
+professional-00223,exact,every compared field identical; same stable key,65199457ccebd975,3,12182 14885 15322,12886,12182,14885 15322,,Torres | Denise | 3075 Queens Blvd | Lower Level
+professional-00224,review,"differs in Phone, PracticeLocationKey",569d7dc84c9fdc1c,2,175 18554,14852 19807,,,,Tran | Mohammed | 1583 Forest Ave | 
+professional-00225,exact,every compared field identical; same stable key,ad8492712915325c,2,1543 18465,2951,1543,18465,,Turner | Chloe | 1175 Clove Rd | 3rd Floor
+professional-00226,exact,every compared field identical; same stable key,97dd054741449beb,2,3035 16740,5543,3035,16740,,Turner | Eric | 1389 Bay Ridge Ave | 
+professional-00227,exact,every compared field identical; same stable key,4b8f36e26731fb0f,2,1780 7408,8761,1780,7408,,Turner | Mark | 3571 W 125th St | 2nd Floor
+professional-00228,review,"differs in Phone, PracticeLocationKey",f176cd08f0ec1899,2,151 15563,8960 19810,,,,Vargas | Rebecca | 3868 Liberty Ave | 
+professional-00229,exact,every compared field identical; same stable key,9cda6fa5bef820c6,2,1333 11007,13749,1333,11007,,Vasquez | Rebecca | 735 Madison Ave | Suite 3B
+professional-00230,review,"differs in EffectiveDate, PracticeLocationKey",414694ab39a3ed17,2,1614 11613,12518 19820,,,,Walker | Amara | 1224 Jerome Ave | 
+professional-00231,exact,every compared field identical; same stable key,183af5c6266c886c,2,10604 17098,18025,10604,17098,,Wallace | Thomas | 3154 Bedford Ave | Suite 201
+professional-00232,review,"differs in Phone, PracticeLocationKey",324457fc00a605a3,2,13782 14744,12850 19811,,,,Wang | Karen | 1500 Nostrand Ave | 
+professional-00233,exact,every compared field identical; same stable key,6d2e991a5838c5c4,2,6974 8147,12852,6974,8147,,Wang | Karen | 724 Atlantic Ave | Suite 100
+professional-00234,exact,every compared field identical; same stable key,c3e773464c4cb1f4,2,3146 3457,12978,3146,3457,,Wang | Sean | 3689 Jerome Ave | 
+professional-00235,exact,every compared field identical; same stable key,5a3ebea027a39a0d,2,12189 14109,12451,12189,14109,,Ward | Daniela | 1042 Nostrand Ave | 
+professional-00236,exact,every compared field identical; same stable key,8a9f180d83c2f41d,3,6707 7102 14507,3760,6707,7102 14507,,Ward | Mei | 428 E 14th St | 3rd Floor
+professional-00237,review,"differs in Phone, PracticeLocationKey",8ddd3c7979c6d635,2,9144 9272,1381 19808,,,,Watson | Helen | 628 Church Ave | Suite 100
+professional-00238,exact,every compared field identical; same stable key,f9566eaeb069f994,2,10725 13344,8964,10725,13344,,Watson | Mohammed | 2988 Fulton St | 
+professional-00239,exact,every compared field identical; same stable key,b61d94771410b7c9,2,4295 5915,18101,4295,5915,,White | Javier | 2579 Fulton St | 
+professional-00240,exact,every compared field identical; same stable key,1808432e96c42d38,2,5294 10790,13184,5294,10790,,Williams | Emily | 272 Bell Blvd | Lower Level
+professional-00241,exact,every compared field identical; same stable key,bcde195c33610b6c,2,10774 14238,3520,10774,14238,,Williams | Layla | 3915 Fulton St | Suite 3B
+professional-00242,exact,every compared field identical; same stable key,de7c10b3c12431da,2,274 3395,10916,274,3395,,Williams | Sara | 1048 E 14th St | 
+professional-00243,exact,every compared field identical; same stable key,658da27ab15e18a6,2,4469 17052,3801,4469,17052,,Wilson | Luis | 1605 St Nicholas Ave | 
+professional-00244,exact,every compared field identical; same stable key,48d328910e9c7e35,2,3453 17964,3365,3453,17964,,Wong | Rachel | 1633 Coney Island Ave | 3rd Floor
+professional-00245,review,"differs in EffectiveDate, PracticeLocationKey",b3043fe356b017bc,2,6545 7122,7162 19841,,,,Wright | Caroline | 3746 Broadway | Suite 3B
+professional-00246,legitimate,distinct listings; differ in Network,2ec7425cc24d8be6,2,10451 11518,10207 19860,,,,Young | Felix | 1106 Southern Blvd | Suite 100
+professional-00247,exact,every compared field identical; same stable key,12585dd17d9a58f7,2,4041 14633,19027,4041,14633,,Young | Noah | 432 Amsterdam Ave | 
+professional-00248,exact,every compared field identical; same stable key,faa4cd9ac63edc2d,2,7172 12448,13712,7172,12448,,Zhang | Henry | 1628 Myrtle Ave | Lower Level
+professional-00249,exact,every compared field identical; same stable key,e878a450c66442eb,2,6364 11775,1321,6364,11775,,Zhang | Jose | 2978 W 57th St | Lower Level
+professional-00250,legitimate,distinct listings; differ in Network,45b0c5fa9776e548,2,8817 18922,9182 19855,,,,Zhang | Paul | 1801 E 86th St | 

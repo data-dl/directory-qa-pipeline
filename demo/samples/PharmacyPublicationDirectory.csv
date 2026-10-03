@@ -1,0 +1,41 @@
+PharmacyRecordID,ProviderNumber,NPI,DisplayName,Address1,Address2,City,State,ZIP,County,Borough,Phone,SpokenLanguages,Hours,Network,LineA_Flag,LineB_Flag,LineC_Flag,LineD_Flag,PrintFlag
+1,R288921,1013280429,Tidewater Rx,1671 3rd Ave,,New York,NY,10027,New York,Manhattan,212-555-3576,"Spanish, Urdu",Mon-Sat 8-8,Summit Network,1,1,0,0,1
+2,R969556,2323417545,Hillcrest Pharmacy,3120 Kings Hwy,2nd Floor,Brooklyn,NY,11225,Kings,Brooklyn,347-555-6735,"Arabic, Korean",Mon-Sat 8-8,Harbor Network,1,1,0,0,1
+3,R291197,1600446664,Summit Drugs,2855 Flatbush Ave,Ground Floor,Brooklyn,NY,11239,Kings,Brooklyn,718-555-3262,Korean,Mon-Sun 9-9,Crossroads Network,1,0,0,0,1
+4,R161838,2973392022,Lakeshore Apothecary,1259 Coney Island Ave,,Brooklyn,NY,11207,Kings,Brooklyn,929-555-7531,"Greek, Albanian, , ,",Mon-Fri 8-6,Harbor Network,1,1,0,1,1
+5,R407324,1164304143,Empire Pharmacy,1522 Park Ave,,New York,NY,10039,New York,Manhattan,917-555-7300,", , , ,",Mon-Sat 8-8,Harbor Network,1,0,0,1,1
+6,R823187,2901839029,Sunrise Apothecary,2789 St Nicholas Ave,Ground Floor,New York,NY,10012,New York,Manhattan,212-555-3547,", , , ,",Daily 8-10,Harbor Network,1,0,1,0,1
+7,R343143,1154971000,Bluepoint Drugs,748 Jamaica Ave,,Jamaica,NY,11422,Queens,Queens,929-555-2273,"Spanish, Albanian",Mon-Sat 8-8,Harbor Network,1,1,0,0,1
+8,R177191,1288622099,Pinnacle Rx,1875 E 14th St,,New York,NY,10018,New York,Manhattan,212-555-4328,Italian,"Mon-Fri 9-7, Sat 9-5",Harbor Network,1,0,0,1,1
+9,R597460,2049403480,Harborview Pharmacy,471 Roosevelt Ave,Ground Floor,Long Island City,NY,11105,Queens,Queens,718-555-5552,"Bengali, Spanish","Mon-Fri 9-7, Sat 9-5",Crossroads Network,1,1,1,0,1
+10,R149925,2569390299,Unity Chemists,2117 Kissena Blvd,Ground Floor,Jamaica,NY,11414,Queens,Queens,929-555-8263,,Daily 8-10,Crossroads Network,1,0,0,0,1
+11,R254971,1902575624,Highbridge Chemists,3676 Astoria Blvd,Ground Floor,Bayside,NY,11363,Queens,Queens,929-555-2271,"Bengali, Punjabi, Chinese, ,",Daily 8-10,Harbor Network,0,0,1,0,1
+12,R518970,2819908791,Redwood Rx,1044 Church Ave,Suite 100,Brooklyn,NY,11236,Kings,Brooklyn,347-555-4596,Russian,Mon-Sat 8-8,Summit Network,1,1,0,0,1
+13,R764203,2036034801,Lighthouse Rx,1667 Utica Ave,,Brooklyn,NY,11235,Kings,Brooklyn,347-555-8844,", , , ,",Mon-Sun 9-9,Summit Network,1,1,0,0,1
+14,R388897,1586760609,Redwood Pharmacy,1241 Utica Ave,,Brooklyn,NY,11204,Kings,Brooklyn,718-555-0195,"Albanian, French, Yiddish",24 hours,Harbor Network,1,1,1,0,1
+15,R447631,2060248822,Oakridge Drugs,2285 Beach 20th St,,Jamaica,NY,11412,Queens,Queens,929-555-1723,"Portuguese, Urdu",Mon-Sun 9-9,Harbor Network,1,0,1,0,1
+16,R598985,1524436908,Tidewater Pharmacy,2486 2nd Ave,Ground Floor,New York,NY,10128,New York,Manhattan,212-555-3055,Tagalog,Mon-Sun 9-9,Summit Network,1,1,0,0,1
+17,R967525,1224466841,Northgate Pharmacy,1830 Madison Ave,Lower Level,New York,NY,10128,New York,Manhattan,646-555-0485,Albanian,Mon-Sat 8-8,Harbor Network,1,0,0,0,1
+18,R738778,2296937180,Bayview Pharmacy,1093 Steinway St,2nd Floor,Jackson Heights,NY,11375,Queens,Queens,718-555-9840,"Russian, Punjabi, Polish","Mon-Fri 9-7, Sat 9-5",Harbor Network,1,0,0,1,1
+19,R121249,1527184323,Metro Apothecary,1499 Main St,Suite 3B,Jackson Heights,NY,11372,Queens,Queens,347-555-7707,"Polish, , , ,",24 hours,Harbor Network,1,1,0,0,1
+20,R944721,1862501651,Bluepoint Chemists,3326 Atlantic Ave,Suite 100,Brooklyn,NY,11233,Kings,Brooklyn,347-555-5923,"Portuguese, Tagalog",Daily 8-10,Harbor Network,1,0,0,0,1
+21,R131121,1791698248,Fairmont Pharmacy,156 Ocean Pkwy,,Brooklyn,NY,11221,Kings,Brooklyn,347-555-7472,Hebrew,"Mon-Fri 9-7, Sat 9-5",Harbor Network,0,1,0,0,1
+22,R998054,1495146718,Lakeshore Chemists,2776 Nostrand Ave,2nd Floor,Brooklyn,NY,11230,Kings,Brooklyn,929-555-7360,"Hebrew, Polish",Mon-Sat 8-8,Crossroads Network,1,0,1,0,1
+23,R469220,1527171452,Willowbrook Rx,2213 Roosevelt Ave,3rd Floor,Bayside,NY,11362,Queens,Queens,929-555-4812,Chinese,Mon-Sat 8-8,Harbor Network,1,1,1,0,1
+24,R197597,2506820861,Pinnacle Apothecary,1827 Boston Rd,Ground Floor,Bronx,NY,10472,Bronx,Bronx,347-555-0889,Haitian Creole,"Mon-Fri 9-7, Sat 9-5",Harbor Network,1,0,1,0,1
+25,R744957,1052788787,Summit Rx,3427 Jerome Ave,Suite 3B,Bronx,NY,10467,Bronx,Bronx,718-555-8411,,"Mon-Fri 9-7, Sat 9-5",Summit Network,1,1,1,1,1
+26,R864643,2091568420,Willowbrook Apothecary,19 Bruckner Blvd,Suite 3B,Bronx,NY,10460,Bronx,Bronx,718-555-0326,"Hebrew, , , ,",Daily 8-10,Harbor Network,1,0,0,0,1
+27,R292743,1446768909,Unity Pharmacy,3713 E 149th St,,Bronx,NY,10453,Bronx,Bronx,718-555-6492,"Hindi, , , ,",Daily 8-10,Harbor Network,0,0,0,0,1
+28,R246571,1378194215,Redwood Drugs,3433 St Nicholas Ave,Suite 201,New York,NY,10036,New York,Manhattan,646-555-4423,"French, Greek, Polish, Hindi,",Daily 8-10,Harbor Network,1,0,0,0,1
+29,R929664,1290541709,Pinnacle Chemists,2217 Bay Pkwy,,Brooklyn,NY,11222,Kings,Brooklyn,718-555-3488,"Russian, Bengali, , ,",Mon-Fri 8-6,Summit Network,1,1,1,0,1
+30,R278216,2264039381,Bluepoint Chemists of Brooklyn,697 Nostrand Ave,,Brooklyn,NY,11236,Kings,Brooklyn,929-555-5701,,Mon-Sun 9-9,Summit Network,1,1,0,1,1
+31,R717575,2962719532,Northgate Apothecary,1833 Amsterdam Ave,,New York,NY,10036,New York,Manhattan,917-555-0520,"Albanian, , , ,",Mon-Fri 8-6,Crossroads Network,1,1,1,0,1
+32,R393133,1881330058,Kingsway Chemists,709 Park Ave,,New York,NY,10027,New York,Manhattan,212-555-5647,"Spanish, Albanian, Vietnamese",Mon-Sat 8-8,Summit Network,1,0,0,1,1
+33,R742608,1698225160,Tidewater Chemists,2248 Bedford Ave,Suite 100,Brooklyn,NY,11228,Kings,Brooklyn,929-555-6585,",Arabic, Vietnamese, Italian, French,",Daily 8-10,Harbor Network,1,1,0,0,1
+34,R551881,1322247952,Sunrise Chemists,3213 Bay Ridge Ave,,Brooklyn,NY,11222,Kings,Brooklyn,718-555-7973,Hindi,Daily 8-10,Harbor Network,1,0,0,0,1
+35,R609280,1357140510,Westfield Drugs,3542 Clove Rd,Suite 201,Staten Island,NY,10312,Richmond,Staten Island,718-555-4685,"Bengali, , , ,",Daily 8-10,Crossroads Network,1,0,1,0,1
+36,R692233,2442292902,Hillcrest Drugs,2721 Richmond Rd,Lower Level,Staten Island,NY,10303,Richmond,Staten Island,718-555-6359,"Chinese, Urdu",Mon-Fri 8-6,Crossroads Network,1,0,1,0,1
+37,R227841,2790032488,Greenfield Chemists,185 Southern Blvd,Ground Floor,Bronx,NY,10472,Bronx,Bronx,347-555-7618,", , , ,",Mon-Sun 9-9,Harbor Network,1,1,0,0,1
+38,R239552,1295866184,Fairmont Drugs,3180 Bell Blvd,Suite 3B,Bayside,NY,11362,Queens,Queens,929-555-8788,"Polish, Greek, , ,","Mon-Fri 9-7, Sat 9-5",Summit Network,0,1,1,0,1
+39,R406933,1674241173,Riverside Pharmacy,331 Victory Blvd,Suite 201,Staten Island,NY,10301,Richmond,Staten Island,718-555-1686,"Haitian Creole, French, Spanish, ,","Mon-Fri 9-7, Sat 9-5",Harbor Network,1,1,0,0,1
+40,R179910,1139084374,Pinnacle Pharmacy,757 Main St,,Bayside,NY,11366,Queens,Queens,347-555-4716,,"Mon-Fri 9-7, Sat 9-5",Crossroads Network,1,0,0,1,1

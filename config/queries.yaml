@@ -1,0 +1,188 @@
+# The saved-query library. In Access these would be QueryDef objects inside the
+# database; here they are named SQL so the portable backend can run them. Rules
+# and stages refer to queries by name only.
+
+# ---- official duplicate queries ---------------------------------------------
+
+professional_duplicates: |
+  SELECT p.*
+  FROM ProfessionalDirectory AS p
+  JOIN (
+    SELECT LastName, FirstName, Address1, Address2, Specialty, NPI
+    FROM ProfessionalDirectory
+    GROUP BY LastName, FirstName, Address1, Address2, Specialty, NPI
+    HAVING COUNT(*) > 1
+  ) AS d USING (LastName, FirstName, Address1, Address2, Specialty, NPI)
+  ORDER BY LastName, FirstName, Address1, Address2, Specialty, NPI, ProviderRecordID
+
+service_address_duplicates: |
+  SELECT s.*
+  FROM ServiceDirectory AS s
+  JOIN (
+    SELECT DisplayName, Address1, Address2, ZIP, ServiceType
+    FROM ServiceDirectory
+    GROUP BY DisplayName, Address1, Address2, ZIP, ServiceType
+    HAVING COUNT(*) > 1
+  ) AS d USING (DisplayName, Address1, Address2, ZIP, ServiceType)
+  ORDER BY DisplayName, Address1, Address2, ZIP, ServiceType, VendorRecordID
+
+service_phone_duplicates: |
+  SELECT s.*
+  FROM ServiceDirectory AS s
+  JOIN (
+    SELECT Phone FROM ServiceDirectory
+    WHERE Phone IS NOT NULL AND Phone <> ''
+    GROUP BY Phone HAVING COUNT(*) > 1
+  ) AS d USING (Phone)
+  ORDER BY Phone, DisplayName, VendorRecordID
+
+# ---- blocking zero-row checks -------------------------------------------------
+
+missing_service_geography: |
+  SELECT VendorRecordID, DisplayName, FacilityType, ServiceType, Address1, City, ZIP, County, Borough, Source
+  FROM ServiceDirectory
+  WHERE County IS NULL OR County = '' OR Borough IS NULL OR Borough = ''
+
+missing_provider_county: |
+  SELECT ProviderRecordID, LastName, FirstName, Specialty, Address1, City, ZIP, County, Borough, Source
+  FROM ProfessionalDirectory
+  WHERE County IS NULL OR County = ''
+
+missing_provider_specialty: |
+  SELECT ProviderRecordID, LastName, FirstName, NPI, Address1, City, Specialty, Source
+  FROM ProfessionalDirectory
+  WHERE Specialty IS NULL OR Specialty = ''
+
+missing_provider_phone: |
+  SELECT ProviderRecordID, LastName, FirstName, Specialty, Address1, City, Phone, Source
+  FROM ProfessionalDirectory
+  WHERE Phone IS NULL OR Phone = ''
+
+invalid_specialty_county: |
+  SELECT ProviderRecordID, LastName, FirstName, Specialty, County, Borough, Address1, Source
+  FROM ProfessionalDirectory
+  WHERE (Specialty, County) IN (VALUES
+    ('Care Management', 'Richmond'),
+    ('Neonatology', 'Richmond'),
+    ('Pediatric Cardiology', 'Bronx'))
+
+missing_school_limitation: |
+  SELECT ProviderRecordID, LastName, FirstName, Specialty, Address1, City, LimitationText
+  FROM ProfessionalDirectory
+  WHERE Specialty = 'School-Based Health'
+    AND (LimitationText IS NULL OR LimitationText = '' OR LOWER(LimitationText) NOT LIKE '%school%')
+
+zip_borough_mismatch: |
+  SELECT ProviderRecordID, LastName, FirstName, Address1, City, ZIP, Borough,
+    CASE substr(ZIP, 1, 3)
+      WHEN '100' THEN 'Manhattan' WHEN '101' THEN 'Manhattan' WHEN '102' THEN 'Manhattan'
+      WHEN '103' THEN 'Staten Island'
+      WHEN '104' THEN 'Bronx'
+      WHEN '110' THEN 'Queens' WHEN '111' THEN 'Queens' WHEN '113' THEN 'Queens'
+      WHEN '114' THEN 'Queens' WHEN '116' THEN 'Queens'
+      WHEN '112' THEN 'Brooklyn'
+      ELSE 'unknown' END AS zip_borough
+  FROM ProfessionalDirectory
+  WHERE Borough <> '' AND zip_borough <> 'unknown' AND zip_borough <> Borough
+
+malformed_languages: |
+  SELECT PharmacyRecordID, DisplayName, Borough, SpokenLanguages
+  FROM PharmacyPublicationDirectory
+  WHERE SpokenLanguages LIKE ',%'      -- leading comma
+     OR SpokenLanguages LIKE '%,'      -- trailing comma
+     OR SpokenLanguages LIKE '%,,%'    -- empty segment
+     OR SpokenLanguages LIKE '%, ,%'   -- empty segment with a space
+     OR SpokenLanguages LIKE '% ,%'    -- space before a comma
+     OR SpokenLanguages LIKE ' %'      -- leading space
+     OR SpokenLanguages LIKE '% '      -- trailing space
+
+retired_source_present: |
+  SELECT VendorRecordID, DisplayName, FacilityType, ServiceType, Borough, Source
+  FROM ServiceDirectory
+  WHERE Source IN ('LegacyVendorFeed')
+
+# ---- checklist rules ------------------------------------------------------------
+
+named_exclusion_present: |
+  SELECT ProviderRecordID, LastName, FirstName, NPI, ProviderNumber, Specialty, Address1, City, Source
+  FROM ProfessionalDirectory
+  WHERE LastName = 'Vance' AND FirstName = 'Theodora'
+
+vision_island_presence: |
+  SELECT VendorRecordID, DisplayName, Address1, Borough, ProviderNumber, LineA_Flag
+  FROM ServiceDirectory
+  WHERE ServiceType = 'Vision' AND Borough = 'Staten Island'
+
+vision_island_line_exception: |
+  SELECT VendorRecordID, DisplayName, Address1, Borough, ProviderNumber, LineA_Flag
+  FROM ServiceDirectory
+  WHERE ServiceType = 'Vision' AND Borough = 'Staten Island'
+    AND (LineA_Flag IS NULL OR LineA_Flag <> '1')
+
+vision_line_a_required: |
+  SELECT VendorRecordID, DisplayName, Address1, Borough, ProviderNumber, LineA_Flag
+  FROM ServiceDirectory
+  WHERE ServiceType = 'Vision' AND (LineA_Flag IS NULL OR LineA_Flag <> '1')
+
+named_org_nonzero_lines: |
+  SELECT VendorRecordID, DisplayName, Address1, Borough, LineA_Flag, LineB_Flag, LineC_Flag, LineD_Flag
+  FROM ServiceDirectory
+  WHERE DisplayName = 'Meadowbrook Transport Co'
+    AND (LineB_Flag = '1' OR LineC_Flag = '1' OR LineD_Flag = '1')
+
+vision_presentation_review: |
+  SELECT VendorRecordID, DisplayName, Address1, Address2, Borough
+  FROM ServiceDirectory
+  WHERE ServiceType = 'Vision'
+    AND (DisplayName LIKE '%  %' OR DisplayName LIKE ' %' OR DisplayName LIKE '% '
+         OR DisplayName LIKE '%,' OR Address1 LIKE '%  %' OR Address1 LIKE ' %')
+
+# ---- advisory checks --------------------------------------------------------------
+
+partial_flags: |
+  SELECT 'ProfessionalDirectory' AS table_name, ProviderRecordID AS record_id,
+         LineA_Flag, LineB_Flag, LineC_Flag, LineD_Flag
+  FROM ProfessionalDirectory
+  WHERE (LineA_Flag = '' OR LineB_Flag = '' OR LineC_Flag = '' OR LineD_Flag = '')
+    AND NOT (LineA_Flag = '' AND LineB_Flag = '' AND LineC_Flag = '' AND LineD_Flag = '')
+  UNION ALL
+  SELECT 'ServiceDirectory', VendorRecordID, LineA_Flag, LineB_Flag, LineC_Flag, LineD_Flag
+  FROM ServiceDirectory
+  WHERE (LineA_Flag = '' OR LineB_Flag = '' OR LineC_Flag = '' OR LineD_Flag = '')
+    AND NOT (LineA_Flag = '' AND LineB_Flag = '' AND LineC_Flag = '' AND LineD_Flag = '')
+
+# ---- grouped reports (listings to read, never expected to be empty) --------------
+
+hospital_network_line_counts: |
+  SELECT Network, LineCode, COUNT(*) AS rows
+  FROM ServiceDirectory
+  WHERE FacilityType = 'Hospital'
+  GROUP BY Network, LineCode
+  ORDER BY Network, LineCode
+
+behavioral_health_type_counts: |
+  SELECT ProviderType, Specialty, COUNT(*) AS rows
+  FROM ProfessionalDirectory
+  WHERE ProviderType = 'Behavioral Health'
+  GROUP BY ProviderType, Specialty
+  ORDER BY Specialty
+
+core_service_line_combinations: |
+  SELECT LineCode, LineA_Flag, LineB_Flag, LineC_Flag, LineD_Flag, COUNT(*) AS rows
+  FROM ServiceDirectory
+  WHERE ServiceType = 'CORE'
+  GROUP BY LineCode, LineA_Flag, LineB_Flag, LineC_Flag, LineD_Flag
+  ORDER BY rows DESC
+
+vision_listings: |
+  SELECT DisplayName, Address1, Borough, ProviderNumber, LineA_Flag, LineB_Flag, LineC_Flag, LineD_Flag
+  FROM ServiceDirectory
+  WHERE ServiceType = 'Vision'
+  ORDER BY Borough, DisplayName
+
+vision_rows_by_borough: |
+  SELECT Borough, COUNT(*) AS rows
+  FROM ServiceDirectory
+  WHERE ServiceType = 'Vision'
+  GROUP BY Borough
+  ORDER BY Borough

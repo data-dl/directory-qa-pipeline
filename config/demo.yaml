@@ -1,0 +1,112 @@
+# Every path, table name and setting the pipeline needs for the demo environment.
+# Paths are relative to the repository root. Nothing in the stages is hardcoded
+# to these names: point this file at other databases and the same code runs.
+
+cycle: "2026-09"
+prior_cycle: "2026-08"
+
+databases:
+  repository: demo/DirectoryQualityHub.sqlite
+  professional_source: demo/sources/PractitionerFeed.sqlite
+  service_source: demo/sources/ServiceVendorFeed.sqlite
+
+archive_dir: demo/archive
+backup_dir: demo/backups
+runs_dir: runs
+decisions_dir: config/decisions
+queries_file: config/queries.yaml
+rules_file: config/rules.yaml
+checklist_file: demo/advisory_checklist.csv
+accepted_findings_file: config/accepted_findings.yaml
+
+backup_retention: 5          # backups kept per repository file
+working_copy_retention: 2    # runs whose working copy is kept (failed runs are always kept)
+stop_before_borough: true
+
+tables:
+  professional: ProfessionalDirectory
+  service: ServiceDirectory
+  pharmacy: PharmacyPublicationDirectory
+  other_facility: OtherFacilityReference
+  managed_care: ManagedCareFacilitySource
+  deletion_list: ApprovedDeletionList
+
+# Stage 3. Each transfer's behaviour is declared, never guessed from a button.
+transfers:
+  - {source_db: professional_source, source_table: ProfessionalProviderSource, target: ProfessionalDirectory, mode: replace}
+  - {source_db: service_source, source_table: AdditionalServiceSource, target: ServiceDirectory, mode: replace}
+  - {source_db: service_source, source_table: OtherFacilityReference, target: OtherFacilityReference, mode: replace}
+  - {source_db: service_source, source_table: ManagedCareFacilitySource, target: ManagedCareFacilitySource, mode: replace}
+
+# Stages 4 and 7. The official query defines the candidates; these settings say
+# how to read a candidate group.
+duplicates:
+  professional:
+    query: professional_duplicates
+    table: ProfessionalDirectory
+    record_id: ProviderRecordID
+    stable_key: PracticeLocationKey
+    group_by: [LastName, FirstName, Address1, Address2, Specialty, NPI]
+    compare: [NPI, ProviderNumber, Network, Source, EffectiveDate, Phone, ProviderKey, AddressKey, PracticeLocationKey]
+    legitimate_if_differs_in: [NPI, ProviderNumber, Network, Source]
+    text_fields: []
+    location_keys: [ProviderKey, AddressKey]
+  service_address:
+    query: service_address_duplicates
+    table: ServiceDirectory
+    record_id: VendorRecordID
+    stable_key: ServiceLocationKey
+    group_by: [DisplayName, Address1, Address2, ZIP, ServiceType]
+    compare: [NPI, ProviderNumber, Network, Source, ServiceType, EffectiveStart, EffectiveEnd, Phone, VendorKey, AddressKey, ServiceLocationKey]
+    legitimate_if_differs_in: [NPI, ProviderNumber, Network, Source, ServiceType]
+    text_fields: [DisplayName, Address1, Address2]
+    location_keys: [VendorKey, AddressKey]
+  service_phone:
+    query: service_phone_duplicates
+    table: ServiceDirectory
+    record_id: VendorRecordID
+    stable_key: ServiceLocationKey
+    group_by: [Phone]
+    compare: [DisplayName, Address1, Address2, ZIP, NPI, ProviderNumber, Network, Source, ServiceType, EffectiveStart, EffectiveEnd, VendorKey, AddressKey, ServiceLocationKey]
+    legitimate_if_differs_in: [NPI, ProviderNumber, Network, Source, ServiceType, AddressKey]
+    text_fields: [DisplayName, Address1, Address2, ZIP]
+    location_keys: [VendorKey, AddressKey]
+
+# Stage 5.
+service_cleanup:
+  provider_number_column: ProviderNumber
+  source_column: Source
+retired_sources: [LegacyVendorFeed]
+
+# Stage 10.
+line_code:
+  column: LineCode
+  flags: [LineA_Flag, LineB_Flag, LineC_Flag, LineD_Flag]
+  tables:
+    - {table: ProfessionalDirectory, record_id: ProviderRecordID}
+    - {table: ServiceDirectory, record_id: VendorRecordID}
+
+# Stage 11.
+pharmacy:
+  table: PharmacyPublicationDirectory
+  record_id: PharmacyRecordID
+  column: SpokenLanguages
+  query: malformed_languages
+
+# The interactive side (used by the Access runner; validated and testable here).
+# Every dialog the pipeline may answer on its own is declared. Anything else pauses.
+dialogs:
+  - {name: cleanup_confirm, title_pattern: "Microsoft Access", text_pattern: 'will delete \d+ records', response: "ok"}
+  - {name: cleanup_done, title_pattern: "Microsoft Access", text_pattern: "cleanup (is )?complete", response: "ok"}
+  - {name: review_reminder, title_pattern: "Reminder|Microsoft Access", text_pattern: "review the (CORE|vision)", response: "ok"}
+  - {name: line_code_done, title_pattern: "Microsoft Access", text_pattern: "line codes? (were )?updated", response: "ok"}
+  - {name: delete_all_question, title_pattern: "Microsoft Access", text_pattern: "delete ALL", response: "no", informational: false}
+
+# How long each interactive action normally takes, and the ceiling past which it is
+# considered stalled. Ceilings come from the routine's known runtime, not impatience.
+actions:
+  RunServiceDirectoryCleanup:        {expected_seconds: 90,  ceiling_seconds: 600}
+  PopulateProfessionalLineCodes:     {expected_seconds: 240, ceiling_seconds: 900}
+  PopulateServiceLineCodes:          {expected_seconds: 60,  ceiling_seconds: 600}
+  NormalizePharmacyLanguageCommas:   {expected_seconds: 20,  ceiling_seconds: 300}
+  GenerateBoroughDirectory:          {expected_seconds: 300, ceiling_seconds: 1800}

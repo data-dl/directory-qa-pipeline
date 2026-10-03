@@ -1,0 +1,10 @@
+level,rule,note,added_on,added_by,detail
+HIGH,named_exclusion_present,Dr. Theodora Vance should no longer appear in the directory.,2026-07-18,Directory owner,2 rows returned
+HIGH,vision_line_a_required,Make sure every vision provider has LineA set to 1.,2026-05-02,Directory owner,12 rows returned
+REVIEW,vision_island_line_exception,Confirm vision services are included for Staten Island.,2026-06-11,Print coordinator,advisory (pass): clear
+REVIEW,named_org_nonzero_lines,"Meadowbrook Transport Co is LineA only - LineB, LineC and LineD must be 0.",2026-08-05,Contracting,advisory (warn): 2 rows returned
+REVIEW,vision_presentation_review,Some vision listings have double spaces in the display name - check before print.,2026-08-20,Print coordinator,advisory (warn): 17 rows returned
+REMINDER,flu_clinic_listings_next_cycle,"October: the flu-clinic listings go in next cycle, not this one.",2026-08-28,Directory owner,"October - the flu-clinic listings go in next cycle, not this one"
+HIGH,invalid_specialty_county,Care Management is not offered in Staten Island.,2026-03-14,Network management,40 rows returned
+HIGH,missing_school_limitation,School-based providers must show the enrolled-students limitation text.,2026-01-09,Compliance,30 rows returned
+CLEAR,retired_source_present,LegacyVendorFeed was retired in July - nothing from it should be in the service directory.,2026-07-30,Directory owner,clear

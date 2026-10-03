@@ -1,0 +1,211 @@
+record_id,old,new,became_blank
+4,"Greek, Albanian, , ,","Greek, Albanian",False
+5,", , , ,",,True
+6,", , , ,",,True
+11,"Bengali, Punjabi, Chinese, ,","Bengali, Punjabi, Chinese",False
+13,", , , ,",,True
+19,"Polish, , , ,",Polish,False
+26,"Hebrew, , , ,",Hebrew,False
+27,"Hindi, , , ,",Hindi,False
+28,"French, Greek, Polish, Hindi,","French, Greek, Polish, Hindi",False
+29,"Russian, Bengali, , ,","Russian, Bengali",False
+31,"Albanian, , , ,",Albanian,False
+33,",Arabic, Vietnamese, Italian, French,","Arabic, Vietnamese, Italian, French",False
+35,"Bengali, , , ,",Bengali,False
+37,", , , ,",,True
+38,"Polish, Greek, , ,","Polish, Greek",False
+39,"Haitian Creole, French, Spanish, ,","Haitian Creole, French, Spanish",False
+41,"Yiddish, , , ,",Yiddish,False
+44,"Portuguese, , , ,",Portuguese,False
+47,"Italian, , , ,",Italian,False
+57,"Arabic,,Spanish, Russian, ,","Arabic, Spanish, Russian",False
+60,"Arabic,,Korean, ,","Arabic, Korean",False
+61,"Polish, , , ,",Polish,False
+64,", , , ,",,True
+65,",Russian, Spanish,","Russian, Spanish",False
+67,"Hindi, Urdu ,,","Hindi, Urdu",False
+68,"Yiddish, Portuguese, Chinese, Spanish,","Yiddish, Portuguese, Chinese, Spanish",False
+79,"Spanish, , , ,",Spanish,False
+81,"Urdu, Russian, Italian, Vietnamese,","Urdu, Russian, Italian, Vietnamese",False
+83,"Chinese, , , ,",Chinese,False
+85,"Tagalog, , , ,",Tagalog,False
+87,", , , ,",,True
+89,"Spanish, , , ,",Spanish,False
+94,", , , ,",,True
+99,"Urdu, , , ,",Urdu,False
+101,"Spanish, Bengali, French ,,","Spanish, Bengali, French",False
+102,"Punjabi, Arabic, Bengali, ,","Punjabi, Arabic, Bengali",False
+110,"Polish,,Haitian Creole, Korean, ,","Polish, Haitian Creole, Korean",False
+111,"Russian, , , ,",Russian,False
+113,"Chinese, French ,,","Chinese, French",False
+114,"Tagalog, , , ,",Tagalog,False
+115,"French, Tagalog, , ,","French, Tagalog",False
+116,",Spanish, Urdu, Bengali,","Spanish, Urdu, Bengali",False
+118,",Yiddish, Spanish,","Yiddish, Spanish",False
+120,"Korean, Albanian, Chinese, ,","Korean, Albanian, Chinese",False
+132,"Albanian, , , ,",Albanian,False
+135,"Albanian, Hebrew, Tagalog, ,","Albanian, Hebrew, Tagalog",False
+137,", , , ,",,True
+138,"Russian, , , ,",Russian,False
+139,"Spanish, Tagalog, , ,","Spanish, Tagalog",False
+142,"Russian, Yiddish, , ,","Russian, Yiddish",False
+143,"French, Hindi ,,","French, Hindi",False
+148,"Hindi, , , ,",Hindi,False
+149,"Yiddish, , , ,",Yiddish,False
+150,"French, , , ,",French,False
+152,"Hindi,,Polish, ,","Hindi, Polish",False
+153,"Arabic, Hebrew, , ,","Arabic, Hebrew",False
+160,"Arabic, Chinese, , ,","Arabic, Chinese",False
+161,", , , ,",,True
+167,"Polish, Yiddish, , ,","Polish, Yiddish",False
+170,"Punjabi, Korean, , ,","Punjabi, Korean",False
+171,"Portuguese,,Bengali, Greek, Urdu, ,","Portuguese, Bengali, Greek, Urdu",False
+174,", , , ,",,True
+175,", , , ,",,True
+181,"Korean, Portuguese, Polish, ,","Korean, Portuguese, Polish",False
+182,"Vietnamese, , , ,",Vietnamese,False
+183,"Punjabi, , , ,",Punjabi,False
+184,"Urdu, , , ,",Urdu,False
+188,"Vietnamese, Korean, Hindi, ,","Vietnamese, Korean, Hindi",False
+189,", , , ,",,True
+200," , Hindi , Hebrew","Hindi, Hebrew",False
+204,", , , ,",,True
+210,", , , ,",,True
+214,"Albanian, Bengali, , ,","Albanian, Bengali",False
+216,"Korean, , , ,",Korean,False
+219,"Russian, Bengali, Haitian Creole, ,","Russian, Bengali, Haitian Creole",False
+220,"Hebrew, Korean, Punjabi, ,","Hebrew, Korean, Punjabi",False
+224,"Tagalog, , , ,",Tagalog,False
+226,"Urdu, , , ,",Urdu,False
+233,"Bengali, Spanish, , ,","Bengali, Spanish",False
+238,", , , ,",,True
+242,"Punjabi, , , ,",Punjabi,False
+243,"Yiddish, Hindi, , ,","Yiddish, Hindi",False
+247,"Italian, , , ,",Italian,False
+253," , Tagalog , Vietnamese","Tagalog, Vietnamese",False
+257,",Albanian, Greek,","Albanian, Greek",False
+258,"Polish, , , ,",Polish,False
+264,"Portuguese, Hebrew, , ,","Portuguese, Hebrew",False
+267,"French, Urdu, Korean, Hebrew,","French, Urdu, Korean, Hebrew",False
+268,"Russian, , , ,",Russian,False
+269,"Tagalog, Hebrew, , ,","Tagalog, Hebrew",False
+270,"Korean, Chinese ,,","Korean, Chinese",False
+272,"Yiddish, Tagalog, Polish, ,","Yiddish, Tagalog, Polish",False
+273,"Urdu, Hebrew, , ,","Urdu, Hebrew",False
+274," , Bengali , Yiddish , French","Bengali, Yiddish, French",False
+275,"Hebrew, French, , ,","Hebrew, French",False
+279,"Spanish, Punjabi, Polish, ,","Spanish, Punjabi, Polish",False
+280,", , , ,",,True
+283,"Bengali, Vietnamese, , ,","Bengali, Vietnamese",False
+285,"Russian, , , ,",Russian,False
+288,"Hebrew, , , ,",Hebrew,False
+289,", , , ,",,True
+293,"Russian, Hebrew, , ,","Russian, Hebrew",False
+294,", , , ,",,True
+295,", , , ,",,True
+300,"Haitian Creole, , , ,",Haitian Creole,False
+301,"Tagalog, , , ,",Tagalog,False
+304,"Punjabi, , , ,",Punjabi,False
+305,", , , ,",,True
+307,"Russian, , , ,",Russian,False
+308,",French, Albanian,","French, Albanian",False
+309,", , , ,",,True
+313,"Portuguese, Chinese, Italian, ,","Portuguese, Chinese, Italian",False
+316,"Tagalog, Hebrew, , ,","Tagalog, Hebrew",False
+319,"Punjabi, Polish, Hindi, ,","Punjabi, Polish, Hindi",False
+320,"Arabic, , , ,",Arabic,False
+323,", , , ,",,True
+324,"Vietnamese, Albanian, Bengali, ,","Vietnamese, Albanian, Bengali",False
+327,", , , ,",,True
+328,"Korean, , , ,",Korean,False
+329,"Urdu, Russian, , ,","Urdu, Russian",False
+334,"Haitian Creole, Albanian, , ,","Haitian Creole, Albanian",False
+335,"Arabic, , , ,",Arabic,False
+343,"Haitian Creole, Chinese, Punjabi, ,","Haitian Creole, Chinese, Punjabi",False
+344,"Greek, Russian, Albanian, ,","Greek, Russian, Albanian",False
+345," , Albanian , Tagalog , Hebrew","Albanian, Tagalog, Hebrew",False
+346,"Russian, , , ,",Russian,False
+356,", , , ,",,True
+361,"Tagalog, , , ,",Tagalog,False
+363,"Urdu, Italian, French, ,","Urdu, Italian, French",False
+368,"Italian, Bengali, Polish, Yiddish,","Italian, Bengali, Polish, Yiddish",False
+369,"Polish, Vietnamese, , ,","Polish, Vietnamese",False
+370,"Vietnamese, , , ,",Vietnamese,False
+372,"Albanian, French, Haitian Creole, ,","Albanian, French, Haitian Creole",False
+376,"Italian, , , ,",Italian,False
+381,"Albanian, Hebrew, Punjabi, Russian,","Albanian, Hebrew, Punjabi, Russian",False
+385,"Spanish, Hindi, , ,","Spanish, Hindi",False
+388,"Russian, Italian, Yiddish, Haitian Creole,","Russian, Italian, Yiddish, Haitian Creole",False
+389,"Albanian, , , ,",Albanian,False
+390,"Albanian, Chinese, Yiddish, ,","Albanian, Chinese, Yiddish",False
+392,"Albanian, , , ,",Albanian,False
+394,"Hindi, , , ,",Hindi,False
+397,"Haitian Creole, Urdu, , ,","Haitian Creole, Urdu",False
+401,"Portuguese, , , ,",Portuguese,False
+408,"Portuguese, , , ,",Portuguese,False
+411,"Polish, , , ,",Polish,False
+412,"Arabic, , , ,",Arabic,False
+414,", , , ,",,True
+415,"Hebrew, , , ,",Hebrew,False
+417,"Haitian Creole, Hebrew, , ,","Haitian Creole, Hebrew",False
+419,"Italian, Spanish, , ,","Italian, Spanish",False
+420,"Greek, , , ,",Greek,False
+429,"Korean, , , ,",Korean,False
+430,"Arabic, Haitian Creole, Spanish, ,","Arabic, Haitian Creole, Spanish",False
+431,"Tagalog, Hindi, , ,","Tagalog, Hindi",False
+432,"French, Greek, Arabic, ,","French, Greek, Arabic",False
+437,"Portuguese, Urdu, Spanish, ,","Portuguese, Urdu, Spanish",False
+446,"Haitian Creole, Bengali, , ,","Haitian Creole, Bengali",False
+449,"Italian,,Greek, Portuguese, Albanian, ,","Italian, Greek, Portuguese, Albanian",False
+450,"Hebrew, , , ,",Hebrew,False
+452,", , , ,",,True
+454,"Yiddish, , , ,",Yiddish,False
+455,"French, Haitian Creole, , ,","French, Haitian Creole",False
+456,"Portuguese, Punjabi, , ,","Portuguese, Punjabi",False
+457,"Urdu, Bengali, Yiddish, ,","Urdu, Bengali, Yiddish",False
+468,"Punjabi, , , ,",Punjabi,False
+480,"Yiddish, , , ,",Yiddish,False
+481,"Urdu, , , ,",Urdu,False
+485,"Italian, Yiddish, , ,","Italian, Yiddish",False
+490," , Polish , Haitian Creole , Chinese , Urdu","Polish, Haitian Creole, Chinese, Urdu",False
+491,"Yiddish, , , ,",Yiddish,False
+492,"Punjabi, , , ,",Punjabi,False
+495,", , , ,",,True
+496,"Chinese, , , ,",Chinese,False
+498,"Polish, , , ,",Polish,False
+507,"Haitian Creole, Chinese, , ,","Haitian Creole, Chinese",False
+510,"Italian, , , ,",Italian,False
+513,",Italian, Hebrew, Chinese,","Italian, Hebrew, Chinese",False
+514,", , , ,",,True
+522,"Bengali, Portuguese, Albanian, ,","Bengali, Portuguese, Albanian",False
+524,",Polish, Haitian Creole,","Polish, Haitian Creole",False
+525,"Portuguese, Hindi, Arabic, ,","Portuguese, Hindi, Arabic",False
+526,", , , ,",,True
+528,"Chinese, , , ,",Chinese,False
+529,"Tagalog, Bengali ,,","Tagalog, Bengali",False
+530,"Polish, , , ,",Polish,False
+533,"Yiddish, , , ,",Yiddish,False
+537,", , , ,",,True
+540,"Chinese, Polish, , ,","Chinese, Polish",False
+542,"Urdu, Vietnamese, Italian, ,","Urdu, Vietnamese, Italian",False
+545,"Greek, Polish ,,","Greek, Polish",False
+546,"Polish, Chinese, Hebrew, Greek,","Polish, Chinese, Hebrew, Greek",False
+552,", , , ,",,True
+553,"French, Albanian, Chinese, ,","French, Albanian, Chinese",False
+558,"Tagalog, Bengali, Hebrew, ,","Tagalog, Bengali, Hebrew",False
+559,"Korean, Polish, , ,","Korean, Polish",False
+561," , Spanish , Italian","Spanish, Italian",False
+562,"Korean, Tagalog, , ,","Korean, Tagalog",False
+568,"Spanish, , , ,",Spanish,False
+570,"Punjabi, , , ,",Punjabi,False
+574,"Hindi, , , ,",Hindi,False
+575,"Tagalog, , , ,",Tagalog,False
+577,"Albanian, , , ,",Albanian,False
+582,"Arabic, Polish, , ,","Arabic, Polish",False
+586,"Portuguese, Bengali, , ,","Portuguese, Bengali",False
+587,"Spanish, Haitian Creole, , ,","Spanish, Haitian Creole",False
+589,"Russian, , , ,",Russian,False
+590,"Arabic, Yiddish, Portuguese, Korean,","Arabic, Yiddish, Portuguese, Korean",False
+591,"Portuguese, Hindi, , ,","Portuguese, Hindi",False
+595,"Yiddish, Hindi, , ,","Yiddish, Hindi",False
+596,"Hebrew, , , ,",Hebrew,False

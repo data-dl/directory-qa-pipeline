@@ -1,0 +1,51 @@
+dimension,value,prior,current,difference,percent
+TOTAL,,4572,5370,798,17.5
+Source,CommunityCareFeed,225,900,675,300.0
+Source,EquipmentSupplierFeed,451,481,30,6.7
+Source,FacilityContractFeed,1757,1828,71,4.0
+Source,HomeCareFeed,654,702,48,7.3
+Source,HospitalContractFeed,201,195,-6,-3.0
+Source,PharmacyNetworkFeed,409,427,18,4.4
+Source,TransportVendorFeed,389,387,-2,-0.5
+Source,VisionVendorFeed,486,450,-36,-7.4
+Borough,,0,35,35,new
+Borough,Bronx,629,724,95,15.1
+Borough,Brooklyn,1129,1330,201,17.8
+Borough,Manhattan,1262,1562,300,23.8
+Borough,Queens,1181,1347,166,14.1
+Borough,Staten Island,371,372,1,0.3
+FacilityType,Behavioral Health Center,389,386,-3,-0.8
+FacilityType,Clinic,762,811,49,6.4
+FacilityType,Dialysis Center,174,173,-1,-0.6
+FacilityType,Equipment Supplier,451,481,30,6.7
+FacilityType,Home Care Agency,879,1602,723,82.3
+FacilityType,Hospital,201,195,-6,-3.0
+FacilityType,Imaging Center,208,224,16,7.7
+FacilityType,Laboratory,224,234,10,4.5
+FacilityType,Pharmacy,409,427,18,4.4
+FacilityType,Transportation,389,387,-2,-0.5
+FacilityType,Vision Provider,486,450,-36,-7.4
+ServiceType,Ambulance,125,127,2,1.6
+ServiceType,Ambulette,129,128,-1,-0.8
+ServiceType,CORE,377,390,13,3.4
+ServiceType,Care Coordination,383,396,13,3.4
+ServiceType,Dialysis,174,173,-1,-0.6
+ServiceType,Durable Equipment,152,162,10,6.6
+ServiceType,Emergency,59,61,2,3.4
+ServiceType,Home Health Aide,160,395,235,146.9
+ServiceType,Inpatient,69,68,-1,-1.4
+ServiceType,Laboratory,224,234,10,4.5
+ServiceType,Livery,135,132,-3,-2.2
+ServiceType,Orthotics,154,164,10,6.5
+ServiceType,Outpatient,464,478,14,3.0
+ServiceType,Pharmacy,409,427,18,4.4
+ServiceType,Physical Therapy,174,406,232,133.3
+ServiceType,Radiology,208,224,16,7.7
+ServiceType,Respiratory Equipment,145,155,10,6.9
+ServiceType,Skilled Nursing,162,405,243,150.0
+ServiceType,Substance Use,125,124,-1,-0.8
+ServiceType,Urgent Care,258,271,13,5.0
+ServiceType,Vision,486,450,-36,-7.4
+Network,Crossroads Network,584,705,121,20.7
+Network,Harbor Network,2602,3044,442,17.0
+Network,Summit Network,1386,1621,235,17.0
