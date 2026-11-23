@@ -74,6 +74,11 @@ class Config:
         """The exact text a person must supply to let a run change production."""
         return f"APPLY {self.cycle} TO {self.repository.name}"
 
+    @property
+    def restore_phrase(self) -> str:
+        """The exact text a person must supply to put a backup back over production."""
+        return f"RESTORE {self.cycle} TO {self.repository.name}"
+
     @classmethod
     def load(cls, path: str | Path) -> Config:
         path = Path(path)

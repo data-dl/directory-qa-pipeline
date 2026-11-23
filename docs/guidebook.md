@@ -237,7 +237,7 @@ directory-qa-pipeline/
   docs/
     guidebook.md            this document
     sample_run/             one real run's summary, manifest and evidence
-  tests/                    69 tests; CI runs ruff and pytest on every push
+  tests/                    76 tests; CI runs ruff and pytest on every push
 ```
 
 ---
@@ -368,7 +368,19 @@ The specification listed eight principles. Where each one lives:
 | Clear separation of work | config / backends / rules / evidence / stages are separate packages; stages never import a database driver |
 | Safety | deletion only by exact identifier: record ids inside an exact group, provider numbers on the deletion list, the exact Source value for a retired feed |
 | Auditability | manifest.json, summary.md, one CSV per finding, backup path, counts before and after, every note |
-| Recovery | the backup stage records which file restores the pre-cycle state; promote refuses if production changed during the run |
+| Recovery | the backup stage records which file restores the pre-cycle state; promote refuses if production changed during the run; `dirqa restore` puts that backup back (see below) |
+
+**Undoing a promotion.** `python -m dirqa restore --config config/demo.yaml` finds the
+latest run that promoted, checks that its backup still has the hash recorded when it was
+taken, and shows what it would do. Nothing changes until it is rerun with `--apply` and a
+*restore* phrase (`RESTORE <cycle> TO <file>`, printed by `dirqa phrase --restore`) - a
+different phrase from the one that promotes, so one cannot be pasted for the other. It
+stops if production has changed since that promotion, because restoring would throw that
+later work away (`--discard-later-changes` overrides). Production is copied aside first,
+the backup is copied to a temporary file beside it, checked, and swapped in with one
+atomic rename, then hashed again; a JSON record goes to `runs/restores/`. The cycle's
+completion markers name the production hash they belong to, so after a restore they no
+longer apply and the next run redoes the cycle from the start.
 
 ---
 

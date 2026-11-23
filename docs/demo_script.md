@@ -83,7 +83,7 @@ Open `summary.md` - the whole run on one page. Then two evidence files:
 .venv/Scripts/python -m pytest -q
 ```
 
-> "69 tests. The important ones run the whole pipeline on generated data and grade it
+> "76 tests. The important ones run the whole pipeline on generated data and grade it
 > against the answer key - every planted copy gone, every original kept - then promote
 > with logged decisions, then run again and confirm there is nothing left to do."
 

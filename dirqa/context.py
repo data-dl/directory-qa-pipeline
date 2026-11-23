@@ -70,9 +70,19 @@ def start_run(config: Config, apply: bool = False, authorize: str | None = None)
     if not production.exists():
         raise FileNotFoundError(f"repository database not found: {production}")
 
-    stamp = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")
-    run_dir = config.runs_dir / config.cycle / stamp
-    (run_dir / "work").mkdir(parents=True, exist_ok=True)
+    # One folder per run, never shared: two runs started in the same second get
+    # -2, -3 ... so a later run cannot overwrite an earlier run's evidence.
+    base_stamp = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")
+    stamp, n = base_stamp, 1
+    while True:
+        run_dir = config.runs_dir / config.cycle / stamp
+        try:
+            run_dir.mkdir(parents=True)
+            break
+        except FileExistsError:
+            n += 1
+            stamp = f"{base_stamp}-{n}"
+    (run_dir / "work").mkdir()
 
     # Hash production first, then copy it: the hash is the baseline that promote
     # re-checks before it is allowed to overwrite the file.

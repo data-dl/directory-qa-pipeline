@@ -9,6 +9,7 @@ further dry run finds nothing left to do.
 
 import csv
 import json
+import shutil
 import sqlite3
 from pathlib import Path
 
@@ -17,7 +18,9 @@ import yaml
 
 from dirqa.backends.base import sha256_of_file
 from dirqa.config import Config
+from dirqa.context import start_run
 from dirqa.pipeline import run
+from dirqa.restore import find_restore_point, restore
 from synth.generate import generate
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -207,3 +210,87 @@ def test_second_run_finds_nothing_left_to_do(env):
     assert st["professional_duplicates"].summary["deleted"] == 0
     assert st["service_duplicates"].summary["deleted"] == 0
     assert m.readiness["verdict"] == "READY"
+
+
+def test_runs_started_in_the_same_second_get_their_own_folders(env):
+    config = Config.load(env["config"])
+    a, b = start_run(config), start_run(config)
+    try:
+        assert a.run_dir != b.run_dir and a.run_dir.exists() and b.run_dir.exists()
+    finally:
+        a.close()
+        b.close()
+        for ctx in (a, b):
+            shutil.rmtree(ctx.run_dir)
+
+
+# --- undoing the promotion ---------------------------------------------------
+
+def promoted_point(env):
+    return find_restore_point(Config.load(env["config"]))
+
+
+def test_restore_finds_the_promoted_run_and_dry_run_changes_nothing(env):
+    config = Config.load(env["config"])
+    point = promoted_point(env)
+    assert point.final_status == "promoted to production"
+    before = sha256_of_file(env["production"])
+    assert before == point.production_after != point.production_before
+    result = restore(config)
+    assert result.status == "dry-run" and result.target_sha256 == point.production_before
+    assert config.restore_phrase in result.notes[-1]
+    assert sha256_of_file(env["production"]) == before
+
+
+def test_restore_needs_its_own_phrase(env):
+    config = Config.load(env["config"])
+    before = sha256_of_file(env["production"])
+    for phrase in (None, "wrong", config.authorization_phrase):
+        result = restore(config, apply=True, authorize=phrase)
+        assert result.status == "blocked" and "restore phrase" in result.notes[-1]
+    assert sha256_of_file(env["production"]) == before
+
+
+def test_restore_refuses_a_backup_whose_hash_changed(env):
+    config = Config.load(env["config"])
+    backup = promoted_point(env).backup
+    good = backup.read_bytes()
+    try:
+        backup.write_bytes(good + b"\0")
+        result = restore(config, apply=True, authorize=config.restore_phrase)
+        assert result.status == "blocked" and "does not match" in result.notes[0]
+    finally:
+        backup.write_bytes(good)
+
+
+def test_restore_refuses_to_discard_later_changes(env):
+    config = Config.load(env["config"])
+    production = env["production"]
+    promoted = production.read_bytes()
+    try:
+        production.write_bytes(promoted + b"later work")
+        result = restore(config, apply=True, authorize=config.restore_phrase)
+        assert result.status == "blocked" and "changed since" in result.notes[0]
+        assert production.read_bytes() == promoted + b"later work"
+    finally:
+        production.write_bytes(promoted)
+
+
+def test_restore_puts_back_the_pre_cycle_state_and_keeps_what_it_replaced(env):
+    config = Config.load(env["config"])
+    point = promoted_point(env)
+    result = restore(config, apply=True, authorize=config.restore_phrase)
+    assert result.status == "restored", result.notes
+    assert sha256_of_file(env["production"]) == point.production_before == result.production_sha256_after
+    assert sha256_of_file(Path(result.set_aside)) == point.production_after
+    assert not env["production"].with_name(env["production"].name + ".restoring").exists()
+    record = json.loads(Path(result.record).read_text(encoding="utf-8"))
+    assert record["status"] == "restored" and record["run"] == point.run
+    assert restore(config, apply=True, authorize=config.restore_phrase).status == "nothing-to-do"
+
+
+def test_after_a_restore_the_cycle_runs_again(env):
+    m = run(env["config"])
+    st = stages(m)
+    assert st["transfer"].status == "completed", "completion markers must not outlive the restored file"
+    assert st["professional_duplicates"].summary["deleted"] > 0

@@ -52,6 +52,9 @@ Everything runs on synthetic data: every row is invented and every name is ficti
   the rest are exported for a business rule.
 - **Every run leaves evidence:** a manifest, a human-readable summary, a CSV for every finding.
 - **Idempotent.** Running the same month twice finds nothing left to do.
+- **A promotion can be undone.** `dirqa restore` puts the run's verified backup back over
+  production: dry run by default, its own authorization phrase, a hash check on the backup,
+  a refusal if production changed since, the replaced file kept, one atomic swap.
 - **Stops before publication.** Borough generation is a separate, manual phase by design.
 
 ## How it flows
@@ -97,7 +100,8 @@ python -m synth --out demo                             # build the synthetic dat
 python -m dirqa run --config config/demo.yaml          # dry run: the whole cycle on a working copy
 python -m dirqa rules --config config/demo.yaml        # list the rule registry
 python -m dirqa phrase --config config/demo.yaml       # the exact phrase --apply requires
-python -m pytest                                       # 69 tests
+python -m dirqa restore --config config/demo.yaml      # undo the latest promotion (dry run by default)
+python -m pytest                                       # 76 tests
 ```
 
 A run writes `runs/<cycle>/<run>/` with `summary.md`, `manifest.json` and an `evidence/`
@@ -156,10 +160,11 @@ dirqa/           the pipeline package
   context.py     starts a run: working copy, backends, manifest
   state.py       completion markers that survive between runs
   pipeline.py    stage order and stop rules;  cli.py  python -m dirqa
+  restore.py     undo a promotion from a run's verified backup
 synth/           synthetic-data generator and answer-key writer
 demo/            generated databases (ignored) and committed samples + answer key
 docs/            guidebook.md, demo_script.md, and a sample run's output
-tests/           69 tests; GitHub Actions runs ruff and pytest on every push
+tests/           76 tests; GitHub Actions runs ruff and pytest on every push
 ```
 
 ## Tests
@@ -168,8 +173,18 @@ The tests cover the generator's contract (every planted defect is where the answ
 says, the prior month is clean, the same seed gives the same bytes), the backend, the rule
 evaluator, the duplicate classifier, the dialog policy and watchdog, and the pipeline end
 to end: a dry run graded against the answer key, an apply run blocked while NOT READY, an
-apply run with logged decisions and accepted findings that promotes, and a second run that
-finds nothing left to do. Plus a repository-wide ban on three production vocabulary terms.
+apply run with logged decisions and accepted findings that promotes, a second run that
+finds nothing left to do, then the undo: a restore that refuses a wrong phrase, a backup
+whose hash changed and a production file changed since, puts the pre-cycle file back, and
+leaves the next run to redo the cycle. Plus a check that two runs started in the same
+second keep separate folders, and a repository-wide ban on three production vocabulary terms.
+
+## How this was built
+
+The author set the problem, the rules, the points where a person must decide, and the
+acceptance tests, and reviewed the results. The code and most of the documentation were
+written with AI coding assistance working to that design. Nothing here is claimed without
+a test in this repository, and the tests run on every push. Every record is synthetic.
 
 ## License
 
